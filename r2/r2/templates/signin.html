@@ -1,0 +1,61 @@
+<div id="signin_page" class="form_page">
+    <div id="form_header">
+        <div class="fh_title">
+            <span>登录 蕃桃树</span>
+        </div>
+        <div class="fh_explain">
+            <div class="fh_header_link form_text_footer_bottom">
+                <span id="home-signin-forgot-password"><a href="#" target="">忘了密码?</a></span>
+            </div>
+        </div>
+        <div class="fh_bottom">
+            <div class="fh_message">
+                <span>注册账号?</span>
+            </div>
+            <div class="form_change" onclick="(function(e){PearltreesHomeSign.showPage('signup_page');e.stopPropagation()})(event)">
+                <span>▶ 加入</span>
+            </div>
+        </div>
+    </div>
+    <div id="form_body">
+        <form class="form_sign" id="signin_form" method="post" name="signin_form">
+            <input type="text" id="log_username" name="log_username" class="form_control beLowerCase form_control_focus" placeholder="用户名" autofocus="" autocomplete="on">
+            <div class="form_error_container">
+                <div class="form_error"></div>
+            </div><input type="password" id="log_password" name="log_password" class="form_control" placeholder="密码">
+            <div class="form_error_container">
+                <div id="log_error" class="form_error"></div>
+            </div>
+            <div class="from_button_container">
+                <div id="cancel_button" class="form_button" onclick="PearltreesHomeSign.cancel(); return false;">
+                    取消
+                </div>
+                <div id="signin-button" class="form_button" onclick="PearltreesHomeSign.submitLogInForm(); return false;">
+                    登录
+                </div>
+                <div id="signin-loader-button" class="form_button loader_button" style="display: none;">
+                    ${self.loader_spinner()}
+                </div>
+            </div>
+        </form>
+    </div>
+    <%doc>
+    <div id="social_footer">
+        <div id="signup-facebook-button" class="form_button_social form_button_facebook" onclick="HomePageInitializer.onClickSignupFacebook()">
+            <div id="signup-facebook-button-image" class="signup-social-button-img sprite-home-deco_facebook"></div>log in with Facebook
+        </div>
+        <div id="signup-twitter-button" class="form_button_social form_button_twitter" onclick="HomePageInitializer.onClickSignupTwitter()">
+            <div id="signup-twitter-button-image" class="signup-social-button-img sprite-home-deco_twitter"></div>log in with Twitter
+        </div>
+        <div id="signup-google-button" class="form_button_social form_button_google" onclick="HomePageInitializer.onClickSignupGoogle()">
+            <div id="signup-google-button-image" class="signup-social-button-img sprite-home-deco_google"></div>log in with Google
+        </div>
+    </div>
+    </%doc>
+</div>
+
+<%def name="loader_spinner()">
+    %for i in range(1, 12):                         
+        <div id='sl${i}' class='load sprite-home-loader${i}' style='display: none;'></div>  
+    %endfor                  
+</%def>

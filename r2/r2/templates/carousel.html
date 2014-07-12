@@ -1,0 +1,42 @@
+<%
+    items = [
+        ('static/homeAsset1.png', 'Find the discussion community related to college admissions'),
+        ('', 'Help you narrow down your school choices. Search more than 3,000 colleges and universities by name, location, or area of study!'),
+        ('', 'Helpful resources and expert advice to assist you throughout the college admissions process'),
+        ('', 'Submit your questions about the college admissions process, financial aid, and college search to College Confidential\'s resident expert'),
+        ('', 'You\'ll find hundreds of pages of articles about choosing a college, getting into the college you want')
+    ]
+%>
+
+<div id="carousel-container">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-wrap="true" data-interval="5000" data-pause="hover">
+        ${self.indicators(items)}
+        <div class="carousel-inner" onClick="nextSlide()">
+            ${self.inner_links(items)}
+        </div>
+    </div>
+</div>
+
+<%def name="inner_links(links)">
+    <%def name="link(idx, img, msg)">
+          <div class="${'item active' if(i==0) else 'item'}">
+  		  <img id='homeAsset${idx + 1}' src="${img}" if img} width='560px' height='360px'> 
+            <div class="container">
+              <div class="carousel-caption">
+                <p>${msg}</p>
+              </div>
+            </div>
+          </div>
+    </%def>
+    % for i, item in enumerate(links):
+        ${link(i, item[0], item[1])}\
+    % endfor
+</%def>
+
+<%def name="indicators(links)">
+    <ol class="carousel-indicators">
+    % for i, item in enumerate(links):
+        <li id="carousel-indicator-${i}" class="${'sprite-home-slide_on active' if (i==0) else 'sprite-home-slide_off'}" data-target="#myCarousel" data-slide-to="${i}" ></li>
+    % endfor
+    </ol>
+</%def>

@@ -1,0 +1,226 @@
+.pt-blue-hoverable {
+  background-color: #39afde;
+}
+.pt-blue-hoverable:hover {
+  background-color: #008cd0;
+}
+.pt-blue {
+  background-color: #39afde;
+}
+body,
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-appearance: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #000000;
+}
+/* glue: 0.4 hash: 91e6359b93 */
+.sprite-home-dimitriLarge,
+.sprite-home-logoHomeWebFr,
+.sprite-home-logoHomeWebEn,
+.sprite-home-masque_avatar_home52,
+.sprite-home-masque_avatar_home,
+.sprite-home-loader9,
+.sprite-home-loader8,
+.sprite-home-loader7,
+.sprite-home-loader6,
+.sprite-home-loader5,
+.sprite-home-loader4,
+.sprite-home-loader3,
+.sprite-home-loader2,
+.sprite-home-loader12,
+.sprite-home-loader11,
+.sprite-home-loader10,
+.sprite-home-loader1,
+.sprite-home-deco_twitter,
+.sprite-home-deco_google,
+.sprite-home-deco_facebook,
+.sprite-home-slide_on,
+.sprite-home-slide_off {
+  background-image: url('../sprite.png');
+  background-repeat: no-repeat;
+}
+.sprite-home-dimitriLarge {
+  background-position: -1px -1px;
+  width: 393px;
+  height: 581px;
+}
+.sprite-home-logoHomeWebFr {
+  background-position: -396px -1px;
+  width: 279px;
+  height: 84px;
+}
+.sprite-home-logoHomeWebEn {
+  background-position: -396px -87px;
+  width: 279px;
+  height: 84px;
+}
+.sprite-home-masque_avatar_home52 {
+  background-position: -396px -173px;
+  width: 54px;
+  height: 54px;
+}
+.sprite-home-masque_avatar_home {
+  background-position: -452px -173px;
+  width: 52px;
+  height: 52px;
+}
+.sprite-home-loader9 {
+  background-position: -506px -173px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-loader8 {
+  background-position: -542px -173px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-loader7 {
+  background-position: -578px -173px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-loader6 {
+  background-position: -614px -173px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-loader5 {
+  background-position: -396px -229px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-loader4 {
+  background-position: -432px -229px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-loader3 {
+  background-position: -468px -229px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-loader2 {
+  background-position: -504px -229px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-loader12 {
+  background-position: -540px -229px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-loader11 {
+  background-position: -576px -229px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-loader10 {
+  background-position: -612px -229px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-loader1 {
+  background-position: -396px -265px;
+  width: 34px;
+  height: 34px;
+}
+.sprite-home-deco_twitter {
+  background-position: -650px -173px;
+  width: 21px;
+  height: 21px;
+}
+.sprite-home-deco_google {
+  background-position: -648px -229px;
+  width: 21px;
+  height: 21px;
+}
+.sprite-home-deco_facebook {
+  background-position: -432px -265px;
+  width: 21px;
+  height: 21px;
+}
+.sprite-home-slide_on {
+  background-position: -506px -209px;
+  width: 16px;
+  height: 16px;
+}
+.sprite-home-slide_off {
+  background-position: -524px -209px;
+  width: 16px;
+  height: 16px;
+}
+.carousel {
+  height: 432px;
+  width: 560px;
+  margin: auto;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  color: #000000;
+  right: 0px;
+  left: 0px;
+  padding-top: 0px;
+  top: 0px;
+  z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 432px;
+}
+.carousel-inner {
+  cursor: pointer;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  min-width: 100%;
+  height: 360px;
+}
+.carousel-indicators {
+  cursor: default;
+  bottom: 0px;
+  margin-bottom: 20px;
+  width: 282px;
+}
+.carousel-indicators li {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 16px;
+  height: 16px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border: none;
+  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+.carousel-indicators .active {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 16px;
+  height: 16px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border: none;
+  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+/* Bump prefs size of carousel content */
+.carousel-caption p {
+  color: #000000;
+  font-size: 17px;
+  line-height: 1.4;
+}
+p {
+  color: #000000;
+  text-align: left;
+  font-size: 17px;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+

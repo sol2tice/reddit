@@ -1,0 +1,42 @@
+<%
+    items = [
+        (u'留学在线问答', '/forum', 'static/messages.png', 'Messages'),
+        (u'美国大学搜索', '/college_search', 'static/videocall.png', 'Video &amp; Voice Calls'),
+        (u'留美录取申请', '/college_admission', 'static/channels_icon.png', 'Channels'),
+        (u'留学校园生活', '/college_life', 'static/photo.png', 'Photo Sharing'),
+        (u'美国高中生夏令营', '/summercamp', 'static/music.png', 'Music'),
+        (u'专家升学指导', '/consulting', 'static/games.png', 'Games')
+    ]
+%>
+<div class="features-bar">
+    <div class="container">
+        <div style="margin-left: 2em">
+            ${self.navigation_links(items)}
+        </div>
+    </div>
+</div>
+
+<%def name="navigation_links(links)">
+    <%def name="link(idx, label, url, image, alt)">
+          <a href="${url}" class="feature-href desktop">
+              <div class="icon-feature loop-${idx +1}">
+                  <img src="${image}" alt="${alt}" />
+              </div>
+              <div class="name-feature">${label}</div>
+          </a>
+          <a href="${url}" class="feature-href mobile">
+              <div class="icon-feature loop-${idx}"">
+                  <img src="${image}" alt="${alt}" />
+              </div>
+              <div class="name-feature">${label}</div>
+          </a>
+    </%def>
+
+    <ul>
+    % for i, item in enumerate(links):
+        <li>\
+        ${link(i, item[0], item[1], item[2], item[3])}\
+        </li>
+    % endfor
+    </ul>
+</%def>

@@ -1,0 +1,58 @@
+<%namespace file="signin.html" import="loader_spinner"/>
+
+<div id="signup_page" class="form_page" style="display: none">
+    <div id="form_header">
+        <div class="fh_title">
+            <span>注册新账号</span>
+        </div>
+        <div class="fh_explain">
+            <span>注册简单且无任何费用</span>
+        </div>
+        <div class="fh_bottom">
+            <div class="fh_message">
+                <span>已经开通账号？</span>
+            </div>
+            <div class="form_change" onclick="(function(e){PearltreesHomeSign.showPage('signin_page');e.stopPropagation()})(event)">
+                <span>▶ 登录</span>
+            </div>
+        </div>
+    </div>
+    <div id="form_body">
+        <form class="form_sign" id="signup_form" autocomplete="off" name="signup_form">
+            <input type="text" id="username" name="username" class="form_control beLowerCase form_control_focus" placeholder="用户名" autofocus="" autocomplete="off">
+            <div class="form_error_container">
+                <div id="username_error" class="form_error"></div>
+            </div><input type="text" id="email" name="email" class="form_control" placeholder="邮箱" value="" autocomplete="off">
+            <div class="form_error_container">
+                <div id="email_error" class="form_error"></div>
+            </div><input type="password" id="password" name="password" class="form_control" placeholder="密码" autocomplete="off">
+            <div class="form_text_footer">
+                <span>我已阅读并同意&nbsp;<a href="http://www.pearltrees.com/info/terms" target="_blank">相关服务条款</a></span>
+            </div>
+            <div class="from_button_container">
+                <div id="cancel_button" class="form_button" onclick="PearltreesHomeSign.cancel(); return false;">
+                    取消
+                </div>
+                <div id="signup-button" class="form_button" onclick="$('#signup_form').submit(); return false;">
+                    注册
+                </div>
+                <div id="signup-loader-button" class="form_button loader_button" style="display: none;">
+                    ${loader_spinner()}
+                </div>
+            </div>
+        </form>
+    </div>
+    <%doc>
+    <div id="social_footer">
+        <div id="signup-facebook-button" class="form_button_social form_button_facebook" onclick="HomePageInitializer.onClickSignupFacebook()">
+            <div id="signup-facebook-button-image" class="signup-social-button-img sprite-home-deco_facebook"></div>connect with Facebook
+        </div>
+        <div id="signup-twitter-button" class="form_button_social form_button_twitter" onclick="HomePageInitializer.onClickSignupTwitter()">
+            <div id="signup-twitter-button-image" class="signup-social-button-img sprite-home-deco_twitter"></div>connect with Twitter
+        </div>
+        <div id="signup-google-button" class="form_button_social form_button_google" onclick="HomePageInitializer.onClickSignupGoogle()">
+            <div id="signup-google-button-image" class="signup-social-button-img sprite-home-deco_google"></div>connect with Google
+        </div>
+    </div>
+    </%doc>
+</div>

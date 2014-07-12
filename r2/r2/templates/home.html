@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="gwt:property" content="locale=en_US">
+<title>Peachtrees</title>
+<meta name="description" content="Peachtrees is a place for your interests. It lets you organize, explore and share everything you like.">
+    ${self.stylesheet()}
+    ${self.javascript()}
+<!-- Google Analytics>
+    ${self.googleanalytics()}
+-->
+</head>
+
+<body id="home-body">
+	<div id="content-container">
+		<div id="background">			
+		</div>
+		<div id='dimitriLarge' class='waitforimages sprite-home-dimitriLarge'></div>
+		<div id="logo-carousel-signin-footer-container" class='waitforimages'>
+			<div id="logo-carousel-signin-footer-inner-container">
+				<div id="logo-container">
+        		    	<div id="signin_button" class="form_button" onclick="PearltreesHomeSign.showPage('signin_page');">
+        		    	<span>登录</span>
+        		    	</div>				    
+				<p id= "logoText">
+					Pearltrees cultivate your interests
+				</p>
+				<div id="logo-inner-container">
+					<div id='logoHome' class='sprite-home-logoHomeWebEn'></div>									</div>
+			</div>
+		    <div id="carousel-signin-container">
+		    <%include file="carousel.html"/>
+                    <div id ="signin-container">
+                        <%include file="signin.html"/>
+                        <%include file="signup.html"/>
+                        <%include file="invitation.html"/>
+                    </div>
+                </div>
+            </div>    
+	</div>
+    </div>
+    <%include file="featurebar.html"/>
+    <div id="footer-container" class="waitforimages">
+    	<%include file="footer.html"/>
+    </div>
+
+	<div class="modal fade" id="central-window" tabindex="-1" role="dialog" show="false" data-backdrop="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <div class="close-window sprite-common-close_window" data-dismiss="modal" aria-hidden="true"></div>
+	                <h4 class="modal-title" id="myModalLabel"></h4>
+	            </div>
+	            <div class="modal-body">
+	            </div>
+	        </div><!-- /.modal-content -->
+	    </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	<form id="social-form" action="s/signup" method="post" target="" style="display:none">
+	  username: <input type="text" name="username" id="form-username">
+	  bio: <input type="text" name="bio" id="form-bio">
+	  realname: <input type="text" name="realname" id="form-realname">
+	  email: <input type="text" name="email" id="form-email">
+	  signuptype: <input type="text" name="signuptype" id="form-signuptype"><br>
+	  tid: <input type="text" name="tid" id="form-tid">
+	  <input type="submit" value="Submit">
+	</form>
+    ${self.javascript_bottom()}
+</body>
+
+</html>
+
+<%def name = "googleanalytics()">
+   <script type="text/javascript">
+      // Initialize script
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22267644-1']);
+         
+      // Don't send stats if the page load with the nostats param.
+      if(self.location.href.indexOf("nostats=1") != -1) {
+         noStats = true;
+      }
+      // Don't send stats if the embed preload embed window
+      else if(self.location.href.indexOf("/#/embedWindow=1") != -1) {
+         // no stats sent
+      }
+      else if(typeof noStats == "undefined" || !noStats) {
+         _gaq.push(['_trackPageview']);
+      }<link rel="stylesheet" href="../public/css/homePageStyle.css" type="text/css" media="screen" title="no title" charset="utf-8">
+      
+
+      (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+   </script>
+</%def>
+
+<%def name = "javascript()">
+    <script>
+    	var PearltreesLocale = 0;
+    	var PearltreesUserId = -1;
+    	var PearltreesRawData = false;
+    	var PearltreesInviteKey = "";
+    	var PearltreesRbRequestId = "";
+    	var PearltreesContext = 0;
+    	var PearltreesEmbed = false;
+    	var PearltreesMobileApp = false;
+    	var PearltreesOtherMobile = false;
+    	var PearltreesStartTime = new Date().getTime();
+    	var PearltreesBetaMode = false;
+    	var PearltreesV2User = false;
+    	var PearltreesAbTestParams = {
+    			homeAndSignUpBanner: 1
+    	};
+    </script>
+    <script>baseurl = "192.168.1.71";</script>
+    <script src="static/vendor/js/modernizr.js"></script>
+    <script src="static/vendor/js/jquery.min.js"></script>
+    <script src="static/vendor/js/require.js"></script>
+    <script src="static/vendor/js/jquery.placeholder.js"></script>
+    <script src="static/vendor/js/jquery.waitforimages.js"></script>    
+    <script>
+    $(window).load(function(){
+    	$.getScript("static/js/homeall.js");
+    });
+
+    $(document).ready(function(){
+
+    	var identifier = window.location.hash; 
+	$('#signin_page').hide();
+    	if (identifier === "#login") {
+    		PearltreesHomeSign.showPage('signin_page');
+    	}
+    	else {
+    		if (PearltreesHomeSpecial.isSpecialSignupFb()) {
+    			$.getScript("http://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/core-min.js", 
+    				function() {
+    					$.getScript("http://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/enc-utf16-min.js",
+    						function() {
+    									$.getScript("http://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/enc-base64-min.js", function() {
+    											PearltreesHomeSpecial.update();
+    											PearltreesHomeSign.showPage('special-home-invitation-page');
+    					});
+    				});
+    			});			
+    		}
+    		//else {
+    		//	PearltreesHomeSign.showPage('signup_page');
+    		//}
+    	}
+    	$('input, textarea').placeholder();
+    	PearltreesHomeSign.initPlaceholderFocusColor();
+    	PearltreesHomeSign.initFormsValidation('#signup_form', PearltreesHomeSign.fieldsToValidate);
+    	PearltreesHomeSign.initUsernameSanitization('#username', '#username_error');
+    	PearltreesHomeSign.initSignUpSubmission();
+    	PearltreesHomeSign.initTextFieldKeyPress();
+	
+    	$('html').waitForImages({
+    		finished: function() {    
+    			$('.waitforimages').css('visibility', 'visible');
+    			$('#homeAsset2').attr( 'src', 'static/homeAsset2.png');
+    			$('#homeAsset3').attr( 'src', 'static/homeAsset3.png');
+    			$('#homeAsset4').attr( 'src', 'static/homeAsset4.png');
+    			$('#homeAsset5').attr( 'src', 'static/homeAsset5.png');
+    		},
+    		each: function() {
+			
+    		},
+
+    	    waitForAll: true
+    	});
+    });
+    </script>
+</%def>
+
+<%def name = "javascript_bottom()">
+    <script>
+	PearltreesHomeCommon = {
+			getServicesUrl : function() {
+				return "http://www.pearltrees.com/s";
+			},
+			getTunnelUrl : function() {
+				return "http://www.pearltrees.com/s/signup";
+			},
+			
+			getPublicUrl : function() {
+				return "http://www.pearltrees.com";
+			},
+			
+			getClientLang : function() {
+				return "en_US";
+			}
+	}
+	PearltreesSignFormErrors = {
+			serverError:"Something went wrong, please try again",
+			usernameTooShort:"3 characters minimum",
+			usernameTooLong:"40 characters maximum",
+			usernameTaken:"username not available",
+			mailInvalid:"enter a valid email",
+			passwordTooShort:"5 characters minimum",
+			signinIncorrect:"Username or password incorrect"
+	}
+	</script>
+    <script src="static/vendor/js/jquery.validate.min.js"></script>
+    <script src="static/js/signForm.js"></script>
+    <script src="static/js/inviteSignup.js"></script>
+</%def>
+
+<%def name = "stylesheet()">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <style>
+       @font-face {
+          font-family: "VollkornRegular";
+          src: url('http://cdn.pearltrees.com/v2/styles/font/Vollkorn-Regular.ttf') format('truetype');
+       }
+    </style>
+    <link rel="stylesheet" type="text/css" href="static/vendor/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/homePageStyle.css">
+    <link rel="stylesheet" type="text/css" href="static/css/homeSlideShowStyle.css">
+    <link rel="stylesheet" type="text/css" href="static/css/homeSignFormsStyle.css">
+    <link rel="stylesheet" type="text/css" href="static/css/custom_style.css">
+</%def>

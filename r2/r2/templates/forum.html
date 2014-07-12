@@ -1,0 +1,100 @@
+<%!
+  from r2.lib.template_helpers import static
+  from r2.lib.strings import strings
+  from r2.lib.pages import Login, ListingChooser
+%>
+<%namespace file="less.html" import="less_js, less_stylesheet"/>
+<%namespace file="framebuster.html" import="framebuster"/>
+<%namespace file="utils.html" import="tags, classes"/>
+<%inherit file="reddit.html"/>
+
+<%def name="bodyContent()">
+  <!--%include file="adminbar.html"/-->
+  <%include file="navbar.html"/>
+  ##<%include file="redditheader.html"/>
+
+  %if thing.show_chooser:
+    ${ListingChooser()}
+  %endif
+
+  <div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-3">
+	  <%include file="category.html"/>
+   	</div>
+	<div class="col-lg-9">
+  <% content = getattr(self, "content", None) or thing.content %>
+  %if content:
+    %if thing.show_sidebar:
+     <div class="side">
+       ${sidebar(content = thing.rightbox())}
+     </div>
+    %endif
+    <a name="content"></a>
+    <div ${tags(id=thing.content_id)} ${classes("content", thing.css_class)} role="main">
+      ${content()}
+    </div>
+  %endif
+	</div>
+  </div>
+  %if thing.footer:
+
+    ${thing.footer}
+
+    %if not c.user_is_loggedin and not g.read_only_mode:
+      %if thing.enable_login_cover:
+      <div class="login-popup cover-overlay" style="display: none">
+        <div class="cover" onclick="return hidecover(this)"></div>
+        <div class="popup">
+          <a href="#" onclick="return hidecover(this)" class="hidecover">
+            ${_("close this window")}
+          </a>
+          <h1 class="cover-msg">${strings.cover_msg}</h1>
+          ${Login(is_popup=True)}
+        </div>
+      </div>
+      %endif
+      <div class="lang-popup cover-overlay" style="display: none">
+        <div class="cover" onclick="return hidecover(this)"></div>
+        <div class="popup">
+          <a href="#" onclick="return hidecover(this)" class="hidecover">
+            ${_("close this window")}
+          </a>
+          <%include file="prefoptions.html" />
+        </div>
+      </div>
+    %endif
+  %endif
+  ${framebuster()}
+  ${thing.debug_footer}
+</%def>
+
+<%def name="javascript()">
+  <% from r2.lib import js %>
+  <!--[if gte IE 9]> <!-->
+    ${unsafe(js.use('jquery2x', 'navbar', 'reddit-init'))}
+  <!-- <![endif]-->
+
+  <!--[if lt IE 9]>
+    ${unsafe(js.use('html5shiv', 'jquery1x', 'navbar', 'reddit-init'))}
+  <![endif]-->
+  ${less_js()}
+</%def>
+
+<%def name="forum_stylesheets()">
+   <link rel="stylesheet" href="${static('vendor/bootstrap.css')}" type="text/css" />
+   <link rel="stylesheet" href="${static('vendor/font-awesome/css/font-awesome.css')}" type="text/css" />
+   <link rel="stylesheet" href="${static('vendor/sb-admin.css')}"/>
+   <link rel="stylesheet" href="${static('homeSignFormsStyle.css')}"/>
+</%def>
+
+<%def name="stylesheet()">
+  ${self.forum_stylesheets()}
+  ${self.global_stylesheets()}
+  ${self.sr_stylesheets()}
+  ${self.extra_stylesheets()}
+</%def>
+
+<%def name="sidebar(content=None)">
+  ${content}
+</%def>
