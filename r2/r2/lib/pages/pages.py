@@ -731,7 +731,193 @@ class Reddit(Templated):
 
         return classes
 
+class Forum(Reddit):
+    def rightbox(self):
+        """generates content in <div class="rightbox">"""
 
+        ps = PaneStack(css_class='spacer')
+
+        if self.searchbox:
+            ps.append(SearchForm())
+
+	user_banned = c.user_is_loggedin and c.site.is_banned(c.user)
+	if (self.submit_box
+                and (c.user_is_loggedin or not g.read_only_mode)
+                and not user_banned):
+            if (not isinstance(c.site, FakeSubreddit)
+                    and c.site.type in ("archived",
+                                        "restricted",
+                                        "gold_restricted")
+                    and not (c.user_is_loggedin
+                             and c.site.can_submit(c.user))):
+                if c.site.type == "archived":
+                    subtitle = _('this subreddit is archived '
+                                 'and no longer accepting submissions.')
+                    ps.append(SideBox(title=_('Submissions disabled'),
+                                      css_class="submit",
+                                      disabled=True,
+                                      subtitles=[subtitle],
+                                      show_icon=False))
+                else:
+                    if c.site.type == 'restricted':
+                        subtitle = _('submission in this subreddit '
+                                     'is restricted to approved submitters.')
+                    elif c.site.type == 'gold_restricted':
+                        subtitle = _('submission in this subreddit '
+                                     'is restricted to reddit gold members.')
+                    ps.append(SideBox(title=_('Submissions restricted'),
+                                      css_class="submit",
+                                      disabled=True,
+                                      subtitles=[subtitle],
+                                      show_icon=False))
+            else:
+                fake_sub = isinstance(c.site, FakeSubreddit)
+                is_multi = isinstance(c.site, MultiReddit)
+
+                if isinstance(c.site, FakeSubreddit):
+                    submit_buttons = set(("link", "self"))
+                else:
+                    # we want to show submit buttons for logged-out users too
+                    # so we can't just use can_submit_link/text
+                    submit_buttons = c.site.allowed_types
+                    if c.user_is_loggedin:
+                        if c.site.can_submit_link(c.user):
+                            submit_buttons.add("link")
+                        if c.site.can_submit_text(c.user):
+                            submit_buttons.add("self")
+
+                #if "link" in submit_buttons:
+                #    ps.append(SideBox(title=c.site.submit_link_label or
+                #                            strings.submit_link_label,
+                #                      css_class="submit submit-link",
+                #                      link="/submit",
+                #                      sr_path=not fake_sub or is_multi,
+                #                      show_cover=True))
+                if "self" in submit_buttons or "link" in submit_buttons:
+                    ps.append(SideBox(title=c.site.submit_text_label or
+                                            strings.submit_text_label,
+                                      css_class="submit submit-text",
+                                      link="/submit?selftext=true",
+                                      sr_path=not fake_sub or is_multi,
+                                      show_cover=True))
+	no_ads_yet = True
+	show_adbox = (c.user.pref_show_adbox or not c.user.gold) and not g.disable_ads
+	if c.user_is_admin:
+            sidebar_message = g.live_config.get("sidebar_message")
+            if sidebar_message and isinstance(c.site, DefaultSR):
+                ps.append(SidebarMessage(sidebar_message[0]))
+
+            gold_sidebar_message = g.live_config.get("gold_sidebar_message")
+            if (c.user_is_loggedin and c.user.gold and
+                    gold_sidebar_message and isinstance(c.site, DefaultSR)):
+                ps.append(SidebarMessage(gold_sidebar_message[0],
+                                         extra_class="gold"))
+
+            if not c.user_is_loggedin and self.loginbox and not g.read_only_mode:
+                ps.append(LoginFormWide())
+
+            if isinstance(c.site, DomainSR) and c.user_is_admin:
+                from r2.lib.pages.admin_pages import AdminNotesSidebar
+                notebar = AdminNotesSidebar('domain', c.site.domain)
+                ps.append(notebar)
+
+            if isinstance(c.site, Subreddit) and c.user_is_admin:
+                from r2.lib.pages.admin_pages import AdminNotesSidebar
+                notebar = AdminNotesSidebar('subreddit', c.site.name)
+                ps.append(notebar)
+
+            if c.user.pref_show_sponsorships or not c.user.gold:
+                ps.append(SponsorshipBox())
+
+            if isinstance(c.site, (MultiReddit, ModSR)):
+                srs = Subreddit._byID(c.site.sr_ids, data=True,
+                                      return_dict=False)
+
+                if (srs and c.user_is_loggedin and
+                        (c.user_is_admin or c.site.is_moderator(c.user))):
+                    ps.append(self.sr_admin_menu())
+
+                if isinstance(c.site, LabeledMulti):
+                    ps.append(MultiInfoBar(c.site, srs, c.user))
+                    c.js_preload.set_wrapped(
+                        '/api/multi/%s' % c.site.path.lstrip('/'), c.site)
+                elif srs:
+                    if isinstance(c.site, ModSR):
+                        box = SubscriptionBox(srs, multi_text=strings.mod_multi)
+                    else:
+                        box = SubscriptionBox(srs)
+                    ps.append(SideContentBox(_('these subreddits'), [box]))
+
+
+            if isinstance(c.site, AllSR):
+                ps.append(AllInfoBar(c.site, c.user))
+
+            user_banned = c.user_is_loggedin and c.site.is_banned(c.user)
+        
+            # don't show the subreddit info bar on cnames unless the option is set
+            if not isinstance(c.site, FakeSubreddit) and (not c.cname or c.site.show_cname_sidebar):
+                ps.append(SubredditInfoBar())
+                moderator = c.user_is_loggedin and (c.user_is_admin or
+                                              c.site.is_moderator(c.user))
+                wiki_moderator = c.user_is_loggedin and (
+                    c.user_is_admin
+                    or c.site.is_moderator_with_perms(c.user, 'wiki'))
+                if self.show_wiki_actions:
+                    menu = self.wiki_actions_menu(moderator=wiki_moderator)
+                    ps.append(menu)
+                if moderator:
+                    ps.append(self.sr_admin_menu())
+                if show_adbox:
+                    ps.append(Ads())
+                no_ads_yet = False
+            elif self.show_wiki_actions:
+                ps.append(self.wiki_actions_menu())
+
+            if self.create_reddit_box and c.user_is_loggedin:
+                delta = datetime.datetime.now(g.tz) - c.user._date
+                if delta.days >= g.min_membership_create_community:
+                    ps.append(SideBox(_('Create your own subreddit'),
+                           '/subreddits/create', 'create',
+                           subtitles = rand_strings.get("create_reddit", 2),
+                           show_cover = True, nocname=True))
+
+            if not isinstance(c.site, FakeSubreddit) and not c.cname:
+            	moderators = self.sr_moderators()
+            	if moderators:
+                    more_text = mod_href = ""
+                    sidebar_list_length = 10
+                    num_not_shown = len(moderators) - sidebar_list_length
+
+                    if num_not_shown > 0:
+                    	more_text = _("...and %d more") % (num_not_shown)
+                    	mod_href = "http://%s/about/moderators" % get_domain()
+
+                    if '/r/%s' % c.site.name == g.admin_message_acct:
+                    	label = _('message the admins')
+                    else:
+                    	label = _('message the moderators')
+                    helplink = ("/message/compose?to=%%2Fr%%2F%s" % c.site.name,
+                            label)
+                    ps.append(SideContentBox(_('moderators'),
+                                         moderators[:sidebar_list_length],
+                                         helplink = helplink,
+                                         more_href = mod_href,
+                                         more_text = more_text))
+
+	    if no_ads_yet and show_adbox:
+            	ps.append(Ads())
+            	if g.live_config["gold_revenue_goal"]:
+                	ps.append(Goldvertisement())
+
+        if c.user.pref_clickgadget and c.recent_clicks:
+            ps.append(SideContentBox(_("Recently viewed links"),
+                                     [ClickGadget(c.recent_clicks)]))
+
+        if c.user_is_loggedin:
+            activity_link = AccountActivityBox()
+            ps.append(activity_link)
+
+        return ps
 class DebugFooter(Templated):
     pass
 
@@ -816,7 +1002,7 @@ class ClickGadget(Templated):
         return content.render(style = "htmllite")
 
 
-class RedditMin(Reddit):
+class RedditMin(Forum):
     """a version of Reddit that has no sidebar, toolbar, footer,
        etc"""
     footer       = False
@@ -913,7 +1099,7 @@ class SideBox(CachedTemplate):
                            disabled=disabled, show_icon=show_icon)
 
 
-class PrefsPage(Reddit):
+class PrefsPage(Forum):
     """container for pages accessible via /prefs.  No extension handling."""
 
     extension_handling = False
@@ -977,7 +1163,7 @@ class PrefDelete(Templated):
     pass
 
 
-class MessagePage(Reddit):
+class MessagePage(Forum):
     """Defines the content for /message/*"""
     def __init__(self, *a, **kw):
         if not kw.has_key('show_sidebar'):
@@ -1028,7 +1214,7 @@ class MessageCompose(Templated):
                          admins = admintools.admin_list())
 
 
-class BoringPage(Reddit):
+class BoringPage(Forum):
     """parent class For rendering all sorts of uninteresting,
     sortless, navless form-centric pages.  The top navmenu is
     populated only with the text provided with pagename and the page
@@ -1235,7 +1421,7 @@ class CommentVisitsBox(Templated):
             self.visits.append(pretty)
         Templated.__init__(self, *a, **kw)
 
-class LinkInfoPage(Reddit):
+class LinkInfoPage(Forum):
     """Renders the varied /info pages for a link.  The Link object is
     passed via the link argument and the content passed to this class
     will be rendered after a one-element listing consisting of that
@@ -1546,7 +1732,7 @@ class LinkInfoBar(Templated):
             a = Wrapped(a)
         Templated.__init__(self, a = a, datefmt = datefmt)
 
-class EditReddit(Reddit):
+class EditReddit(Forum):
     """Container for the about page for a reddit"""
     extension_handling= False
 
@@ -1571,7 +1757,7 @@ class EditReddit(Reddit):
         else:
             return []
 
-class SubredditsPage(Reddit):
+class SubredditsPage(Forum):
     """container for rendering a list of reddits.  The corner
     searchbox is hidden and its functionality subsumed by an in page
     SearchBar for searching over reddits.  As a result this class
@@ -1645,7 +1831,7 @@ def votes_visible(user):
             c.user_is_admin)
 
 
-class ProfilePage(Reddit):
+class ProfilePage(Forum):
     """Container for a user's profile page.  As such, the Account
     object of the user must be passed in as the first argument, along
     with the current sub-page (to determine the title to be rendered
@@ -2073,7 +2259,7 @@ class SubredditTopBar(CachedTemplate):
         sep = '<span class="separator">&nbsp;|&nbsp;</span>'
         menus = []
         menus.append(self.special_reddits())
-        menus.append(RawString(sep))
+        #menus.append(RawString(sep))
 
         if not c.user_is_loggedin:
             menus.append(self.popular_reddits())
@@ -3436,7 +3622,7 @@ class Cnameframe(Templated):
 class FrameBuster(Templated):
     pass
 
-class PromotePage(Reddit):
+class PromotePage(Forum):
     create_reddit_box  = False
     submit_box         = False
     extension_handling = False
@@ -3685,7 +3871,7 @@ class RenderableCampaign(Templated):
         return spaceCompress(self.render(style='html'))
 
 
-class RefundPage(Reddit):
+class RefundPage(Forum):
     def __init__(self, link, campaign):
         self.link = link
         self.campaign = campaign
@@ -4150,7 +4336,7 @@ class RawString(Templated):
        return unsafe(self.s)
 
 
-class TryCompact(Reddit):
+class TryCompact(Forum):
     def __init__(self, dest, **kw):
         dest = dest or "/"
         u = UrlParser(dest)
@@ -4501,3 +4687,5 @@ class GeotargetNotice(Templated):
         more_link = "/wiki/targetingbycountrycity"
         self.text = text % {"link": more_link}
         Templated.__init__(self)
+
+	    

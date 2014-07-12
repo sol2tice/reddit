@@ -1361,7 +1361,7 @@ class RedditController(OAuth2ResourceController):
 
         c.bare_content = request.GET.pop('bare', False)
 
-        c.show_admin_bar = admin_bar_eligible and (c.user_is_admin or g.debug)
+        c.show_admin_bar = admin_bar_eligible and (c.user_is_admin )
         if not c.show_admin_bar:
             g.stats.end_logging_timings()
 

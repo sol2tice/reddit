@@ -61,6 +61,23 @@
 
 
 <%def name="flatlist()">
+ %if str(thing.css_class) == "flat-list sr-bar":
+  <div class="list-group">
+        % for i, option in enumerate(thing):
+            <a href="${option.path}" class="list-group-item">
+	      %if option == thing.selected:
+		<i class="fa fa-check">
+	      %else:
+		<i class="fa ">
+	      %endif 
+		${option.title}</i>
+		<span class="pull-right text-muted small"><em>100 threads</em></span>
+	    </a>
+        % endfor
+  </div>
+ %elif str(thing.css_class) == 'separator':
+  pass 
+ %else:
   <% css_class = str(thing.css_class) if thing.css_class else "" %>
   %if thing:
     <ul class="${css_class} hover"
@@ -88,8 +105,8 @@
       %endfor
     </ul>
   %endif
+ %endif
 </%def>
-
 
 <%def name="multicolumn()">
   <% 
@@ -115,7 +132,20 @@
 </%def>
 
 <%def name="tabmenu()">
-  %if thing:
+  %if thing and str(thing.css_class) != 'formtab ':
+    <div class="list-group">
+        % for i, option in enumerate(thing):
+            <a href="${option.sr_path}" class="list-group-item">
+              %if option == thing.selected:
+                <i class="fa fa-check">
+              %else:
+                <i class="fa ">
+              %endif 
+                ${option.title}</i>
+            </a>
+        % endfor
+    </div>
+  %else:
     <% css_class = str(thing.css_class) if thing.css_class else "" %>
     <ul class="tabmenu ${css_class}"
         ${"id='%s'" % thing._id if thing._id else ""}>

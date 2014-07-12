@@ -608,3 +608,9 @@ def build_module(name):
 
 if __name__ == "__main__":
     commands[sys.argv[1]](*sys.argv[2:])
+
+module["navbar"] = LocalizedModule("navbar.js",
+    "vendor/bootstrap.js",
+    "vendor/sb-admin.js",
+    "signForm.js"
+)

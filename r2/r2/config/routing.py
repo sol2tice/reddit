@@ -50,7 +50,8 @@ def make_map():
 
     for plugin in reversed(config['r2.plugins']):
         plugin.add_routes(mc)
-
+    mc('/test/', controller='home', action='index')
+    mc('/forum/', controller='forum', action='forum')
     mc('/admin/', controller='awards')
 
     mc('/robots.txt', controller='robots', action='robots')

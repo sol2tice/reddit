@@ -39,6 +39,8 @@ def add_controller(controller):
     return controller
 
 def load_controllers():
+    from home		   import HomeController
+    from home		   import ForumController
     from listingcontroller import ListingController
     from listingcontroller import HotController
     from listingcontroller import NewController

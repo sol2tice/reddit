@@ -625,10 +625,10 @@ class Link(Thing, Printable):
                                    "</span>")
                     taglinetext += author_text
                 elif item.different_sr:
-                    taglinetext = _("submitted %(when)s by %(author)s "
+                    taglinetext = _("%(score)s points submitted %(when)s by %(author)s "
                                     "to %(reddit)s")
                 else:
-                    taglinetext = _("submitted %(when)s by %(author)s")
+                    taglinetext = _("%(score)s points submitted %(when)s by %(author)s")
             item.taglinetext = taglinetext
 
             if item.is_author:

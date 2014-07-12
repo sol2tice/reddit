@@ -116,7 +116,7 @@
   %endif
 
   <p class="tagline">
-    ${self.tagline()}
+     ${self.tagline()}
   </p>
 
   <% 
@@ -177,7 +177,7 @@ ${parent.thing_data_attributes(what)} data-ups="${what.upvotes}" data-downs="${w
 <%def name="midcol(display=True, cls = '')">
     <div class="midcol ${cls}"
        ${not display and "style='display:none'" or ''}>
-    ${self.arrow(thing, 1, thing.likes)}
+    ##${self.arrow(thing, 1, thing.likes)}
     %if thing.pref_compress:
       <div class="score-placeholder"></div>
     %elif thing.hide_score:
@@ -185,9 +185,10 @@ ${parent.thing_data_attributes(what)} data-ups="${what.upvotes}" data-downs="${w
       <div class="score unvoted">&bull;</div> 
       <div class="score dislikes">&bull;</div> 
     %else:
-      ${self.score(thing, thing.likes, tag='div')}
+      ##${self.score(thing, thing.likes, tag='div')}
     %endif
-    ${self.arrow(thing, 0, thing.likes == False)}
+    ##${self.arrow(thing, 0, thing.likes == False)}
+    ${self.arrow(thing, 1, thing.likes)}
   </div>
  ${self.thumbnail()}
 </%def>
