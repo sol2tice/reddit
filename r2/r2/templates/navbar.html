@@ -1,3 +1,6 @@
+<%! 
+   from r2.lib.template_helpers import static
+%>
 <%
     items = [
         (u'留学在线问答', '/forum', 'static/messages.png', 'Messages'),
@@ -16,7 +19,7 @@
            	<span class="icon-bar"></span>
            	<span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html"> <img alt="PeachTree Logo" src="static/blog_snoo.gif" /> <span></span></a>
+        <a class="navbar-brand" href="index.html"> <img alt="PeachTree Logo" src="${static('blog_snoo.gif')}" /> <span></span></a>
   	</div>
 	<!-- /.navbar-header -->
 	<ul class="nav navbar-nav">
