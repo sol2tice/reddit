@@ -228,7 +228,13 @@
                 <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                 </li>
                 <li class="divider"></li>
-                <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+		<li><form method="post" action="logout">
+                		<input type="hidden" name="uh" value="reddit">
+                		<input type="hidden" name="top" value="off">
+                		<input type="hidden" name="dest" value="/">
+                		<a href="javascript:void(0)" onclick="$(this).parent().submit()">
+                			<i class="fa fa-sign-out fa-fw"></i>logout</a>
+                	</form>
                 </li>
             </ul>
             <!-- /.dropdown-user -->
