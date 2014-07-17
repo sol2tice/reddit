@@ -135,7 +135,7 @@
   %if thing and str(thing.css_class) != 'formtab ':
     <div class="list-group">
         % for i, option in enumerate(thing):
-            <a href="${option.sr_path}" class="list-group-item">
+            <a href="${option.path}" class="list-group-item">
               %if option == thing.selected:
                 <i class="fa fa-check">
               %else:
