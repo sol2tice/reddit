@@ -740,6 +740,7 @@ class Forum(Reddit):
         if self.searchbox:
             ps.append(SearchForm())
 
+	user_is_admin = c.user.name in g.admins
 	user_banned = c.user_is_loggedin and c.site.is_banned(c.user)
 	if (self.submit_box
                 and (c.user_is_loggedin or not g.read_only_mode)
@@ -802,7 +803,7 @@ class Forum(Reddit):
                                       show_cover=True))
 	no_ads_yet = True
 	show_adbox = (c.user.pref_show_adbox or not c.user.gold) and not g.disable_ads
-	if c.user_is_admin:
+	if user_is_admin:
             sidebar_message = g.live_config.get("sidebar_message")
             if sidebar_message and isinstance(c.site, DefaultSR):
                 ps.append(SidebarMessage(sidebar_message[0]))
