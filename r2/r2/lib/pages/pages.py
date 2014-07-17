@@ -740,7 +740,11 @@ class Forum(Reddit):
         if self.searchbox:
             ps.append(SearchForm())
 
-	user_is_admin = c.user.name in g.admins
+	from r2.controllers.reddit_base import UnloggedUser
+        if (isinstance(c.user, UnloggedUser)):
+            user_is_admin = False
+        else:
+            user_is_admin = c.user.name in g.admins
 	user_banned = c.user_is_loggedin and c.site.is_banned(c.user)
 	if (self.submit_box
                 and (c.user_is_loggedin or not g.read_only_mode)
