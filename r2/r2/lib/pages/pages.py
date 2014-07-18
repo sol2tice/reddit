@@ -1551,7 +1551,10 @@ class LinkInfoPage(Forum):
                                              css_class = "commentarea")))
 
     def rightbox(self):
-        rb = Reddit.rightbox(self)
+        if isinstance(self, Forum):
+	  rb = Forum.rightbox(self)
+	else:
+	  rb = Reddit.rightbox(self)
         if not (self.link.promoted and not c.user_is_sponsor):
             rb.insert(1, LinkInfoBar(a = self.link))
         return rb
@@ -1821,7 +1824,10 @@ class SubredditsPage(Forum):
                                    self._content))
 
     def rightbox(self):
-        ps = Reddit.rightbox(self)
+	if(isinstance(self, Forum)):
+	  ps = Forum.rightbox(self)
+	else:
+          ps = Reddit.rightbox(self)
         srs = Subreddit.user_subreddits(c.user, ids=False, limit=None)
         srs.sort(key=lambda sr: sr.name.lower())
         subscribe_box = SubscriptionBox(srs,
@@ -1892,54 +1898,56 @@ class ProfilePage(Forum):
 
         return toolbar
 
+    def rightbox(self):
+       if isinstance(self, Forum):
+	 rb = Forum.rightbox(self)
+       else:
+         rb = Reddit.rightbox(self)
 
-#    def rightbox(self):
-#        rb = Reddit.rightbox(self)
-#
-#        tc = TrophyCase(self.user)
-#        helplink = ( "/wiki/awards", _("what's this?") )
-#        scb = SideContentBox(title=_("trophy case"),
-#                 helplink=helplink, content=[tc],
-#                 extra_class="trophy-area")
-#
-#        rb.push(scb)
-#
-#        multis = [m for m in LabeledMulti.by_owner(self.user)
-#                  if m.visibility == "public"]
-#        if multis:
-#            scb = SideContentBox(title=_("public multireddits"), content=[
-#                SidebarMultiList(multis)
-#            ])
-#            rb.push(scb)
-#
-#        if c.user_is_admin:
-#            from r2.lib.pages.admin_pages import AdminNotesSidebar
-#            from admin_pages import AdminSidebar
-#
-#            rb.push(AdminSidebar(self.user))
-#            rb.push(AdminNotesSidebar('user', self.user.name))
-#        elif c.user_is_sponsor:
-#            from admin_pages import SponsorSidebar
-#            rb.push(SponsorSidebar(self.user))
-#
-#        mod_sr_ids = Subreddit.reverse_moderator_ids(self.user)
-#        all_mod_srs = Subreddit._byID(mod_sr_ids, data=True,
-#                                      return_dict=False)
-#        mod_srs = [sr for sr in all_mod_srs if sr.can_view(c.user)]
-#        if mod_srs:
-#            rb.push(SideContentBox(title=_("moderator of"),
-#                                   content=[SidebarModList(mod_srs)]))
-#
-#        if (c.user == self.user or c.user.employee or
-#            self.user.pref_public_server_seconds):
-#            seconds_bar = ServerSecondsBar(self.user)
-#            if seconds_bar.message or seconds_bar.gift_message:
-#                rb.push(seconds_bar)
-#
-#        rb.push(ProfileBar(self.user))
-#
-#        return rb
-#
+       tc = TrophyCase(self.user)
+       helplink = ( "/wiki/awards", _("what's this?") )
+       scb = SideContentBox(title=_("trophy case"),
+                helplink=helplink, content=[tc],
+                extra_class="trophy-area")
+
+       rb.push(scb)
+
+       multis = [m for m in LabeledMulti.by_owner(self.user)
+                 if m.visibility == "public"]
+       if multis:
+           scb = SideContentBox(title=_("public multireddits"), content=[
+               SidebarMultiList(multis)
+           ])
+           rb.push(scb)
+
+       if c.user_is_admin:
+           from r2.lib.pages.admin_pages import AdminNotesSidebar
+           from admin_pages import AdminSidebar
+
+           rb.push(AdminSidebar(self.user))
+           rb.push(AdminNotesSidebar('user', self.user.name))
+       elif c.user_is_sponsor:
+           from admin_pages import SponsorSidebar
+           rb.push(SponsorSidebar(self.user))
+
+       mod_sr_ids = Subreddit.reverse_moderator_ids(self.user)
+       all_mod_srs = Subreddit._byID(mod_sr_ids, data=True,
+                                     return_dict=False)
+       mod_srs = [sr for sr in all_mod_srs if sr.can_view(c.user)]
+       if mod_srs:
+           rb.push(SideContentBox(title=_("moderator of"),
+                                  content=[SidebarModList(mod_srs)]))
+
+       if (c.user == self.user or c.user.employee or
+           self.user.pref_public_server_seconds):
+           seconds_bar = ServerSecondsBar(self.user)
+           if seconds_bar.message or seconds_bar.gift_message:
+               rb.push(seconds_bar)
+
+#       rb.push(ProfileBar(self.user))
+
+       return rb
+
 class TrophyCase(Templated):
     def __init__(self, user):
         self.user = user
