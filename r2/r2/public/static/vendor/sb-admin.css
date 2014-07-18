@@ -24,6 +24,7 @@
 
 .panel-body {
     //font: initial;
+    padding: inherit;
 }
 
 @media(min-width:768px) {
@@ -68,6 +69,11 @@ font: initial;
 .fa-check:before {
 	color: red;
 }
+
+.user-activity .sidecontentbox .content {
+	border: none;
+}
+
 /* ------------------------------- */
 
 /* Top Right Navigation Dropdown Styles */

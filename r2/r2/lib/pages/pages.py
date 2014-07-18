@@ -732,6 +732,32 @@ class Reddit(Templated):
         return classes
 
 class Forum(Reddit):
+    def userActivity(self):
+        """generates content in <div class="click-gadget">"""
+        ps = PaneStack(css_class='user-activity')
+        if c.user.pref_clickgadget and c.recent_clicks:
+            ps.append(SideContentBox(_("Recently viewed links"),
+                                     [ClickGadget(c.recent_clicks)]))
+	return ps
+
+    def userTitle(self):
+        """generates content in <div class="user-title">"""
+        ps = PaneStack(css_class='user-title')
+        if (not isinstance(c.site, FakeSubreddit)):
+            if c.site.type == 'restricted':
+                subtitle = _('submission in this subreddit '
+                             'is restricted to approved submitters.')
+            elif c.site.type == 'gold_restricted':
+                subtitle = _('submission in this subreddit '
+                             'is restricted to reddit gold members.')
+ 
+            ps.append(SideBox(title=_('Submissions restricted'),
+                                          css_class="submit",
+                                          disabled=True,
+                                          subtitles=[subtitle],
+                                          show_icon=False)) 
+        return ps
+
     def rightbox(self):
         """generates content in <div class="rightbox">"""
 
