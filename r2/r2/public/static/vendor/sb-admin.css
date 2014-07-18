@@ -70,10 +70,6 @@ font: initial;
 	color: red;
 }
 
-.user-activity .sidecontentbox .content {
-	border: none;
-}
-
 /* ------------------------------- */
 
 /* Top Right Navigation Dropdown Styles */
@@ -135,6 +131,22 @@ font: initial;
 .navbar-top-links .dropdown-user {
     right: 0;
     left: auto;
+}
+
+.user-viewed .sidecontentbox .content {
+	border: none;
+}
+
+.dropdown-menu .user-info {
+	padding: 16px;
+}
+
+.dropdown-menu .user-viewed {
+	padding: 10px;
+}
+
+.dropdown-menu .account-activity-box {
+	text-align: left;
 }
 
 /* Sidebar Menu Styles */

@@ -32,11 +32,22 @@
 	</ul>
     %if c.user_is_loggedin:
     <ul class="nav navbar-top-links navbar-right">
-	<li>
-	  <span class="user">
-            ${plain_link(c.user.name, "/user/%s/" % c.user.name, _sr_path=False)}
-            &nbsp;(<span class="userkarma" title="${_("link karma")}">${c.user.safe_karma}</span>)
-          </span>
+	<li class="dropdown">
+	  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            <span class="user">${c.user.name}&nbsp;(<span class="userkarma" title="${_("link karma")}">${c.user.safe_karma}</span>)</span>&nbsp;
+	    <i class="fa fa-caret-down"></i>
+	  </a>
+	  <ul class="dropdown-menu dropdown-tasks">
+            <li>
+	      ${thing.userInfo()}
+	    </li>
+	    <li class="divider"></li>
+	    <li>
+		<a class="text-left" href="/user/${c.user.name}">See all ${c.user.name}'s comments&nbsp;
+                   <i class="fa fa-angle-right"></i>
+                </a>
+	    </li>
+	  </ul>
 	</li>
         <li>
 	    <%
@@ -63,9 +74,13 @@
             </a>
             <ul class="dropdown-menu dropdown-tasks">
                 <li>
-      		  ${thing.userActivity()}
+      		  ${thing.userViewed()}
                 </li>
-            </ul>
+            	<li class="divider"></li>
+		<li>
+                  ${thing.userActivity()}
+                </li>
+	    </ul>
             <!-- /.dropdown-tasks -->
         </li>
         <!-- /.dropdown -->

@@ -733,30 +733,25 @@ class Reddit(Templated):
 
 class Forum(Reddit):
     def userActivity(self):
-        """generates content in <div class="click-gadget">"""
-        ps = PaneStack(css_class='user-activity')
+        """generates content in <div class="user-activity">"""
+        ps = PaneStack(css_class='spacer')
+	activity_link = AccountActivityBox()
+        ps.append(activity_link)
+	return ps
+
+    def userViewed(self):
+        """generates content in <div class="user-viewed">"""
+        ps = PaneStack(css_class='user-viewed')
         if c.user.pref_clickgadget and c.recent_clicks:
             ps.append(SideContentBox(_("Recently viewed links"),
                                      [ClickGadget(c.recent_clicks)]))
 	return ps
 
-    def userTitle(self):
+    def userInfo(self):
         """generates content in <div class="user-title">"""
-        ps = PaneStack(css_class='user-title')
-        if (not isinstance(c.site, FakeSubreddit)):
-            if c.site.type == 'restricted':
-                subtitle = _('submission in this subreddit '
-                             'is restricted to approved submitters.')
-            elif c.site.type == 'gold_restricted':
-                subtitle = _('submission in this subreddit '
-                             'is restricted to reddit gold members.')
- 
-            ps.append(SideBox(title=_('Submissions restricted'),
-                                          css_class="submit",
-                                          disabled=True,
-                                          subtitles=[subtitle],
-                                          show_icon=False)) 
-        return ps
+        ps = PaneStack(css_class='user-info')
+	ps.append(ProfileBar(c.user))
+	return ps
 
     def rightbox(self):
         """generates content in <div class="rightbox">"""
@@ -939,16 +934,8 @@ class Forum(Reddit):
             	ps.append(Ads())
             	if g.live_config["gold_revenue_goal"]:
                 	ps.append(Goldvertisement())
-
-        if c.user.pref_clickgadget and c.recent_clicks:
-            ps.append(SideContentBox(_("Recently viewed links"),
-                                     [ClickGadget(c.recent_clicks)]))
-
-        if c.user_is_loggedin:
-            activity_link = AccountActivityBox()
-            ps.append(activity_link)
-
         return ps
+
 class DebugFooter(Templated):
     pass
 
