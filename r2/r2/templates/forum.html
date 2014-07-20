@@ -81,6 +81,7 @@
   ${less_js()}
   <script>
      $(document).ready(function(){
+	baseurl = '${g.domain}';
     	PearltreesHomeSign.initPlaceholderFocusColor();
     	PearltreesHomeSign.initFormsValidation('#signup_form', PearltreesHomeSign.fieldsToValidate);
     	PearltreesHomeSign.initUsernameSanitization('#username', '#username_error');
