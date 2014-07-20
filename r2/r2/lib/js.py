@@ -612,5 +612,6 @@ if __name__ == "__main__":
 module["navbar"] = LocalizedModule("navbar.js",
     "vendor/bootstrap.js",
     "vendor/sb-admin.js",
+    "../vendor/js/jquery.validate.min.js",
     "signForm.js"
 )

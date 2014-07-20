@@ -79,6 +79,15 @@
     ${unsafe(js.use('html5shiv', 'jquery1x', 'navbar', 'reddit-init'))}
   <![endif]-->
   ${less_js()}
+  <script>
+     $(document).ready(function(){
+    	PearltreesHomeSign.initPlaceholderFocusColor();
+    	PearltreesHomeSign.initFormsValidation('#signup_form', PearltreesHomeSign.fieldsToValidate);
+    	PearltreesHomeSign.initUsernameSanitization('#username', '#username_error');
+    	PearltreesHomeSign.initSignUpSubmission();
+    	PearltreesHomeSign.initTextFieldKeyPress();
+     });
+   </script>	
 </%def>
 
 <%def name="forum_stylesheets()">
