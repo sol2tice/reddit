@@ -1,7 +1,8 @@
-<%! 
+<%!
+   from pylons import request 
    from r2.lib.template_helpers import static
 %>
-<%namespace file="utils.html" import="plain_link"/>
+<%namespace file="utils.html" import="plain_link, logout"/>
 <%
     items = [
         (u'留学在线问答', '/forum', 'static/messages.png', 'Messages'),
@@ -154,14 +155,9 @@
                 <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                 </li>
                 <li class="divider"></li>
-		<li><form method="post" action="logout">
-                		<input type="hidden" name="uh" value="reddit">
-                		<input type="hidden" name="top" value="off">
-                		<input type="hidden" name="dest" value="/">
-                		<a href="javascript:void(0)" onclick="$(this).parent().submit()">
-                			<i class="fa fa-sign-out fa-fw"></i>logout</a>
-                	</form>
-                </li>
+		<li>
+                  ${logout(dest=request.fullpath)}
+		</li>
             </ul>
             <!-- /.dropdown-user -->
         </li>
