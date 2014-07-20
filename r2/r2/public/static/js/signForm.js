@@ -1,6 +1,32 @@
 if (!window['$t']) {
 	$t = $;
 }
+PearltreesHomeCommon = {
+                getServicesUrl : function() {
+                        return "http://www.pearltrees.com/s";
+                },
+                getTunnelUrl : function() {
+                        return "http://www.pearltrees.com/s/signup";
+                },
+                
+                getPublicUrl : function() {
+                        return "http://www.pearltrees.com";
+                },
+                
+                getClientLang : function() {
+                        return "en_US";
+                }
+}
+PearltreesSignFormErrors = {
+                serverError:"Something went wrong, please try again",
+                usernameTooShort:"3 characters minimum",
+                usernameTooLong:"40 characters maximum",
+                usernameTaken:"username not available",
+                mailInvalid:"enter a valid email",
+                passwordTooShort:"5 characters minimum",
+                signinIncorrect:"Username or password incorrect"
+}
+
 PearltreesHomeSign = {
 
 		currentPage : "signup_page",

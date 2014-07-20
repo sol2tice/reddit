@@ -23,7 +23,7 @@ r2/r2/lib/generated_strings.py
 r2/r2/public/static/names.json
 r2/r2/public/static/*.js
 r2/r2/public/static/*.css
-r2/r2/public/static/sprite*.png
+#r2/r2/public/static/sprite*.png
 r2/r2/public/static/*.gzip
 r2/r2/public/static/js/lib/*.gzip
 
