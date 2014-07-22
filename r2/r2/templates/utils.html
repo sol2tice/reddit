@@ -457,7 +457,7 @@ ${unsafe(txt)}
       <input type="hidden" name="dest" value="${dest}"/>
     %endif
     
-    <a href="javascript:void(0)" onclick="$(this).parent().submit()"
+    <a href="javascript:void(0)" onclick="$(this).parent().submit(); return false;"
        %if a_class:
          class="${a_class}" 
        %endif

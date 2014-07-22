@@ -30,7 +30,13 @@
                 <div id="cancel_button" class="form_button" onclick="PearltreesHomeSign.cancel(); return false;">
                     取消
                 </div>
-                <div id="signin-button" class="form_button" onclick="PearltreesHomeSign.submitLogInForm(); return false;">
+		% try:
+		   % if c.site.path:
+		   <div id="signin-button" class="form_button" onclick="PearltreesHomeSign.submitLogInForm('${c.site.path}'); return false;">
+		   % endif:
+		% except AttributeError:
+		   <div id="signin-button" class="form_button" onclick="PearltreesHomeSign.submitLogInForm(); return false;">
+		%endtry
                     登录
                 </div>
                 <div id="signin-loader-button" class="form_button loader_button" style="display: none;">

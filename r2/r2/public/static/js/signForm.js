@@ -515,7 +515,7 @@ PearltreesHomeSign = {
 			$('#signin_button').show();
 			$('#' + this.currentPage).hide();
 		},
-		submitLogInForm : function () {
+		submitLogInForm : function (next_url) {
 			$t("#log_error").html(" ");
 			$t("#signin-button").hide();
 			$t("#signin-loader-button").show();
@@ -537,13 +537,17 @@ PearltreesHomeSign = {
                 		type: 'POST',
                 		dataType: 'json',
                 		data: reqData,
-                		xhrFields: {
+                		next_url: next_url,
+				xhrFields: {
                     		withCredentials: true
                 		},
                 		success: function(data) {
             				  if(data.json.errors.length == 0) {
             					PearltreesHomeSign.raiseCommandEvent("login");
-            					window.location = '/'; 
+            					if(typeof next_url == 'undefined')
+						  window.location = '/';
+						else
+						  window.location = next_url;
             				  }else {
             					$t("#signin-button").show();
             					PearltreesHomeSign.hideLoaderImagesLogin();
