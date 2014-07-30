@@ -1005,3 +1005,13 @@ if logging.getLogger('sqlalchemy').handlers:
 #we create thing tables for a relationship's things that aren't on the
 #same database as the relationship, although they're never used in
 #practice. we could remove a healthy chunk of code if we removed that.
+
+def delete_things_by_id(type_id, thing_id):
+    try:
+        tables = get_thing_table(type_id)
+        tables[0].delete(tables[0].c.thing_id == thing_id).execute()
+        tables[1].delete(tables[1].c.thing_id == thing_id).execute()
+    except Exception, e:
+        dbm.mark_dead(table.bind)
+        # this thread must die so that others may live
+        raise
