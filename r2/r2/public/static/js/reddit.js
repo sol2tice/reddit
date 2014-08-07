@@ -757,12 +757,20 @@ function expando_child(elem) {
                       child_cache[key] = r;
                       expando.html($.unsafe(r));
                       $(document).trigger('expando_thing', thing)
+		      if(thing.find('.map-container').length >0){
+                    	  map_container = thing.find('.map-container')[0]
+                    	  getMap(map_container.getAttribute('data-lat'), map_container.getAttribute('data-lng'), map_container)
+                      }
                   },
                   false, "html");
     }
     else {
         expando.html($.unsafe(child_cache[key]));
         $(document).trigger('expando_thing', thing)
+	if(thing.find('.map-container').length >0){
+        	map_container = thing.find('.map-container')[0]
+        	getMap(map_container.getAttribute('data-lat'), map_container.getAttribute('data-lng'), map_container)
+        }
     }
     expando.show();
     return false;
@@ -1264,4 +1272,40 @@ function parse_domain(url) {
         }
     }
     return domain;
+}
+
+function getMap(lat, lng, map_container){
+    var latlng = new google.maps.LatLng(lat, lng);
+    var myOptions = {
+      zoom: 15,
+      center: latlng,
+      mapTypeControl: false,
+      navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(map_container, myOptions);
+
+    var marker = new google.maps.Marker({
+        position: latlng, 
+        map: map, 
+        title:"You are here! (at least with lat = "+lat +" lng = "+lng+")"
+    });
+}
+
+function showbrowserError(error){
+    switch(error.code)
+    {
+        case error.PERMISSION_DENIED:
+        x.innerHTML="User denied the request for Geolocation."
+        break;
+        case error.POSITION_UNAVAILABLE:
+        x.innerHTML="Location information is unavailable."
+        break;
+        case error.TIMEOUT:
+        x.innerHTML="The request to get user location timed out."
+        break;
+        case error.UNKNOWN_ERROR:
+        x.innerHTML="An unknown error occurred."
+        break;
+    }
 }

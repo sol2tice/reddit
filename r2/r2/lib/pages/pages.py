@@ -2282,8 +2282,9 @@ class SubredditTopBar(CachedTemplate):
                        css_class = 'sr-bar')
 
     def sr_bar (self):
-        sep = '<span class="separator">&nbsp;|&nbsp;</span>'
-        menus = []
+        #sep = '<span class="separator">&nbsp;|&nbsp;</span>'
+        sep = ''
+	menus = []
         menus.append(self.special_reddits())
         #menus.append(RawString(sep))
 
@@ -2295,8 +2296,9 @@ class SubredditTopBar(CachedTemplate):
             # if the user has more than ~10 subscriptions the top bar will be
             # completely full any anything we add to it won't be seen
             if len(self.my_reddits) < 10:
-                sep = '<span class="separator">&nbsp;&ndash;&nbsp;</span>'
-                menus.append(RawString(sep))
+                #sep = '<span class="separator">&nbsp;&ndash;&nbsp;</span>'
+                sep = ''
+		menus.append(RawString(sep))
                 menus.append(self.popular_reddits(exclude_mine=True))
 
         return menus
@@ -3995,6 +3997,14 @@ def make_link_child(item):
                                     load=True,
                                     expand=expand)
 
+    elif hasattr(item, 'is_html_page') and item.is_html_page:
+        expand = getattr(item, 'expand_children', False)
+
+        editable = (expand and
+                    item.author == c.user and
+                    not item._deleted)
+        link_child = SelfHtmlPageChild(item, expand = expand,
+                                   nofollow = item.nofollow)
     # if the item is_self, add a selftext child
     elif item.is_self:
         if not item.selftext: item.selftext = u''
@@ -4714,4 +4724,65 @@ class GeotargetNotice(Templated):
         self.text = text % {"link": more_link}
         Templated.__init__(self)
 
-	    
+from r2.models.camp import Camp
+class SelfHtmlPageChild(LinkChild):
+    css_style = "selftext"
+
+    def content(self):
+        q = Camp._query(Camp.c.name == self.link.selftext)
+	q._data = True
+	l = list(q)
+        u = HtmlPage(self.link,
+                     editable = c.user == self.link.author,
+                     nofollow = self.nofollow,
+                     target="_top" if c.cname else None,
+                     expunged=self.link.expunged,
+		     **l[0]._t)
+        return u.render()
+
+class HtmlPage(CachedTemplate):
+    def __init__(self,
+                 item,
+                 have_form = True,
+                 editable = False,
+                 creating = False,
+                 nofollow = False,
+                 target = None,
+                 display = True,
+                 post_form = 'editusertext',
+                 cloneable = False,
+                 extra_css = '',
+                 textarea_class = '',
+                 name = "text",
+                 expunged=False,
+                 include_errors=True,
+		 **kw):
+
+        css_class = "usertext"
+        if cloneable:
+            css_class += " cloneable"
+        if extra_css:
+            css_class += " " + extra_css
+
+        fullname = ''
+        # Do not pass fullname on deleted things, unless we're admin
+        if hasattr(item, '_fullname'):
+            if not getattr(item, 'deleted', False) or c.user_is_admin:
+                fullname = item._fullname
+
+        CachedTemplate.__init__(self,
+                                fullname = fullname,
+                                have_form = have_form,
+                                editable = editable,
+                                creating = creating,
+                                nofollow = nofollow,
+                                target = target,
+                                display = display,
+                                post_form = post_form,
+                                cloneable = cloneable,
+                                css_class = css_class,
+                                textarea_class = textarea_class,
+                                name = name,
+                                expunged=expunged,
+                                include_errors=include_errors,
+				**kw)

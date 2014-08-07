@@ -1,0 +1,156 @@
+<%!
+   from r2.lib.template_helpers import static
+%>
+<div class="wrapper body-wrapper-for-sticky-bottom">
+	<div class="container" id="program-container">
+		<div class="programs-show">
+			<div class="container main">
+				<div class="top-card">
+					<div class="top-card-header">
+						<div class="title">
+							<h2 class="title">${thing.title}</h2>
+						</div>
+						<div class="address">
+							<dt>City:</dt>
+							<dd>${thing.city}</dd>
+						</div>
+					</div>
+					<div class="top-card-content clearfix">
+						<div class="pictures-container">
+							<div class="picture large">
+								<img
+									src="${static(thing.image)}" />
+							</div>
+						</div>
+						<div class="info-container">
+							<ul class="attributes">
+								<li>
+									<dt>Grade:</dt>
+									<dd>${thing.grade}</dd>
+								</li>
+								<li>
+									<dt>Category:</dt>
+									<dd>${thing.category}</dd>
+								</li>
+								<li>
+									<dt>Subject:</dt>
+									<dd>Others</dd>
+								</li>
+								<li>
+									<dt>Credit:</dt>
+									<dd>${thing.credit}</dd>
+								</li>
+								<li>
+									<dt>Type:</dt>
+									<dd>${thing.type}</dd>
+								</li>
+								<li class="cost">
+									<dt>Price:</dt>
+									<dd>${thing.price}</dd>
+								</li>
+								<li>
+									<dt>Duration:</dt>
+									<dd>${thing.duration}</dd>
+								</li>
+								<li>
+									<dt>Start on:</dt>
+									<dd>${thing.starton}</dd>
+								</li>
+								<li>
+									<dt>Deadline:</dt>
+									<dd>${thing.deadline}</dd>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div id="program-details">
+						<section id="summary">
+							<h3 class="header">
+								<span class="icon"><i class="glyphicon-notes"></i></span><span>Program
+									Description</span>
+							</h3>
+							<p>${thing.description}</p>
+						</section>
+						<section id="school-info">
+							<h3 class="header">
+								<span class="icon"><i class="glyphicon-home"></i></span><span>School
+									Information</span>
+							</h3>
+							<p>${thing.schoolinfo}</p>
+						</section>
+						<section id="time-cost">
+							<h3 class="header">
+								<span class="icon"><i class="glyphicon-usd"></i></span><span>Time
+									and Cost</span>
+							</h3>
+							<p>${thing.timecost}</p>
+						</section>
+						<section id="location">
+							<h3 class="header">
+								<span class="icon"><i class="glyphicon-google-maps"></i></span><span>Location</span>
+							</h3>
+							<div class="location-container">
+								<div class="city-info">
+									<div style="width: 100%; height: 100px;">
+										<div class="map-info-icon" align="center">
+											<h3 class="header">
+												<span class="icon" style="background-color: #01A9DB"><i
+													class="glyphicon-old-man"></i></span>
+											</h3>
+										</div>
+										<div class="map-info-data">
+											<div class="map-data-title">Crime rate (per 100,000
+												people)</div>
+											<div class="map-data-number">${thing.crimerate}</div>
+										</div>
+									</div>
+									<div style="width: 100%; height: 100px;">
+										<div class="map-info-icon" align="center">
+											<h3 class="header">
+												<span class="icon" style="background-color: #01A9DB"><i
+													class="glyphicon-sun"></i></span>
+											</h3>
+										</div>
+										<div class="map-info-data">
+											<div class="map-data-title">Weather:</div>
+											<div class="map-data-number">
+												<a target="_blank"
+													href="http://us.rd.yahoo.com/dailynews/rss/weather/Stanford__CA/*http://weather.yahoo.com/forecast/USCA1093_f.html">${thing.weather}</a>
+											</div>
+										</div>
+									</div>
+									<div style="width: 100%; height: 100px;">
+										<div class="map-info-icon" align="center">
+											<h3 class="header">
+												<span class="icon" style="background-color: #01A9DB"><i
+													class="glyphicon-home"></i></span>
+											</h3>
+										</div>
+										<div class="map-info-data">
+											<div class="map-data-title">House price</div>
+											<div class="map-data-number">${thing.houseprice}</div>
+										</div>
+									</div>
+									<div style="width: 100%; height: 100px;">
+										<div class="map-info-icon" align="center">
+											<h3 class="header">
+												<span class="icon" style="background-color: #01A9DB"><i
+													class="glyphicon-group"></i></span>
+											</h3>
+										</div>
+										<div class="map-info-data">
+											<div class="map-data-title">Asian population</div>
+											<div class="map-data-number">${thing.asianpop}</div>
+										</div>
+									</div>
+								</div>
+								<div class="map-container" style="position: relative; float: right; margin-right: 15px; overflow: hidden; height: 400px; width: 600px; cursor: url(http://ecn.dev.virtualearth.net/mapcontrol/v6.3c/cursors/grab.cur), move; background-image: none; background-color: rgb(233, 231, 212);" data-lng=${thing.longitute} data-lat=${thing.latitute}>
+								</div>
+							</div>
+                            			</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
