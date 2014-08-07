@@ -239,7 +239,7 @@ ${parent.thing_data_attributes(what)} data-ups="${what.upvotes}" data-downs="${w
 </%def>
 
 <%def name="thumbnail()">
-  %if thing.thumbnail:
+  %if thing.thumbnail and hasattr(thing, 'thumbnail_size'):
   <%call expr="make_link('thumbnail', 'thumbnail ' + (thing.thumbnail if thing.thumbnail_sprited else ''))">
     % if not thing.thumbnail_sprited:
         <%
