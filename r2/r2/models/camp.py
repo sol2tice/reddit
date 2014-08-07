@@ -7,6 +7,7 @@ from r2.lib.memoize      import memoize
 from datetime import datetime
 from r2.lib.db.operators import desc
 from r2.lib.db.tdb_sql import delete_things_by_id
+from r2.lib.template_helpers import static
 
 class CampExists(Exception): pass
 
@@ -30,7 +31,10 @@ class Camp(Thing):
         houseprice='',
         asianpop='',
         longitute='',
-        latitute=''
+        latitute='',
+        image ='',
+        thumbnail_url = '',
+        thumbnail_size = ''
     )
     _essentials = ('type', 'name', 'lang')
     @classmethod    
@@ -42,9 +46,22 @@ class Camp(Thing):
             cmp = Camp(name = params['id'],
                            lang = g.lang,
                            type = 'public')
+	    thumbnail_size = 50, 50
             for attr in cls._defaults:
 		try:
-                    cmp.__setattr__(attr, params[attr])
+                    if attr == 'image':
+                        path = params['images'][0]['path']
+                        cmp.__setattr__(attr, path)
+                        cmp.__setattr__('thumbnail_url', static('thumb/' + path[5:]))
+                        cmp.__setattr__('thumbnail_size', thumbnail_size)
+                    elif attr == 'thumbnail_url':
+                        pass
+                    elif attr == 'thumbnail_size':
+                        pass
+                    else:
+                    	cmp.__setattr__(attr, params[attr])
+		except IndexError:
+		    g.log.error("popcampdb: %s index out of range in %s", attr, params['id']);
                 except KeyError:
                     g.log.error("popcampdb: %s not found in %s", attr, params['id']);
             cmp._commit()
@@ -97,6 +114,6 @@ class Camp(Thing):
             Camp._by_name(self.name, allow_deleted = True, _update = True)
         #we need to catch an exception here since it will have been
         #recently deleted
-        except NotFound:
+        except (NotFound, AttributeError) as e:
             pass       
 
