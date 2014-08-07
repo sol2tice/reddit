@@ -41,7 +41,8 @@ import r2.lib.utils as r2utils
 from r2.models import (Account, Link, Subreddit, Thing, All, DefaultSR,
                        MultiReddit, DomainSR, Friends, ModContribSR,
                        FakeSubreddit, NotFound)
-
+import sys
+from pysrc import pydevd
 
 _CHUNK_SIZE = 4000000 # Approx. 4 MB, to stay under the 5MB limit
 _VERSION_OFFSET = 13257906857
@@ -361,9 +362,10 @@ class CloudSearchUploader(object):
     _version = _version_tenths
 
     def add_xml(self, thing, version):
-        add = etree.Element("add", id=thing._fullname, version=str(version),
-                            lang="en")
-
+	# to comply 2013-01-01 version, no lang, version
+        #add = etree.Element("add", id=thing._fullname, version=str(version),
+        #                    lang="en")
+	add = etree.Element("add", id=thing._fullname)
         for field_name, value in self.fields(thing).iteritems():
             field = etree.SubElement(add, "field", name=field_name)
             field.text = _safe_xml_str(value)
@@ -489,7 +491,7 @@ class CloudSearchUploader(object):
                 headers = {}
                 headers['Content-Type'] = 'application/xml'
                 # HTTPLib calculates Content-Length header automatically
-                connection.request('POST', "/2011-02-01/documents/batch",
+                connection.request('POST', "/2013-01-01/documents/batch",
                                    data, headers)
                 response = connection.getresponse()
                 if 200 <= response.status < 300:
@@ -634,6 +636,9 @@ _REBUILD_INDEX_CACHE_KEY = "cloudsearch_cursor_%s"
 def rebuild_link_index(start_at=None, sleeptime=1, cls=Link,
                        uploader=LinkUploader, doc_api='CLOUDSEARCH_DOC_API',
                        estimate=50000000, chunk_size=1000):
+    reload(sys)
+    pydevd.settrace('192.168.1.64', port=5678, stdoutToServer=True, stderrToServer=True)
+
     cache_key = _REBUILD_INDEX_CACHE_KEY % uploader.__name__.lower()
     doc_api = getattr(g, doc_api)
     uploader = uploader(doc_api)
@@ -654,7 +659,8 @@ def rebuild_link_index(start_at=None, sleeptime=1, cls=Link,
     q = r2utils.progress(q, verbosity=1000, estimate=estimate, persec=True,
                          key=_progress_key)
     for chunk in r2utils.in_chunks(q, size=chunk_size):
-        uploader.things = chunk
+        #uploader.things = chunk
+	uploader.fullnames = [link._fullname for link in chunk]
         for x in range(5):
             try:
                 uploader.inject()
@@ -731,7 +737,7 @@ class Results(object):
         return self._subreddits
 
 
-_SEARCH = "/2011-02-01/search?"
+_SEARCH = "/2013-01-01/search?"
 INVALID_QUERY_CODES = ('CS-UnknownFieldInMatchExpression',
                        'CS-IncorrectFieldTypeInMatchExpression',
                        'CS-InvalidMatchSetExpression',)
@@ -743,7 +749,7 @@ def basic_query(query=None, bq=None, faceting=None, size=1000,
         search_api = g.CLOUDSEARCH_SEARCH_API
     if faceting is None:
         faceting = DEFAULT_FACETS
-    path = _encode_query(query, bq, faceting, size, start, rank, return_fields)
+    path = _encode_query2(query, bq, faceting, size, start, rank, return_fields)
     timer = None
     if record_stats:
         timer = g.stats.get_timer("cloudsearch_timer")
@@ -818,6 +824,30 @@ def _encode_query(query, bq, faceting, size, start, rank, return_fields):
     path = _SEARCH + encoded_query
     return path
 
+def _encode_query2(query, bq, faceting, size, start, rank, return_fields):
+    if not (query or bq):
+        raise ValueError("Need query or bq")
+    params = collections.OrderedDict()
+    if bq:
+	params["q"] = "text:'" + bq + "'"
+        params["q.parser"] = "structured"
+    else:
+        params["q"] = query
+    params["sort"] = "relevance desc"
+    params["start"] = start
+    params["format"] = "json"
+    params["size"] = size
+    #if faceting:
+    #    params["facet"] = ",".join(faceting.iterkeys())
+    #    for facet, options in faceting.iteritems():
+    #        if "sort" in options:
+    #            params["facet.%s" % facet] = "{sort:'count',size:%s}" % options.get("count", 20)
+    #        else:
+    #            params["facet.%s" % facet] = "{size:%s}" % options.get("count", 20)
+
+    encoded_query = urllib.urlencode(params)
+    path = _SEARCH + encoded_query
+    return path
 
 class CloudSearchQuery(object):
     '''Represents a search query sent to cloudsearch'''
@@ -936,9 +966,10 @@ class CloudSearchQuery(object):
                                rank=sort, search_api=cls.search_api,
                                faceting=faceting, record_stats=True)
 
-        warnings = response['info'].get('messages', [])
-        for warning in warnings:
-            g.log.warning("%(code)s (%(severity)s): %(message)s" % warning)
+        if not response['status']:
+            warnings = response['info'].get('messages', [])
+            for warning in warnings:
+                g.log.warning("%(code)s (%(severity)s): %(message)s" % warning)
 
         hits = response['hits']['found']
         docs = [doc['id'] for doc in response['hits']['hit']]
@@ -980,7 +1011,7 @@ class LinkSearchQuery(CloudSearchQuery):
              yesno_fields=LinkFields.lucene_fieldnames(type_="yesno"),
              schema=schema)
     known_syntaxes = ("cloudsearch", "lucene", "plain")
-    default_syntax = "lucene"
+    default_syntax = "cloudsearch"
 
     def customize_query(self, bq):
         queries = [bq]
