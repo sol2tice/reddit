@@ -379,3 +379,270 @@ table.dataTable thead .sorting:after {
 .show-grid {
     margin: 15px 0;
 }
+
+/*---------camp view css--------------------------*/
+h3 {
+  line-height: 40px;
+  font-size: 28px;
+}
+
+.programs-show dt {
+  display: inline-block;
+  font-weight: normal;
+  color: #333333;
+}
+.programs-show dd {
+  display: inline-block;
+  margin-left: 0px;
+  color: #000000;
+}
+.programs-show .top-card {
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  margin-bottom: 25px;
+}
+.programs-show .top-card-header {
+  border-bottom: 1px dashed #aaaaaa;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.programs-show .top-card-header .title {
+  padding: 5px 0;
+}
+.programs-show .top-card-header .title h2 {
+  font-size: 26px;
+}
+.programs-show .top-card-header .title h2,
+.programs-show .top-card-header .title div {
+  display: inline-block;
+  margin: 0;
+}
+.programs-show .top-card-header .title .on-off-line {
+  margin-left: 5px;
+  font-size: 20px;
+  line-height: 28px;
+}
+.programs-show .top-card-header .title .on-off-line [class*='glyphicon-'] {
+  padding-right: 5px;
+  display: none;
+}
+.programs-show .top-card-header .title .on-off-line.online .glyphicon-display {
+  display: inline-block;
+}
+.programs-show .top-card-header .title .on-off-line.offline .glyphicon-user {
+  display: inline-block;
+}
+.programs-show .top-card-header .title .share_button {
+  float: right;
+  margin-top: 8px;
+}
+.programs-show .top-card-content .pictures-container {
+  float: left;
+  width: 320px;
+}
+.programs-show .top-card-content .pictures-container .picture {
+  width: 300px;
+}
+.programs-show .top-card-content .info-container {
+  margin-left: 320px;
+}
+.programs-show .top-card-content .info-container ul {
+  list-style: none;
+  margin: 0;
+}
+.programs-show .top-card-content .info-container ul.attributes {
+  font-size: 14px;
+}
+.programs-show .top-card-content .info-container ul.attributes > li {
+  margin-bottom: 10px;
+}
+.programs-show .top-card-content .info-container ul.attributes dt {
+  min-width: 7em;
+  text-align: right;
+  padding-right: 0.5em;
+}
+.programs-show .top-card-content .info-container ul.attributes dt:lang(zh) {
+  min-width: 7em;
+}
+.programs-show .top-card-content .info-container ul.attributes li.cost dd {
+  color: #c83025;
+}
+.programs-show .top-card-content .info-container ul.attributes ul > li {
+  display: inline-block;
+}
+.programs-show .top-card-content .info-container .go-official {
+  float: right;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.programs-show .top-card-content .info-container .button {
+  margin-right: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.programs-show #program-details {
+  margin-bottom: 25px;
+}
+.programs-show #program-details section,
+.programs-show #program-details .subnav {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-top: none;
+}
+.programs-show #program-details .subnav {
+  border: 1px solid #cccccc;
+}
+.programs-show #program-details .subnav ul.nav {
+  margin: 0;
+}
+.programs-show #program-details .subnav ul.nav > li {
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.programs-show #program-details .subnav ul.nav > li > a,
+.programs-show #program-details .subnav ul.nav > li > span {
+  display: inline;
+}
+.programs-show #program-details .subnav ul.nav > li .divider {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #aaaaaa;
+}
+.programs-show #program-details .subnav ul.nav > li a:hover {
+  background-color: transparent;
+}
+.programs-show #program-details p {
+  line-height: 25px;
+  text-align: left;
+}
+.programs-show #program-details .header {
+  vertical-align: middle;
+}
+.programs-show #program-details .header > .icon {
+  display: inline-block;
+  height: 2em;
+  width: 2em;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+  background-color: #7f7f7f;
+  margin-right: 15px;
+  text-align: center;
+}
+.programs-show #program-details .header > .icon i {
+  font-weight: normal;
+  color: #ffffff;
+  bottom: -0.3em;
+}
+
+.divider
+{
+  clear:both;
+}
+
+.location-container
+{
+  width: 900px;
+  margin: 0;
+  height: 425px;
+}
+
+.city-info
+{
+  background-color: #E6E6E6;
+  width:30%;
+  height: 400px;
+  float:left;
+}
+
+.map-container
+{
+  height: 400px;
+  float:right;
+}
+
+.location-bottom
+{
+  clear:both;
+  margin-bottom: 20px;
+}
+
+.location-photo
+{
+  height:275px;
+  clear:both;
+}
+
+.img-container
+{
+  float:left;
+  text-align:center;
+  width:22%;
+  margin:30px 0px 30px 0px;
+}
+
+.gap
+{
+  width:4%;
+  height:100px;
+  float:left;
+}
+
+.city-data
+{
+  width:100%;
+}
+
+.map-info-icon
+{
+  font-size: 56px;
+  float:left;
+  text-align: center;
+  vertical-align: middle;
+  width:30%;
+  height:100px;
+  line-height: 100px;
+  margin-left: 10px;
+}
+
+.map-info-data
+{
+  width:60%;
+  height:100px;
+  float: left;
+  overflow: auto;
+}
+
+.map-data-title
+{
+  margin-top: 15px;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.map-data-number
+{
+  line-height: 24px;
+  font-size: 15px;
+  color: #01A9DB;
+}
+
+.collect_button{
+  width:150px;
+  height:34px;
+  border:0px;
+  border-radius:5px;
+  background-color:#1691B1;
+  color:#ffffff;
+  margin-left:30px;
+  ling-height:34px;
+}
+
+.collect_button:hover{
+  background-color:#46C3DD;
+}
+
