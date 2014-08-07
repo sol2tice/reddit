@@ -24,10 +24,6 @@
 
 <div id="sr-header-area">
   <div class="width-clip">
-    %if thing.show_my_reddits_dropdown:
-      ${thing.my_reddits_dropdown().render()}
-    %endif
-
     <div class="sr-list">
       %for m in thing.sr_bar():
         ${m.render()}
@@ -37,6 +33,9 @@
         editmore = 'edit' if c.user_is_loggedin else 'more'
       %>
     </div>
+    %if thing.show_my_reddits_dropdown:
+      ${thing.my_reddits_dropdown().render()}
+    %endif
 
     ${plain_link(unsafe(_(editmore) + " &raquo;"),
                  "/subreddits/", id="sr-more-link")}
