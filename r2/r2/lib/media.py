@@ -56,7 +56,8 @@ from urllib2 import (
     HTTPError,
     URLError,
 )
-
+#import sys
+#from pysrc import pydevd
 
 MEDIA_FILENAME_LENGTH = 12
 thumbnail_size = 70, 70
@@ -308,6 +309,8 @@ def _scrape_media(url, autoplay=False, maxwidth=600, force=False,
 
 
 def _set_media(link, force=False, **kwargs):
+#    reload(sys)
+#    pydevd.settrace('192.168.1.64', port=5678, stdoutToServer=True, stderrToServer=True) 
     if link.is_self:
         return
     if not force and link.promoted:
@@ -315,7 +318,8 @@ def _set_media(link, force=False, **kwargs):
     elif not force and (link.has_thumbnail or link.media_object):
         return
 
-    media = _scrape_media(link.url, force=force, **kwargs)
+    url = link.embed_url if getattr(link, 'embed_url', None) is not None else link.url
+    media = _scrape_media(url, force=force, **kwargs)
 
     if media and not link.promoted:
         link.thumbnail_url = media.thumbnail_url
@@ -403,8 +407,13 @@ class Scraper(object):
             return scraper
 
         embedly_services = _fetch_embedly_services()
-        for service_re, service_secure in embedly_services:
+        for service_re, service_secure, service_name in embedly_services:
             if service_re.match(url):
+		if(service_name == "wistia"):
+                    return _CustomedScraper(url,
+				       	False,
+                                       	autoplay=autoplay,
+                                       	maxwidth=maxwidth)
                 return _EmbedlyScraper(url,
                                        service_secure,
                                        autoplay=autoplay,
@@ -583,7 +592,7 @@ def _fetch_embedly_services():
     for service in service_data:
         services.append((
             re.compile("(?:%s)" % "|".join(service["regex"])),
-            service["name"] in _SECURE_SERVICES,
+            service["name"] in _SECURE_SERVICES, service["name"]
         ))
     return services
 
@@ -605,3 +614,34 @@ def run():
             print traceback.format_exc()
 
     amqp.consume_items('scraper_q', process_link)
+
+class _CustomedScraper(_EmbedlyScraper):
+    def scrape(self):
+        oembed = self._fetch_from_url(secure=False)
+        if not oembed:
+            return None, None, None
+
+        if oembed.get("type") == "photo":
+            thumbnail_url = oembed.get("url")
+        else:
+            thumbnail_url = oembed.get("thumbnail_url")
+        thumbnail = _make_thumbnail_from_url(thumbnail_url, referer=self.url)
+	oembed['html'] = self.cleanup_oembed_html(oembed)
+        secure_oembed = {}
+        return (
+            thumbnail,
+            self._make_media_object(oembed),
+            self._make_media_object(secure_oembed),
+        )
+        
+    def cleanup_oembed_html(self, oembed):
+        from lxml import etree
+        doc = oembed['html']
+        tree = etree.HTML(doc)
+        r = tree.xpath('//div')[0]
+        return etree.tostring(r)
+
+    def _fetch_from_url(self, secure):
+        content = requests.get(self.url).content
+        return json.loads(content)
+
