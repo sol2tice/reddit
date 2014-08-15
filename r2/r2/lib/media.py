@@ -282,7 +282,7 @@ def _scrape_media(url, autoplay=False, maxwidth=600, force=False,
         # the scraper should be able to make a media embed out of the
         # media object it just gave us. if not, null out the media object
         # to protect downstream code
-        if media_object and not scraper.media_embed(media_object):
+        if media_object and not scraper.media_embed(media_object) and media_object.get('type') != u'api.embed.ly':
             print "%s made a bad media obj for url %s" % (scraper, url)
             media_object = None
 
@@ -304,14 +304,12 @@ def _scrape_media(url, autoplay=False, maxwidth=600, force=False,
                        media,
                        autoplay=autoplay,
                        maxwidth=maxwidth)
-
     return media
 
-
 def _set_media(link, force=False, **kwargs):
-#    reload(sys)
-#    pydevd.settrace('192.168.1.64', port=5678, stdoutToServer=True, stderrToServer=True) 
-    if link.is_self:
+    #reload(sys)
+    #pydevd.settrace('192.168.1.64', port=5678, stdoutToServer=True, stderrToServer=True) 
+    if link.is_self and getattr(link, 'extractarticle', None) is None:
         return
     if not force and link.promoted:
         return
@@ -322,8 +320,9 @@ def _set_media(link, force=False, **kwargs):
     media = _scrape_media(url, force=force, **kwargs)
 
     if media and not link.promoted:
-        link.thumbnail_url = media.thumbnail_url
-        link.thumbnail_size = media.thumbnail_size
+	if media.thumbnail_url is not None:
+          link.thumbnail_url = media.thumbnail_url
+          link.thumbnail_size = media.thumbnail_size
 
         link.set_media_object(media.media_object)
         link.set_secure_media_object(media.secure_media_object)
@@ -372,6 +371,9 @@ def get_media_embed(media_object):
     if media_object.get("type") == "custom":
         return _make_custom_media_embed(media_object)
 
+    if media_object.get('type') == 'api.embed.ly':
+        return _ExtractArticleScraper.media_embed(media_object)
+
     if "oembed" in media_object:
         return _EmbedlyScraper.media_embed(media_object)
 
@@ -405,6 +407,9 @@ class Scraper(object):
         scraper = hooks.get_hook("scraper.factory").call_until_return(url=url)
         if scraper:
             return scraper
+        p = re.compile("http://api.embed.ly/1/extract\?*")
+        if p.match(url):
+            return _ExtractArticleScraper(url, False, autoplay=autoplay, maxwidth=maxwidth)
 
         embedly_services = _fetch_embedly_services()
         for service_re, service_secure, service_name in embedly_services:
@@ -527,7 +532,7 @@ class _EmbedlyScraper(Scraper):
         return json.loads(content)
 
     def _make_media_object(self, oembed):
-        if oembed.get("type") in ("video", "rich"):
+        if oembed.get("type") in ("video", "rich", "html"):
             return {
                 "type": domain(self.url),
                 "oembed": oembed,
@@ -645,3 +650,25 @@ class _CustomedScraper(_EmbedlyScraper):
         content = requests.get(self.url).content
         return json.loads(content)
 
+class _ExtractArticleScraper(_CustomedScraper):
+    def scrape(self):
+        oembed = self._fetch_from_url(secure=False)[0]
+        if not oembed:
+            return None, None, None
+        secure_oembed = {}
+        return (
+            None,
+            self._make_media_object(oembed),
+            self._make_media_object(secure_oembed),
+        )
+
+    @classmethod
+    def media_embed(cls, media_object):
+        oembed = media_object["oembed"]
+
+        return MediaEmbed(
+            width=600,
+            height=700,
+            content=oembed,
+            scrolling = True
+        )

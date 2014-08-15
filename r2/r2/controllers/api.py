@@ -299,6 +299,7 @@ class ApiController(RedditController):
                    title = VTitle('title'),
                    save = VBoolean('save'),
                    sendreplies = VBoolean('sendreplies'),
+		   extractarticle = VBoolean('extractarticle'),
                    selftext = VSelfText('text'),
                    kind = VOneOf('kind', ['link', 'self']),
                    then = VOneOf('then', ('tb', 'comments'),
@@ -309,7 +310,7 @@ class ApiController(RedditController):
                   )
     @api_doc(api_section.links_and_comments)
     def POST_submit(self, form, jquery, url, selftext, kind, title,
-                    save, sr, ip, then, extension, sendreplies, resubmit):
+                    save, sr, ip, then, extension, sendreplies, resubmit, extractarticle):
         """Submit a link to a subreddit.
 
         Submit will create a link or self-post in the subreddit `sr` with the
@@ -462,7 +463,9 @@ class ApiController(RedditController):
             l.url = l.make_permalink_slow()
             l.is_self = True
             l.selftext = selftext
-
+	    l.extractarticle = extractarticle
+            if extractarticle:
+                l.embed_url = 'http://api.embed.ly/1/extract?key=92b31102528511e1a2ec4040d3dc5c07&urls=' + selftext	    
             l._commit()
             l.set_url_cache()
 

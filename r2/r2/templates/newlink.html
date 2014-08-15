@@ -95,6 +95,12 @@ ${thing.formtabs_menu}
     ${UserText(None, text = thing.text, have_form = False, creating = True)}
 
     ${error_field("NO_SELFS", "sr")}
+    %if c.user.name in g.admins:
+    	<input class="nomargin" type="checkbox" name="extractarticle" id="extractarticle"/>
+    	<label for="extractarticle">
+      	${_("extract article")}
+    	</label>
+    %endif
   </%utils:round_field>
 </div>
 %endif

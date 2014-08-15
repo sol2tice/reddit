@@ -55,8 +55,8 @@ from pylons.i18n import _
 import random
 from functools import partial
 
-import sys
-from pysrc import pydevd
+#import sys
+#from pysrc import pydevd
 
 class ListingController(RedditController):
     """Generalized controller for pages with lists of links."""
@@ -85,7 +85,7 @@ class ListingController(RedditController):
     show_chooser = False
 
     # class (probably a subclass of Reddit) to use to render the page.
-    render_cls = Reddit
+    render_cls = Forum 
 
     # class for suggestions next to "next/prev" buttons
     next_suggestions_cls = None
@@ -170,10 +170,8 @@ class ListingController(RedditController):
 
     def listing(self):
         """Listing to generate from the builder"""
-	
-	reload(sys)
-	pydevd.settrace('192.168.1.64', port=5678, stdoutToServer=True, stderrToServer=True)
-        
+	#reload(sys)
+	#pydevd.settrace('192.168.1.64', port=5678, stdoutToServer=True, stderrToServer=True)
 	if (getattr(c.site, "_id", -1) == get_promote_srid() and
             not c.user_is_sponsor):
             abort(403, 'forbidden')

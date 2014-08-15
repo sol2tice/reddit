@@ -3980,6 +3980,7 @@ def make_link_child(item):
                 media_embed = None
 
             if media_embed:
+	      if getattr(item, 'extractarticle', None) is None:
                 should_authenticate = (item.subreddit.type == "private")
                 media_embed =  MediaEmbed(media_domain = g.media_domain,
                                           height = media_embed.height + 10,
@@ -3988,6 +3989,13 @@ def make_link_child(item):
                                           id36 = item._id36,
                                           authenticated=should_authenticate,
                                         )
+     	      else:
+             	media_embed = ExtractArticleEmbed(item,
+                                     html_content = media_embed.content.get('content'),
+                                     editable = c.user == item.author,
+                                     target="_top" if c.cname else None,
+                                     expunged=False,
+                                     **media_embed.content)
             else:
                 g.log.debug("media_object without media_embed %s" % item)
 
@@ -4025,6 +4033,7 @@ class MediaChild(LinkChild):
     css_style = "video"
     def __init__(self, link, content, **kw):
         self._content = content
+	self.css_style = "video" if not link.is_self else "selftext"
         LinkChild.__init__(self, link, **kw)
 
     def content(self):
@@ -4740,7 +4749,7 @@ class SelfHtmlPageChild(LinkChild):
 		     **l[0]._t)
         return u.render()
 
-class HtmlPage(CachedTemplate):
+class HtmlPage(Templated):
     def __init__(self,
                  item,
                  have_form = True,
@@ -4770,7 +4779,7 @@ class HtmlPage(CachedTemplate):
             if not getattr(item, 'deleted', False) or c.user_is_admin:
                 fullname = item._fullname
 
-        CachedTemplate.__init__(self,
+        Templated.__init__(self,
                                 fullname = fullname,
                                 have_form = have_form,
                                 editable = editable,
@@ -4786,3 +4795,46 @@ class HtmlPage(CachedTemplate):
                                 expunged=expunged,
                                 include_errors=include_errors,
 				**kw)
+
+class ExtractArticleEmbed(HtmlPage):
+    def __init__(self,
+                 item,
+                 html_content ='',
+                 have_form = True,
+                 editable = False,
+                 creating = False,
+                 nofollow = False,
+                 target = None,
+                 display = True,
+                 post_form = 'editusertext',
+                 cloneable = False,
+                 extra_css = '',
+                 textarea_class = '',
+                 name = "text",
+                 expunged=False,
+                 include_errors=True,
+                 **kw):
+        self.htmlcontent = Embed(content=html_content)
+        HtmlPage.__init__(self,
+                 item,
+                 have_form = True,
+                 editable = False,
+                 creating = False,
+                 nofollow = False,
+                 target = None,
+                 display = True,
+                 post_form = 'editusertext',
+                 cloneable = False,
+                 extra_css = '',
+                 textarea_class = '',
+                 name = "text",
+                 expunged=False,
+                 include_errors=True,
+                 **kw)
+
+    def render(self, *a, **kw):
+        if c.bare_content:
+            res = self.content().render()
+        else:
+            res = Templated.render(self, *a, **kw)
+        return responsive(res, None)

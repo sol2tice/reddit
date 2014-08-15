@@ -1,0 +1,42 @@
+<%!
+   from r2.lib.filters import unsafe
+%>
+<div class="row">
+    <div class="twelve columns">
+        <h4>
+            ${thing.title}
+        </h4>
+    </div>
+</div>
+<div class="row">
+    <div class="twelve columns">
+        <ul class="inline-list article-top">
+            <li>
+                <b>Authors:</b>
+            </li>
+            %for author in thing.authors:
+            	%if author.get('url'):
+             	  <li><a href="${author.get('url')}">${author.get('name')}</a></li>
+             	%else:
+             	  <li><span>${author.get('name')}</span></li>
+             	%endif
+            %endfor   
+        </ul>
+        %if thing.published:
+	        <ul class="inline-list article-top">
+	            <li>
+	                <b>Published:</b>
+	            </li>
+	            <li>${thing.published}
+	            </li>
+	        </ul>
+        %endif
+    </div>
+</div>
+<div class="row">
+    <div class="twelve columns">
+        <div class="article-content">
+            ${thing.htmlcontent}
+        </div>
+    </div>
+</div>
