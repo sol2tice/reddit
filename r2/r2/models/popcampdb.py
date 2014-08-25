@@ -107,4 +107,94 @@ def populateCourseSR():
         queries.queue_vote(a, l, True, '127.0.0.1', cheater=c.cheater)
         l._save(a)
         queries.new_link(l)
+	break
     queries.worker.join()
+
+def tidyFieldValue(val):
+    cleaned_val = re.sub(r'\s+', ' ', val)
+    cleaned_val = cleaned_val.strip()
+    return str(cleaned_val)
+
+def createSubreddit(name, title, author):
+    try:
+        sr = Subreddit._new(name = name, title = title,
+                            ip = '0.0.0.0', author_id = author._id)
+        sr.lang = "en"
+        sr._commit()
+    except SubredditExists:
+        sr = Subreddit._by_name(name)
+    return sr
+
+def getAdminAccount():
+    try:
+        a = Account._by_name(g.system_user)
+    except NotFound:
+        a = register(g.system_user, "reddit", "127.0.0.1", over_18 = True)
+    return a
+
+def createLink(title, url, embed_url, hashcode, sr, account):
+    l = Link._submit(title, url, account, sr, '127.0.0.1')
+    l.embed_url = embed_url
+    l.hashcode = hashcode
+    l._commit()
+    l.set_url_cache()
+    queries.queue_vote(account, l, True, '127.0.0.1', cheater=c.cheater)
+    l._save(account)
+    queries.new_link(l)
+    return l
+
+def populateAllCourses(db_file_path = 'sat-chem.json'):
+    reload(sys)
+    pydevd.settrace('192.168.1.64', port=5678, stdoutToServer=True, stderrToServer=True)
+    #Course.delete_all()
+    root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    path = os.path.join(root_path, db_file_path)
+    account = getAdminAccount()
+  
+    with open(path, 'r') as f:
+        data = f.read()
+        cdata = json.loads(data)[0]
+        links = []
+        c = {}
+        c['title'] = tidyFieldValue(cdata['title'])
+        c['url'] = tidyFieldValue(cdata['url'])
+        c['subject'] = tidyFieldValue(cdata['subject'])
+        c['description'] = tidyFieldValue(cdata['description'])
+	c['c_num'] = cdata['c_num']
+        name = re.sub(r'\s+', '_', c['title'])
+        sr = createSubreddit(name, c['title'], account)
+        c['sr_id'] = sr._id
+        try:
+            course = Course._new(c)
+            for i in cdata['chapters']:
+		ch = {}
+                ch['title'] = tidyFieldValue(i['title'])
+		ch['c_num'] = c['c_num']
+                ch['ch_num'] = i['ch_num']
+                ch['course_id'] = course._id
+                try:
+                    chapter = Chapter._new(ch)
+                    for j in i['lessons']:
+			l = {}
+                        l['title'] = tidyFieldValue(j['title'])
+			l['c_num'] = c['c_num']
+                        l['ch_num'] = ch['ch_num']
+                        l['l_num'] = j['l_num']
+                        l['chapter_id'] = chapter._id
+                        l['course_id'] = course._id
+			l['url'] = tidyFieldValue(j['url'])
+                        l['embed_url'] = tidyFieldValue(j['embed_url'])
+                        l['hashcode'] = tidyFieldValue(j['hashcode'])
+                        try:
+                            lesson = Lesson._new(l)
+			    links.append(dict(title=l['title'], url=l['url'], embed_url=l['embed_url'], hashcode=l['hashcode']))
+                        except TopicExists:
+                            g.log.error("populateAllCourses: lesson %s exists", l['title'])
+                except TopicExists:
+                    g.log.error("populateAllCourses: chapter %s exists", ch['title']);
+        except TopicExists:
+            g.log.error("populateAllCourses: course %s exists", c['title']);
+	for index in range(len(links)):
+            link = links.pop()
+            createLink(link['title'], link['url'], link['embed_url'], link['hashcode'], sr, account)
+	queries.worker.join()

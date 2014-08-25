@@ -41,6 +41,7 @@ import ImageFile
 import requests
 
 from pylons import g
+from urlparse import urlparse
 
 from r2.lib import amqp, hooks
 from r2.lib.memoize import memoize
@@ -630,7 +631,7 @@ class _CustomedScraper(_EmbedlyScraper):
             thumbnail_url = oembed.get("url")
         else:
             thumbnail_url = oembed.get("thumbnail_url")
-        thumbnail = _make_thumbnail_from_url(thumbnail_url, referer=self.url)
+        thumbnail = _make_thumbnail_from_url(self._replace_thumbnail_url_domain(thumbnail_url), referer=None)
 	oembed['html'] = self.cleanup_oembed_html(oembed)
         secure_oembed = {}
         return (
@@ -640,15 +641,26 @@ class _CustomedScraper(_EmbedlyScraper):
         )
         
     def cleanup_oembed_html(self, oembed):
+        # remove script appended to the end of html section
         from lxml import etree
         doc = oembed['html']
         tree = etree.HTML(doc)
+        # kludge, remove fullscreenDisabled from embed
+        flashvars = tree.xpath('//embed')[0].xpath('@flashvars')[0]
+        s = re.sub(r'fullscreenDisabled=true&', '', flashvars)
+        tree.xpath('//embed')[0].set('flashvars', s)
         r = tree.xpath('//div')[0]
         return etree.tostring(r)
 
     def _fetch_from_url(self, secure):
         content = requests.get(self.url).content
         return json.loads(content)
+
+    def _replace_thumbnail_url_domain(self, url):
+        # replace https://embed-ssl.wistia.com with http://embed.wistia.com
+        # to avoid random failure in getting thumbnail image
+        rst = urlparse(url)
+        return 'http://embed.wistia.com'+rst.path
 
 class _ExtractArticleScraper(_CustomedScraper):
     def scrape(self):

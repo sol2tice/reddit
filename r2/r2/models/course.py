@@ -35,25 +35,24 @@ class _Topic(Thing):
     @classmethod
     def _new(cls, params, **kw):
         try:
-            cmp = cls._by_name(params['title'])
-            raise TopicExists
+	    name = re.sub(r'\s+', '', params['title'])
+            cmp = cls._by_name(name)
+            #raise TopicExists
+	    return cmp
         except NotFound:
-            cleaned_title = re.sub(r'\s+', '', params['title'], flags=re.UNICODE)
-            cleaned_title = cleaned_title.strip()
-            cmp = cls(name = cleaned_title)
+	    name = re.sub(r'\s+', '', params['title'])
+            cmp = cls(name=name)
 
             for attr in cls._defaults:
                 try:
-                    cleaned_param = re.sub(r'\s+', ' ', params[attr], flags=re.UNICODE)
-                    cleaned_param = cleaned_param.strip()
-                    cmp.__setattr__(attr, cleaned_param)
+                    cmp.__setattr__(attr, params[attr])
                 except KeyError:
                     g.log.error("course: %s not found in %s", attr, params['title']);
             cmp._commit()
 
             #clear cache
-            cls._by_name(name=cleaned_title, _update = True)
-            cls._by_name(name=cleaned_title, allow_deleted = True, _update = True)
+            cls._by_name(name, _update = True)
+            cls._by_name(name, allow_deleted = True, _update = True)
             return cmp
 
     @classmethod
@@ -115,7 +114,7 @@ class Course(_Topic):
         subject='',
         description='',
         url='',
-        id='',
+        c_num='',
         sr_id='',
 	lang='en'
     )
@@ -125,7 +124,8 @@ class Chapter(_Topic):
     _nodb = False
     _defaults = dict(
 	title='',
-        id='',
+        c_num='',
+        ch_num='',
         course_id=''
     )
     _essentials = ('title', 'id')    
@@ -136,7 +136,9 @@ class Lesson(_Topic):
 	title='',
         url='',
         embed_url='',
-        id='',
+        c_num='',
+        ch_num='',
+        l_num='',
         chapter_id='',
         course_id = '',
         hashcode = ''
