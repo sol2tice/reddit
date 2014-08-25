@@ -1,0 +1,709 @@
+[
+    {
+        "chapters": [
+            {
+                "ch_num": 1,
+                "lessons": [
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/a1f1q4po3a?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "a1f1q4po3a",
+                        "l_num": 1,
+                        "title": "What is Energy? - Definition and Significance in Nature - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/what-is-energy-definition-and-significance-in-nature.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/c41nf75kjq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "c41nf75kjq",
+                        "l_num": 2,
+                        "title": "Kinetic Energy to Potential Energy: Relationship in Different Energy Types",
+                        "url": "http://education-portal.com/academy/lesson/kinetic-energy-to-potential-energy-relationship-in-different-energy-types.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/xkn3owmwwx?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "xkn3owmwwx",
+                        "l_num": 3,
+                        "title": "First Law of Thermodynamics: Law of Conservation of Energy - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/first-law-of-thermodynamics-law-of-conservation-of-energy.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/dg9efttwal?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "dg9efttwal",
+                        "l_num": 4,
+                        "title": "Second Law of Thermodynamics: Entropy and Systems - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/second-law-of-thermodynamics-entropy-and-systems.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/shaaufjkk1?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "shaaufjkk1",
+                        "l_num": 5,
+                        "title": "What is Mechanical Energy? - Definition & Examples - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/what-are-the-types-of-energy.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/rziq1ku9k4?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "rziq1ku9k4",
+                        "l_num": 6,
+                        "title": "What is Thermal Energy? - Definition & Examples - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/what-is-thermal-energy-definition-examples.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6fy9429q9a?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "6fy9429q9a",
+                        "l_num": 7,
+                        "title": "What is Radiant Energy? - Definition & Examples - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/what-is-radiant-energy-definition-examples.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/tixq9z3fwv?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "tixq9z3fwv",
+                        "l_num": 8,
+                        "title": "What is Chemical Energy? - Definition & Examples - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/what-is-chemical-energy-definition-examples.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/p5qjkpovpx?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "p5qjkpovpx",
+                        "l_num": 9,
+                        "title": "What is Electrical Energy? - Definition & Examples - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/what-is-electric-energy-definition-examples.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6pvk2aybds?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "6pvk2aybds",
+                        "l_num": 10,
+                        "title": "What is Nuclear Energy? - Definition & Examples - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/what-is-nuclear-energy-definition-examples.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/yy27l8p26s?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "yy27l8p26s",
+                        "l_num": 11,
+                        "title": "How to Calculate Specific Heat Capacity for Different Substances - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/how-to-calculate-specific-heat-capacity-for-different-substances.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/h11nyrv2c5?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "h11nyrv2c5",
+                        "l_num": 12,
+                        "title": "Changes in Heat and Energy Diagrams - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/changes-in-heat-and-energy-diagrams.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/svleh00pxt?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "svleh00pxt",
+                        "l_num": 13,
+                        "title": "Energy and Life: The Transformation of Energy in Living Organisms - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/energy-and-life-the-transformation-of-energy-in-living-organisms.html"
+                    }
+                ],
+                "title": "Fundamentals of Thermodynamics"
+            },
+            {
+                "ch_num": 2,
+                "lessons": [
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6vyrjt4mer?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "6vyrjt4mer",
+                        "l_num": 1,
+                        "title": "Speed and Velocity: Concepts and Formulas - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/speed-and-velocity-concepts-and-formulas.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/pqikzjptm8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "pqikzjptm8",
+                        "l_num": 2,
+                        "title": "What is Acceleration? - Definition and Formula - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/what-is-acceleration-definition-and-formula.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/sr2y91wwmo?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "sr2y91wwmo",
+                        "l_num": 3,
+                        "title": "Implications of Mechanics on Objects - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/implications-of-mechanics-on-objects.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ylvpbj1y85?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ylvpbj1y85",
+                        "l_num": 4,
+                        "title": "Newton's First Law of Motion: Examples of the Effect of Force on Motion",
+                        "url": "http://education-portal.com/academy/lesson/newtons-first-law-of-motion-examples-of-the-effect-of-force-on-motion.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/41x5l5n897?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "41x5l5n897",
+                        "l_num": 5,
+                        "title": "Newton's Second Law of Motion: The Relationship Between Force and Acceleration",
+                        "url": "http://education-portal.com/academy/lesson/newtons-second-law-of-motion-the-relationship-between-force-and-acceleration.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/wkq7389phx?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "wkq7389phx",
+                        "l_num": 6,
+                        "title": "Newton's Third Law of Motion: Examples of the Relationship Between Two Forces",
+                        "url": "http://education-portal.com/academy/lesson/newtons-third-law-of-motion-examples-of-the-relationship-between-two-forces.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/a3nun59x8j?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "a3nun59x8j",
+                        "l_num": 7,
+                        "title": "Newton's Laws and Weight, Mass & Gravity - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/newtons-laws-and-weight-mass-gravity.html"
+                    }
+                ],
+                "title": "Mechanics"
+            },
+            {
+                "ch_num": 3,
+                "lessons": [
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/n7a9ukkmfc?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "n7a9ukkmfc",
+                        "l_num": 1,
+                        "title": "Electric Charge and Force: Definition, Repulsion & Attraction - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/electric-charge-and-force-definition-repulsion-attraction.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/d484oej6at?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "d484oej6at",
+                        "l_num": 2,
+                        "title": "Electric Force Fields and the Significance of Arrow Direction & Spacing",
+                        "url": "http://education-portal.com/academy/lesson/electric-force-fields-and-the-significance-of-arrow-direction-spacing.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/zjw13e0h64?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "zjw13e0h64",
+                        "l_num": 3,
+                        "title": "Coulomb's Law: Variables Affecting the Force Between Two Charged Particles",
+                        "url": "http://education-portal.com/academy/lesson/coulombs-law-variables-affecting-the-force-between-two-charged-particles.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/it4093ww43?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "it4093ww43",
+                        "l_num": 4,
+                        "title": "Electric Potential: Charge Collections and Volt Unit - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/electric-potential-charge-collections-and-volt-unit.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/w5f4qkr5hn?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "w5f4qkr5hn",
+                        "l_num": 5,
+                        "title": "Insulators and Conductors: Examples, Definitions & Qualities - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/insulators-and-conductors-examples-definitions-qualities.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/325khotlmg?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "325khotlmg",
+                        "l_num": 6,
+                        "title": "Voltage Sources: Energy Conversion and Examples - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/voltage-sources-energy-conversion-and-examples.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/05wjhvdly3?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "05wjhvdly3",
+                        "l_num": 7,
+                        "title": "What is Electric Current? - Definition, Unit & Types - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/what-is-electric-current-definition-unit-types.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ta44xn84te?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ta44xn84te",
+                        "l_num": 8,
+                        "title": "Electrical Resistance: Definition, Unit & Variables - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/electrical-resistance-definition-unit-variables.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/5v0r0vuatt?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "5v0r0vuatt",
+                        "l_num": 9,
+                        "title": "Ohm's Law: Definition & Relationship Between Voltage, Current & Resistance",
+                        "url": "http://education-portal.com/academy/lesson/ohms-law-definition-relationship-between-voltage-current-resistance.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/jz0xxuewf7?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "jz0xxuewf7",
+                        "l_num": "10",
+                        "title": "Electric Circuit Fundamentals: Components & Types",
+                        "url": "/academy/lesson/electric-circuit-fundamentals-components-types.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/m7vktkf8p3?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "m7vktkf8p3",
+                        "l_num": 11,
+                        "title": "What is Electric Power? - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/what-is-electric-power.html"
+                    }
+                ],
+                "title": "Electricity Concepts"
+            },
+            {
+                "ch_num": 4,
+                "lessons": [
+                    {
+                        "ch_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/nfbkap8yto?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "nfbkap8yto",
+                        "l_num": 1,
+                        "title": "Magnetic Force: Definition, Poles & Dipoles - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/magnetic-force-definition-poles-dipoles.html"
+                    },
+                    {
+                        "ch_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/5arwml2ef1?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "5arwml2ef1",
+                        "l_num": 2,
+                        "title": "What is a Magnetic Field?",
+                        "url": "/academy/lesson/what-is-a-magnetic-field.html"
+                    },
+                    {
+                        "ch_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0bsxhd30nx?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "0bsxhd30nx",
+                        "l_num": 3,
+                        "title": "How Magnetic Fields Are Created - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/how-magnetic-fields-are-created.html"
+                    },
+                    {
+                        "ch_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/wfteheb0vk?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "wfteheb0vk",
+                        "l_num": 2,
+                        "l_num": "4",
+                        "title": "How Magnetic Forces Affect Moving Charges",
+                        "url": "/academy/lesson/how-magnetic-forces-affect-moving-charges.html"
+                    },
+                    {
+                        "ch_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/yftiypslez?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "yftiypslez",
+                        "l_num": 2,
+                        "l_num": "5",
+                        "title": "Electromagnetic Induction: Definition & Variables that Affect Induction",
+                        "url": "/academy/lesson/electromagnetic-induction-definition-variables-that-affect-induction.html"
+                    },
+                    {
+                        "ch_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ffgjnupkxi?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ffgjnupkxi",
+                        "l_num": 6,
+                        "title": "Electromagnetic Induction: Conductor to Conductor & Transformers - Intro to Natural Sciences Video",
+                        "url": "http://education-portal.com/academy/lesson/electromagnetic-induction-conductor-to-conductor-transformers.html"
+                    }
+                ],
+                "title": "Magnetism Concepts"
+            },
+            {
+                "ch_num": 5,
+                "lessons": [
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/os4lqw6vsl?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "os4lqw6vsl",
+                        "l_num": 1,
+                        "title": "Vibrations and Waves: Energy and Motion",
+                        "url": "http://education-portal.com/academy/lesson/vibrations-and-waves-wavelength-amplitude-period-frequency-speed.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7xq1ivbgg6?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "7xq1ivbgg6",
+                        "l_num": 2,
+                        "title": "Wave Parameters: Wavelength, Amplitude, Period, Frequency & Speed",
+                        "url": "http://education-portal.com/academy/lesson/wave-parameters-wavelength-amplitude-period-frequency-speed.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/h2f8259ijn?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "h2f8259ijn",
+                        "l_num": 3,
+                        "title": "Transverse & Longitudinal Waves: Definition & Examples",
+                        "url": "http://education-portal.com/academy/lesson/transverse-longitudinal-waves-definition-examples.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/5f4zuh0eeb?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "5f4zuh0eeb",
+                        "l_num": 4,
+                        "title": "What is Sound? - Definition and Factors Affecting the Speed of Sound",
+                        "url": "http://education-portal.com/academy/lesson/what-is-sound-definition-wave-parameters-pitch-volume.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ey6d5j9v0m?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ey6d5j9v0m",
+                        "l_num": 5,
+                        "title": "Pitch and Volume in Sound Waves",
+                        "url": "http://education-portal.com/academy/lesson/pitch-and-volume-in-sound-waves.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ho9ri24e0g?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ho9ri24e0g",
+                        "l_num": 6,
+                        "title": "Electromagnetic Waves: Definition, Sources & Properties",
+                        "url": "http://education-portal.com/academy/lesson/electromagnetic-spectrum-and-waves-definition-categories.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/o5dp5oei9s?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "o5dp5oei9s",
+                        "l_num": 7,
+                        "title": "The 7 Major Regions of the Electromagnetic Spectrum",
+                        "url": "http://education-portal.com/academy/lesson/the-7-major-regions-of-the-electromagnetic-spectrum.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/t8s9q8q2lg?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "t8s9q8q2lg",
+                        "l_num": 8,
+                        "title": "The Nature of Light: Origin, Spectrum & Color Frequency",
+                        "url": "http://education-portal.com/academy/lesson/the-nature-of-light-origin-spectrum-color-frequency.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/bwhxpnhprx?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "bwhxpnhprx",
+                        "l_num": 9,
+                        "title": "Reflection: Angle of Incidence and Curved Surfaces",
+                        "url": "http://education-portal.com/academy/lesson/reflection-definition-angles-of-incidence-diffuse-reflection.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/y485ubmoxk?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "y485ubmoxk",
+                        "l_num": 10,
+                        "title": "Diffuse Reflection: Definition, Examples & Surfaces",
+                        "url": "http://education-portal.com/academy/lesson/diffuse-reflection-definition-examples-surfaces.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/mxfxqbf4jd?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "mxfxqbf4jd",
+                        "l_num": 11,
+                        "title": "Resonance: Definition & Transmission of Waves",
+                        "url": "http://education-portal.com/academy/lesson/resonance-definition-transmission-of-waves.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0bcvf7jqjo?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "0bcvf7jqjo",
+                        "l_num": 12,
+                        "title": "Transparent and Opaque Materials in Electromagnetic Waves",
+                        "url": "http://education-portal.com/academy/lesson/transparent-and-opaque-materials-in-electromagnetic-waves.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/asgjlo1uja?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "asgjlo1uja",
+                        "l_num": 13,
+                        "title": "Color: White Light, Reflection & Absorption",
+                        "url": "http://education-portal.com/academy/lesson/color-white-light-reflection-absorption.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7reomv13gk?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "7reomv13gk",
+                        "l_num": 14,
+                        "title": "Refraction & Dispersion: Definition, Snell's Law & Index of Refraction",
+                        "url": "http://education-portal.com/academy/lesson/refraction-dispersion-definition-snells-law-index-of-refraction.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8p7mjjjiep?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "8p7mjjjiep",
+                        "l_num": 15,
+                        "title": "Diffraction: Relation to Sound & Light and Effects of Wavelength",
+                        "url": "http://education-portal.com/academy/lesson/diffraction-relation-to-sound-light-and-effects-on-wavelength.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/on0kunnnnd?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "on0kunnnnd",
+                        "l_num": 16,
+                        "title": "Constructive and Destructive Interference",
+                        "url": "http://education-portal.com/academy/lesson/constructive-and-destructive-interference.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/bhau5xtt8f?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "bhau5xtt8f",
+                        "l_num": 17,
+                        "title": "The Doppler Effect: Definition, Examples & Applications",
+                        "url": "http://education-portal.com/academy/lesson/the-doppler-effect-definition-examples-applications.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/16pubsgfk1?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "16pubsgfk1",
+                        "l_num": 18,
+                        "title": "Wave-Particle Duality: Concept, Explanation & Examples",
+                        "url": "http://education-portal.com/academy/lesson/wave-particle-duality-concept-explanation-examples.html"
+                    }
+                ],
+                "title": "Waves, Sound, and Light"
+            },
+            {
+                "ch_num": 6,
+                "lessons": [
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0e2eeb287b?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "0e2eeb287b",
+                        "l_num": 1,
+                        "title": "The Atom",
+                        "url": "http://education-portal.com/academy/lesson/the-atom.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/d2b3ea99df?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "d2b3ea99df",
+                        "l_num": 2,
+                        "title": "Early Atomic Theory:  Dalton, Thomson, Rutherford and Millikan",
+                        "url": "http://education-portal.com/academy/lesson/early-atomic-theory-dalton-thompson-rutherford-and-millikan.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/5a77c28f68?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "5a77c28f68",
+                        "l_num": 3,
+                        "title": "Atomic Number and Mass Number",
+                        "url": "http://education-portal.com/academy/lesson/atomic-number-and-mass-number.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ekpf0p6y15?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ekpf0p6y15",
+                        "l_num": 4,
+                        "title": "Isotopes and Average Atomic Mass",
+                        "url": "http://education-portal.com/academy/lesson/isotopes-and-calculation-of-a-weighted-average.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/89jcwgi9vd?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "89jcwgi9vd",
+                        "l_num": 5,
+                        "title": "Electron Configurations in Atomic Energy Levels",
+                        "url": "http://education-portal.com/academy/lesson/electron-configurations-in-atomic-energy-levels.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/3lihyng0cm?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "3lihyng0cm",
+                        "l_num": 6,
+                        "title": "Four Quantum Numbers: Principal, Angular Momentum, Magnetic & Spin",
+                        "url": "http://education-portal.com/academy/lesson/quantum-numbers-energy-angular-momentum-magnetic-moment-and-spin.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ctl4ngey5f?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ctl4ngey5f",
+                        "l_num": 7,
+                        "title": "The Bohr Model and Atomic Spectra",
+                        "url": "/http://education-portal.comacademy/lesson/the-bohr-model-and-atomic-spectra.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/d13f9f9b80?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "d13f9f9b80",
+                        "l_num": 8,
+                        "title": "Matter: Physical and Chemical Properties",
+                        "url": "http://education-portal.com/academy/lesson/matter-physical-and-chemical-properties.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6j6nxeeymy?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "6j6nxeeymy",
+                        "l_num": 9,
+                        "title": "States of Matter: Solids, Liquids, Gases, & Plasma",
+                        "url": "http://education-portal.com/academy/lesson/states-of-matter-solids-liquids-gases-plasma.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8225b9e19e?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "8225b9e19e",
+                        "l_num": 10,
+                        "title": "States of Matter and Chemical Versus Physical Changes to Matter",
+                        "url": "http://education-portal.com/academy/lesson/states-of-matter-and-chemical-versus-physical-changes-to-matter.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/4i4k99h0i0?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "4i4k99h0i0",
+                        "l_num": 11,
+                        "title": "Phase Change: Evaporation, Condensation, Freezing, Melting, Sublimation & Deposition",
+                        "url": "http://education-portal.com/academy/lesson/phase-change-evaporation-condensation-freezing-melting.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/48whv944ir?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "48whv944ir",
+                        "l_num": 12,
+                        "title": "Common Chemical Reactions and Energy Change",
+                        "url": "http://education-portal.com/academy/lesson/common-chemical-reactions-and-energy-change.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/xlkognsfhz?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "xlkognsfhz",
+                        "l_num": 13,
+                        "title": "Avogadro's Number: Using the Mole to Count Atoms",
+                        "url": "http://education-portal.com/academy/lesson/avogardos-number-using-the-mole-to-count-atoms.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/aunjk6og81?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "aunjk6og81",
+                        "l_num": 14,
+                        "title": "Nuclear Reaction: Definition, Examples & Quiz",
+                        "url": "/academy/lesson/nuclear-reaction-definition-examples-quiz.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/e9zy1jd2ho?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "e9zy1jd2ho",
+                        "l_num": 15,
+                        "title": "Endothermic and Exothermic Reactions",
+                        "url": "http://education-portal.com/academy/lesson/endothermic-and-exothermic-reactions.html"
+                    }
+                ],
+                "title": "The Atom & Matter"
+            },
+            {
+                "ch_num": 7,
+                "lessons": [
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/3f1rb21771?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "3f1rb21771",
+                        "l_num": 1,
+                        "title": "Types of Radioactive Decay and Their Effect on the Nucleus",
+                        "url": "http://education-portal.com/academy/lesson/types-of-radioactive-decay-and-their-effect-on-the-nucleus.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6qp2cv6vpp?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "6qp2cv6vpp",
+                        "l_num": 2,
+                        "title": "Balancing Nuclear Equations & Predicting the Product of a Nuclear Reaction",
+                        "url": "http://education-portal.com/academy/lesson/balancing-nuclear-equations-predicting-the-product-of-a-nuclear-reaction.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7ve6ylexxr?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "7ve6ylexxr",
+                        "l_num": 3,
+                        "title": "Half-life: Calculating Radioactive Decay and Interpreting Decay Graphs",
+                        "url": "http://education-portal.com/academy/lesson/half-life-calculating-radioactive-decay-and-interpreting-decay-graphs.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/eluyrtmct4?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "eluyrtmct4",
+                        "l_num": 4,
+                        "title": "Mass-Energy Conversion, Mass Defect and Nuclear Binding Energy",
+                        "url": "http://education-portal.com/academy/lesson/mass-energy-conversion-mass-defect-and-nuclear-binding-energy.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/sbusz4ey1g?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "sbusz4ey1g",
+                        "l_num": 5,
+                        "title": "Fusion, Fission, Carbon Dating, Tracers & Imaging: Applications of Nuclear Chemistry",
+                        "url": "http://education-portal.com/academy/lesson/fusion-fission-carbon-dating-tracers-imaging-applications-of-nuclear-chemistry.html"
+                    }
+                ],
+                "title": "Nuclear and Particle Physics"
+            },
+            {
+                "ch_num": 8,
+                "lessons": [
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6uhyokckhg?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "6uhyokckhg",
+                        "l_num": 1,
+                        "title": "Classical Relativity: Distance and Time Relation to the Observer",
+                        "url": "http://education-portal.com/academy/lesson/classical-relativity-distance-and-time-relation-to-the-observer.html"
+                    },
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ug039rxfe8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ug039rxfe8",
+                        "l_num": 2,
+                        "title": "Light and Relativity: Breakdown of Classical Relativity with Light Example",
+                        "url": "http://education-portal.com/academy/lesson/light-and-relativity-breakdown-of-classical-relativity-with-light-example.html"
+                    },
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/opeoboswgs?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "opeoboswgs",
+                        "l_num": 3,
+                        "title": "Time Dilation: Description, Explanation & Examples",
+                        "url": "http://education-portal.com/academy/lesson/time-dilation-description-explanation-examples.html"
+                    },
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/529zlsy1gy?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "529zlsy1gy",
+                        "l_num": 4,
+                        "title": "Space Contraction: Shortening Distance for Fast Moving Objects",
+                        "url": "http://education-portal.com/academy/lesson/space-contraction-shortening-distance-for-fast-moving-objects.html"
+                    },
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/cb88kp5qi8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "cb88kp5qi8",
+                        "l_num": 5,
+                        "title": "Mass and Energy: Description and Interchangeable Relationship",
+                        "url": "http://education-portal.com/academy/lesson/mass-and-energy-description-and-interchangeable-relationship.html"
+                    },
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/68kxomp7lp?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "68kxomp7lp",
+                        "l_num": 6,
+                        "title": "General and Special Relativity: Theory and Examples",
+                        "url": "http://education-portal.com/academy/lesson/general-and-special-relativity-theory-and-examples.html"
+                    }
+                ],
+                "title": "Relativity"
+            }
+        ],
+        "title": "\n        SAT Subject Test Physics: Practice and Study Guide\n    ",
+        "url": "http://education-portal.com/academy/course/sat-subject-test-physics.html",
+        "subject": "SAT Physics",
+        "description":"Sat prep course by education-portal.com. Total 8 chapters and 81 lessons",
+        "c_num": 2
+    }
+]

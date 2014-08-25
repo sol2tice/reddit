@@ -1,0 +1,931 @@
+[
+    {
+        "chapters": [
+            {
+                "ch_num": 1,
+                "lessons": [
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/017ac022cb?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "017ac022cb",
+                        "l_num": 1,
+                        "title": "The Metric System: Units and Conversion",
+                        "url": "http://education-portal.com/academy/lesson/the-metric-system-units-and-conversion.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/65245b37b2?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "65245b37b2",
+                        "l_num": 2,
+                        "title": "Unit Conversion and Dimensional Analysis",
+                        "url": "http://education-portal.com/academy/lesson/unit-conversion-and-dimensional-analysis.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ae6c9ecf05?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ae6c9ecf05",
+                        "l_num": 3,
+                        "title": "Significant Figures and Scientific Notation",
+                        "url": "http://education-portal.com/academy/lesson/significant-figures-and-scientific-notation.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/4e8073ef37?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "4e8073ef37",
+                        "l_num": 4,
+                        "title": "Chemistry Lab Equipment: Supplies, Glassware & More",
+                        "url": "http://education-portal.com/academy/lesson/chemistry-lab-equipment-supplies-glassware-more.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/d13f9f9b80?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "d13f9f9b80",
+                        "l_num": 5,
+                        "title": "Matter: Physical and Chemical Properties",
+                        "url": "http://education-portal.com/academy/lesson/matter-physical-and-chemical-properties.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8225b9e19e?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "8225b9e19e",
+                        "l_num": 6,
+                        "title": "States of Matter and Chemical Versus Physical Changes to Matter",
+                        "url": "http://education-portal.com/academy/lesson/states-of-matter-and-chemical-versus-physical-changes-to-matter.html"
+                    },
+                    {
+                        "ch_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/2a932e3103?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "2a932e3103",
+                        "l_num": 7,
+                        "title": "Chromatography, Distillation and Filtration: Methods of Separating Mixtures",
+                        "url": "http://education-portal.com/academy/lesson/states-of-matter-and-methods-of-separating-mixtures.html"
+                    }
+                ],
+                "title": "Experimental Chemistry and Introduction to Matter"
+            },
+            {
+                "ch_num": 2,
+                "lessons": [
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/5a77c28f68?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "5a77c28f68",
+                        "l_num": 1,
+                        "title": "Atomic Number and Mass Number",
+                        "url": "http://education-portal.com/academy/lesson/atomic-number-and-mass-number.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/d2b3ea99df?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "d2b3ea99df",
+                        "l_num": 2,
+                        "title": "Early Atomic Theory:  Dalton, Thomson, Rutherford and Millikan",
+                        "url": "http://education-portal.com/academy/lesson/early-atomic-theory-dalton-thompson-rutherford-and-millikan.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ekpf0p6y15?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ekpf0p6y15",
+                        "l_num": 3,
+                        "title": "Isotopes and Average Atomic Mass",
+                        "url": "http://education-portal.com/academy/lesson/isotopes-and-calculation-of-a-weighted-average.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/xlkognsfhz?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "xlkognsfhz",
+                        "l_num": 4,
+                        "title": "Avogadro's Number: Using the Mole to Count Atoms",
+                        "url": "http://education-portal.com/academy/lesson/avogardos-number-using-the-mole-to-count-atoms.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/89jcwgi9vd?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "89jcwgi9vd",
+                        "l_num": 5,
+                        "title": "Electron Configurations in Atomic Energy Levels",
+                        "url": "http://education-portal.com/academy/lesson/electron-configurations-in-atomic-energy-levels.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/3lihyng0cm?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "3lihyng0cm",
+                        "l_num": 6,
+                        "title": "Four Quantum Numbers: Principal, Angular Momentum, Magnetic & Spin",
+                        "url": "http://education-portal.com/academy/lesson/quantum-numbers-energy-angular-momentum-magnetic-moment-and-spin.html"
+                    },
+                    {
+                        "ch_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ctl4ngey5f?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ctl4ngey5f",
+                        "l_num": 7,
+                        "title": "The Bohr Model and Atomic Spectra",
+                        "url": "http://education-portal.com/academy/lesson/the-bohr-model-and-atomic-spectra.html"
+                    }
+                ],
+                "title": "Atom"
+            },
+            {
+                "ch_num": 3,
+                "lessons": [
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/on5xcfzx0c?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "on5xcfzx0c",
+                        "l_num": 1,
+                        "title": "The Periodic Table: Properties of Groups and Periods",
+                        "url": "http://education-portal.com/academy/lesson/the-periodic-table-properties-of-groups-and-periods.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/h8zue86ioa?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "h8zue86ioa",
+                        "l_num": 2,
+                        "title": "Valence Electrons and Energy Levels of Atoms of Elements",
+                        "url": "http://education-portal.com/academy/lesson/valence-electrons-and-energy-levels-of-atoms-of-elements.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/nj4ttjmy8p?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "nj4ttjmy8p",
+                        "l_num": 3,
+                        "title": "Atomic and Ionic Radii: Trends Among Groups and Periods of the Periodic Table",
+                        "url": "http://education-portal.com/academy/lesson/atomic-and-ionic-radii-trends-among-groups-and-periods-of-the-periodic-table.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/3v07tv3gw7?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "3v07tv3gw7",
+                        "l_num": 4,
+                        "title": "Ionization Energy: Trends Among Groups and Periods of the Periodic Table",
+                        "url": "http://education-portal.com/academy/lesson/ionization-energy-trends-among-groups-and-periods-of-the-periodic-table.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/rtcsif6k9s?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "rtcsif6k9s",
+                        "l_num": 5,
+                        "title": "Electronegativity: Trends Among Groups and Periods of the Periodic Table",
+                        "url": "http://education-portal.com/academy/lesson/electronegativity-trends-among-groups-and-periods-of-the-periodic-table.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/qgnzf4qa2z?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "qgnzf4qa2z",
+                        "l_num": 6,
+                        "title": "The Diagonal Relationship, Metallic Character, and Boiling Point",
+                        "url": "http://education-portal.com/academy/lesson/the-diagonal-relationship-boiling-point-and-metallic-properties.html"
+                    },
+                    {
+                        "ch_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/67lsbz2j11?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "67lsbz2j11",
+                        "l_num": 7,
+                        "title": "Transition Metals vs. Main Group Elements: Properties and Differences",
+                        "url": "http://education-portal.com/academy/lesson/transition-metals-vs-main-group-elements-properties-and-differences.html"
+                    }
+                ],
+                "title": "The Periodic Table"
+            },
+            {
+                "ch_num": 4,
+                "lessons": [
+                    {
+                        "ch_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/3f1rb21771?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "3f1rb21771",
+                        "l_num": 1,
+                        "title": "Types of Radioactive Decay and Their Effect on the Nucleus",
+                        "url": "http://education-portal.com/academy/lesson/types-of-radioactive-decay-and-their-effect-on-the-nucleus.html"
+                    },
+                    {
+                        "ch_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6qp2cv6vpp?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "6qp2cv6vpp",
+                        "l_num": 2,
+                        "title": "Balancing Nuclear Equations & Predicting the Product of a Nuclear Reaction",
+                        "url": "http://education-portal.com/academy/lesson/balancing-nuclear-equations-predicting-the-product-of-a-nuclear-reaction.html"
+                    },
+                    {
+                        "ch_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7ve6ylexxr?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "7ve6ylexxr",
+                        "l_num": 3,
+                        "title": "Half-life: Calculating Radioactive Decay and Interpreting Decay Graphs",
+                        "url": "http://education-portal.com/academy/lesson/half-life-calculating-radioactive-decay-and-interpreting-decay-graphs.html"
+                    },
+                    {
+                        "ch_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/eluyrtmct4?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "eluyrtmct4",
+                        "l_num": 4,
+                        "title": "Mass-Energy Conversion, Mass Defect and Nuclear Binding Energy",
+                        "url": "http://education-portal.com/academy/lesson/mass-energy-conversion-mass-defect-and-nuclear-binding-energy.html"
+                    },
+                    {
+                        "ch_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/sbusz4ey1g?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "sbusz4ey1g",
+                        "l_num": 5,
+                        "title": "Fusion, Fission, Carbon Dating, Tracers & Imaging: Applications of Nuclear Chemistry",
+                        "url": "http://education-portal.com/academy/lesson/fusion-fission-carbon-dating-tracers-imaging-applications-of-nuclear-chemistry.html"
+                    }
+                ],
+                "title": "Nuclear Chemistry"
+            },
+            {
+                "ch_num": 5,
+                "lessons": [
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/2weadpn6jk?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "2weadpn6jk",
+                        "l_num": 1,
+                        "title": "The Octet Rule and Lewis Structures of Atoms",
+                        "url": "http://education-portal.com/academy/lesson/understanding-ions-and-drawing-lewis-structures.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/f2xqyfq486?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "f2xqyfq486",
+                        "l_num": 2,
+                        "title": "Ions: Predicting Formation, Charge, and Formulas of Ions",
+                        "url": "http://education-portal.com/academy/lesson/ions-predicting-formation-charge-and-formulas-of-ions.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ztxpfbz1q6?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ztxpfbz1q6",
+                        "l_num": 3,
+                        "title": "Ionic Compounds: Formation, Lattice Energy and Properties",
+                        "url": "http://education-portal.com/academy/lesson/ionic-compounds-formation-lattice-energy-and-properties.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/jo2yb8lqfs?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "jo2yb8lqfs",
+                        "l_num": 4,
+                        "title": "Naming Ionic Compounds: Simple Binary, Transition Metal & Polyatomic Ion Compounds",
+                        "url": "http://education-portal.com/academy/lesson/naming-ionic-compounds-simple-binary-transition-metal-polyatomic-ion-compounds.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/trifib06gn?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "trifib06gn",
+                        "l_num": 5,
+                        "title": "Writing Ionic Compound Formulas: Binary & Polyatomic Compounds",
+                        "url": "http://education-portal.com/academy/lesson/writing-ionic-compound-formulas-binary-polyatomic-compounds.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/m7l43cfbbu?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "m7l43cfbbu",
+                        "l_num": 6,
+                        "title": "Covalent Compounds: Properties, Naming & Formation",
+                        "url": "http://education-portal.com/academy/lesson/covalent-compounds-properties-naming-formation.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ajzwrdoo72?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ajzwrdoo72",
+                        "l_num": 7,
+                        "title": "Lewis Structures: Single, Double & Triple Bonds",
+                        "url": "http://education-portal.com/academy/lesson/lewis-structures-single-double-triple-bonds.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/837is2fziv?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "837is2fziv",
+                        "l_num": 8,
+                        "title": "Lewis Dot Structures: Polyatomic Ions and Resonance Structures",
+                        "url": "http://education-portal.com/academy/lesson/lewis-dot-structures-polyatomic-ions-and-resonance-structures.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/u4ld1lvn36?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "u4ld1lvn36",
+                        "l_num": 9,
+                        "title": "Covalent Bonds: Predicting Bond Polarity and Ionic Character",
+                        "url": "http://education-portal.com/academy/lesson/covalent-bonds-predicting-bond-polarity-and-ionic-character.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/i1g0epwvzt?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "i1g0epwvzt",
+                        "l_num": 10,
+                        "title": "VSEPR Theory and Dipole Moments",
+                        "url": "http://education-portal.com/academy/lesson/vsepr-theory-and-dipole-moments.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/2ev26jrcyt?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "2ev26jrcyt",
+                        "l_num": 11,
+                        "title": "Hydrogen Bonding, Dipole-Dipole & Ion-Dipole Forces: Strong Intermolecular Forces",
+                        "url": "http://education-portal.com/academy/lesson/hydrogen-bonding-dipole-dipole-ion-dipole-forces-strong-intermolecular-forces.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/69ni09s27t?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "69ni09s27t",
+                        "l_num": 12,
+                        "title": "London Dispersion Forces (Van Der Waal's Forces): Weak Intermolecular Forces",
+                        "url": "http://education-portal.com/academy/lesson/london-dispersion-forces-van-der-waals-forces-weak-intermolecular-forces.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ls0gou6fgh?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ls0gou6fgh",
+                        "l_num": 13,
+                        "title": "Using Orbital Hybridization and Valence Bond Theory  to Predict Molecular Shape",
+                        "url": "http://education-portal.com/academy/lesson/using-orbital-hybridization-and-valence-bond-theory-to-predict-molecular-shape.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/9o1yfndi67?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "9o1yfndi67",
+                        "l_num": 14,
+                        "title": "Molecular Orbital Theory: Tutorial and Diagrams",
+                        "url": "http://education-portal.com/academy/lesson/molecular-orbital-theory-tutorial-and-diagrams.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/f1h7gisgqw?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "f1h7gisgqw",
+                        "l_num": 15,
+                        "title": "Metallic Bonding: The Electron-Sea Model & Why Metals Are Good Electrical Conductors",
+                        "url": "http://education-portal.com/academy/lesson/metallic-bonding-the-electron-sea-model-why-metals-are-good-electrical-conductors.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ffpv7qj8r7?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ffpv7qj8r7",
+                        "l_num": 16,
+                        "title": "Intramolecular Bonding and Identification of Organic and Inorganic Macromolecules",
+                        "url": "http://education-portal.com/academy/lesson/intramolecular-bonding-and-identification-of-organic-and-inorganic-macromolecules.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/9aeo1csia2?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "9aeo1csia2",
+                        "l_num": 17,
+                        "title": "Organic Molecules: Alkanes, Alkenes, Aromatic Hydrocarbons and Isomers",
+                        "url": "http://education-portal.com/academy/lesson/organic-molecules-alkanes-alkenes-aromatic-hydrocarbons-and-isomers.html"
+                    },
+                    {
+                        "ch_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6o3evbi79d?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "6o3evbi79d",
+                        "l_num": 18,
+                        "title": "Functional Groups in Organic Molecules",
+                        "url": "http://education-portal.com/academy/lesson/functional-groups-in-organic-molecules.html"
+                    }
+                ],
+                "title": "Chemical Bonding"
+            },
+            {
+                "ch_num": 6,
+                "lessons": [
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/trvvdbzddq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "trvvdbzddq",
+                        "l_num": 1,
+                        "title": "The Kinetic Molecular Theory: Properties of Solids and Liquids",
+                        "url": "http://education-portal.com/academy/lesson/the-kinetic-molecular-theory-properties-of-solids-and-liquids.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/bdtz49ms60?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "bdtz49ms60",
+                        "l_num": 2,
+                        "title": "Phase Diagrams: Critical Point, Triple Point and Phase Equilibrium Boundaries",
+                        "url": "http://education-portal.com/academy/lesson/phase-diagrams-critical-point-triple-point-and-phase-equilibrium-boundaries.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/vk9k4sfqom?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "vk9k4sfqom",
+                        "l_num": 3,
+                        "title": "Phase Changes and Heating Curves",
+                        "url": "http://education-portal.com/academy/lesson/phase-changes-and-heating-curves.html"
+                    },
+                    {
+                        "ch_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/afgjs71bgy?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "afgjs71bgy",
+                        "l_num": 4,
+                        "title": "Crystal Structures and the Unit Cell",
+                        "url": "http://education-portal.com/academy/lesson/crystal-structures-and-the-unit-cell.html"
+                    }
+                ],
+                "title": "Liquids and Solids"
+            },
+            {
+                "ch_num": 7,
+                "lessons": [
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ft7tl3oemi?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ft7tl3oemi",
+                        "l_num": 1,
+                        "title": "The Kinetic Molecular Theory: Properties of Gases",
+                        "url": "http://education-portal.com/academy/lesson/the-kinetic-molecular-theory-properties-of-gases.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/2rp6wmpcml?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "2rp6wmpcml",
+                        "l_num": 2,
+                        "title": "Pressure: Definition, Units, and Conversions",
+                        "url": "http://education-portal.com/academy/lesson/pressure-and-temperature-conversions.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/q5ksnye36w?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "q5ksnye36w",
+                        "l_num": 3,
+                        "title": "Temperature Units: Converting Between Kelvins and Celsius",
+                        "url": "http://education-portal.com/academy/lesson/temperature-units-converting-between-kelvins-and-celsius.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/oul4u4a001?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "oul4u4a001",
+                        "l_num": 4,
+                        "title": "Dalton's Law of Partial Pressures: Calculating Partial & Total Pressures",
+                        "url": "http://education-portal.com/academy/lesson/daltons-law-of-partial-pressures-calculating-partial-total-pressures.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/5k4t1f8yfw?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "5k4t1f8yfw",
+                        "l_num": 5,
+                        "title": "The Boltzmann Distribution: Temperature and Kinetic Energy of Gases",
+                        "url": "http://education-portal.com/academy/lesson/the-boltzmann-distribution-temperature-and-kinetic-energy-of-gases.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/fctyh0rfip?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "fctyh0rfip",
+                        "l_num": 6,
+                        "title": "Diffusion and Effusion: Graham's Law",
+                        "url": "http://education-portal.com/academy/lesson/diffusion-and-effusion-grahams-law.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/4svgaamb16?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "4svgaamb16",
+                        "l_num": 7,
+                        "title": "Molar Volume: Using Avogadro's Law to Calculate the Quantity or Volume of a Gas",
+                        "url": "http://education-portal.com/academy/lesson/molar-volume-using-avogadros-law-to-calculate-the-quantity-or-volume-of-a-gas.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/xb70sawaxb?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "xb70sawaxb",
+                        "l_num": 8,
+                        "title": "Boyle's Law: Gas Pressure and Volume Relationship",
+                        "url": "http://education-portal.com/academy/lesson/boyles-charles-gay-lussacs-laws-pressure-volume-and-temperature-relationships.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/313bgxx3mj?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "313bgxx3mj",
+                        "l_num": 9,
+                        "title": "Charles' Law: Gas Volume and Temperature Relationship",
+                        "url": "http://education-portal.com/academy/lesson/charles-law-gas-pressure-and-temperature-relationship.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/84n5rpnyod?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "84n5rpnyod",
+                        "l_num": 10,
+                        "title": "Gay-Lussac's Law: Gas Pressure and Temperature Relationship",
+                        "url": "http://education-portal.com/academy/lesson/gay-lussacs-law-gas-pressure-and-temperature-relationship.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/oca10a0nf5?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "oca10a0nf5",
+                        "l_num": 11,
+                        "title": "The Ideal Gas Law and the Gas Constant",
+                        "url": "http://education-portal.com/academy/lesson/the-ideal-gas-law-and-the-gas-constant.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8fam298jzo?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "8fam298jzo",
+                        "l_num": 12,
+                        "title": "Using the Ideal Gas Law: Calculate Pressure, Volume, Temperature, or Quantity of a Gas",
+                        "url": "http://education-portal.com/academy/lesson/using-the-ideal-gas-law-to-predict-the-effect-of-changes-to-a-gas.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/wfo5w0d10g?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "wfo5w0d10g",
+                        "l_num": 13,
+                        "title": "Real Gases: Deviation From the Ideal Gas Laws",
+                        "url": "http://education-portal.com/academy/lesson/real-gases-deviation-from-the-ideal-gas-laws.html"
+                    },
+                    {
+                        "ch_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/n1xebc6idi?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "n1xebc6idi",
+                        "l_num": 14,
+                        "title": "Real Gases: Using the Van der Waals Equation",
+                        "url": "http://education-portal.com/academy/lesson/real-gases-using-the-van-der-waals-equation.html"
+                    }
+                ],
+                "title": "Gases"
+            },
+            {
+                "ch_num": 8,
+                "lessons": [
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ckn7lmhgcr?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ckn7lmhgcr",
+                        "l_num": 1,
+                        "title": "The Rate of Dissolution: Factors and Definition",
+                        "url": "http://education-portal.com/academy/lesson/the-rate-of-dissolution-factors-and-definition.html"
+                    },
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0u4t7ivyo7?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "0u4t7ivyo7",
+                        "l_num": 2,
+                        "title": "Solutions, Electrolytes and Nonelectrolytes",
+                        "url": "http://education-portal.com/academy/lesson/solutions-electrolytes-and-nonelectrolytes.html"
+                    },
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6f4zv8d4qa?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "6f4zv8d4qa",
+                        "l_num": 3,
+                        "title": "Solubility and Solubility Curves",
+                        "url": "http://education-portal.com/academy/lesson/solubility-and-solubility-curves.html"
+                    },
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/vndtqmwptmembedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "vndtqmwptm",
+                        "l_num": 4,
+                        "title": "Calculating Molarity and Molality Concentration",
+                        "url": "http://education-portal.com/academy/lesson/calculating-molarity-and-molality-concentration.html"
+                    },
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ubtfdxbn89?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ubtfdxbn89",
+                        "l_num": 5,
+                        "title": "Calculating Dilution of Solutions",
+                        "url": "http://education-portal.com/academy/lesson/calculating-dilution-of-solutions.html"
+                    },
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0oh4k6j0lp?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "0oh4k6j0lp",
+                        "l_num": 6,
+                        "title": "Using Colligative Properties to Determine Molar Mass",
+                        "url": "http://education-portal.com/academy/lesson/using-colligative-properties-to-determine-molar-mass.html"
+                    },
+                    {
+                        "ch_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/a3legie7dq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "a3legie7dq",
+                        "l_num": 7,
+                        "title": "Colligative Properties and Raoult's Law",
+                        "url": "http://education-portal.com/academy/lesson/colligative-properties-and-raoults-law.html"
+                    }
+                ],
+                "title": "Solutions"
+            },
+            {
+                "ch_num": 9,
+                "lessons": [
+                    {
+                        "ch_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/92bm33eyva?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "92bm33eyva",
+                        "l_num": 1,
+                        "title": "Chemical Reactions and Balancing Chemical Equations",
+                        "url": "http://education-portal.com/academy/lesson/chemical-reactions-and-balancing-chemical-equations.html"
+                    },
+                    {
+                        "ch_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/dad5nl9mre?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "dad5nl9mre",
+                        "l_num": 2,
+                        "title": "Mole-to-Mole Ratios and Calculations of a Chemical Equation",
+                        "url": "http://education-portal.com/academy/lesson/mole-to-mole-ratios-and-calculations-of-a-chemical-equation.html"
+                    },
+                    {
+                        "ch_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/33196j6kcz?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "33196j6kcz",
+                        "l_num": 3,
+                        "title": "Mass-to-Mass Stoichiometric Calculations",
+                        "url": "http://education-portal.com/academy/lesson/mass-to-mass-stoichiometric-calculations.html"
+                    },
+                    {
+                        "ch_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/9fkn4px7is?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "9fkn4px7is",
+                        "l_num": 4,
+                        "title": "Stoichiometry: Calculating Relative Quantities in a Gas or Solution",
+                        "url": "http://education-portal.com/academy/lesson/stoichiometry-calculating-relative-quantities-in-a-gas-or-solution.html"
+                    },
+                    {
+                        "ch_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/qc4jhwrkj2?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "qc4jhwrkj2",
+                        "l_num": 5,
+                        "title": "Limiting Reactants & Calculating Excess Reactants",
+                        "url": "http://education-portal.com/academy/lesson/limiting-reactants-calculating-excess-reactants.html"
+                    },
+                    {
+                        "ch_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/manven2igb?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "manven2igb",
+                        "l_num": 6,
+                        "title": "Calculating Reaction Yield and Percentage Yield from a Limiting Reactant",
+                        "url": "http://education-portal.com/academy/lesson/calculating-reaction-yield-and-percentage-yield-from-a-limiting-reactant.html"
+                    },
+                    {
+                        "ch_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/4h9zm1kvn2?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "4h9zm1kvn2",
+                        "l_num": 7,
+                        "title": "Calculating Percent Composition and Determining Empirical Formulas",
+                        "url": "http://education-portal.com/academy/lesson/calculating-percent-composition-and-determining-empirical-formulas.html"
+                    },
+                    {
+                        "ch_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/4upg5q22fi?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "4upg5q22fi",
+                        "l_num": 8,
+                        "title": "Hydrates: Determining the Chemical Formula From Empirical Data",
+                        "url": "http://education-portal.com/academy/lesson/hydrates-determining-the-chemical-formula-from-empirical-data.html"
+                    }
+                ],
+                "title": "Stoichiometry"
+            },
+            {
+                "ch_num": 10,
+                "lessons": [
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/cx1uetwcf9?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "cx1uetwcf9",
+                        "l_num": 1,
+                        "title": "Decomposition and Synthesis Reactions",
+                        "url": "http://education-portal.com/academy/lesson/decomposition-and-synthesis-reactions.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7k16luwefb?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "7k16luwefb",
+                        "l_num": 2,
+                        "title": "The Arrhenius Definition of Acids and Bases",
+                        "url": "http://education-portal.com/academy/lesson/the-arrhenius-definition-of-acids-and-bases.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/q46igt1z72?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "q46igt1z72",
+                        "l_num": 3,
+                        "title": "The Bronsted-Lowry and Lewis Definition of Acids and Bases",
+                        "url": "http://education-portal.com/academy/lesson/the-bronsted-lowry-and-lewis-definition-of-acids-and-bases.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/l5q0z1jiq0?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "l5q0z1jiq0",
+                        "l_num": 4,
+                        "title": "Neutralization and Acid-Base Reactions",
+                        "url": "http://education-portal.com/academy/lesson/neutralization-and-acid-base-reactions.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/1klp9hwsla?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "1klp9hwsla",
+                        "l_num": 5,
+                        "title": "Dissociation Constant and Autoionization of Water",
+                        "url": "http://education-portal.com/academy/lesson/dissociation-constant-and-autoionization-of-water.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/apb83gxosf?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "apb83gxosf",
+                        "l_num": 6,
+                        "title": "The pH Scale: Calculating the pH or pOH of a Solution",
+                        "url": "http://education-portal.com/academy/lesson/the-ph-scale-calculating-the-ph-or-poh-of-a-solution.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/77pk778ad9?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "77pk778ad9",
+                        "l_num": 7,
+                        "title": "Coordination Chemistry: Bonding in Coordinated Compounds",
+                        "url": "http://education-portal.com/academy/lesson/coordination-chemistry-bonding-in-coordinated-compounds.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/jhz4qnv1us?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "jhz4qnv1us",
+                        "l_num": 8,
+                        "title": "Precipitation Reactions: Predicting Precipitates and Net Ionic Equations",
+                        "url": "http://education-portal.com/academy/lesson/precipitation-reactions-predicting-precipitates-and-net-ionic-equations.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/p59i7ze0jy?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "p59i7ze0jy",
+                        "l_num": 9,
+                        "title": "Assigning Oxidation Numbers to Elements in a Chemical Formula",
+                        "url": "http://education-portal.com/academy/lesson/assigning-oxidation-numbers-to-elements-in-a-chemical-formula.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8filz5fzh1?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "8filz5fzh1",
+                        "l_num": 10,
+                        "title": "Balancing Redox Reactions and Identifying Oxidizing and Reducing Agents",
+                        "url": "http://education-portal.com/academy/lesson/balancing-redox-reactions-and-identifying-oxidizing-and-reducing-agents.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ipskq3j5wr?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ipskq3j5wr",
+                        "l_num": 11,
+                        "title": "The Activity Series: Predicting Products of Single Displacement Reactions",
+                        "url": "http://education-portal.com/academy/lesson/the-activity-series-predicting-products-of-single-displacement-reactions.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/9v8pi2ggnc?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "9v8pi2ggnc",
+                        "l_num": 12,
+                        "title": "Electrochemical Cells and Electrochemistry",
+                        "url": "http://education-portal.com/academy/lesson/electrochemical-cells-and-electrochemistry.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/mdbvh64rd8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "mdbvh64rd8",
+                        "l_num": 13,
+                        "title": "Cathode and Anode Half-Cell Reactions",
+                        "url": "http://education-portal.com/academy/lesson/cathode-and-anode-half-cell-reactions.html"
+                    },
+                    {
+                        "ch_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0vf3ze5tck?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "0vf3ze5tck",
+                        "l_num": 14,
+                        "title": "Writing and Balancing Combustion Reactions",
+                        "url": "http://education-portal.com/academy/lesson/writing-and-balancing-combustion-reactions.html"
+                    }
+                ],
+                "title": "Chemical Reactions"
+            },
+            {
+                "ch_num": 11,
+                "lessons": [
+                    {
+                        "ch_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/9btdqqj226?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "9btdqqj226",
+                        "l_num": 1,
+                        "title": "Equilibrium: Chemical and Dynamic",
+                        "url": "http://education-portal.com/academy/lesson/dynamic-equilibrium-physical-and-chemical.html"
+                    },
+                    {
+                        "ch_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/nvyr44kc4b?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "nvyr44kc4b",
+                        "l_num": 2,
+                        "title": "LeChatelier's Principle: Disruption and Re-Establishment of Equilibrium",
+                        "url": "http://education-portal.com/academy/lesson/lechateliers-principle-disruption-and-re-establishment-of-equilibrium.html"
+                    },
+                    {
+                        "ch_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/t3b816mwd6?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "t3b816mwd6",
+                        "l_num": 3,
+                        "title": "Equilibrium Constant (K) and Equilibrium Quotient (Q)",
+                        "url": "http://education-portal.com/academy/lesson/equilibrium-constant-k-and-equilibrium-quotient-q.html"
+                    },
+                    {
+                        "ch_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/p68nla3gky?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "p68nla3gky",
+                        "l_num": 4,
+                        "title": "Using a RICE Table in Equilibrium Calculations",
+                        "url": "http://education-portal.com/academy/lesson/using-a-rice-table-in-equilibrium-calculations.html"
+                    },
+                    {
+                        "ch_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/jfhykoycyu?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "jfhykoycyu",
+                        "l_num": 5,
+                        "title": "Solubility Equilibrium: Using a Solubility Constant (Ksp) in Calculations",
+                        "url": "http://education-portal.com/academy/lesson/solubility-equilibrium-using-a-solubility-constant-ksp-in-calculations.html"
+                    },
+                    {
+                        "ch_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ilq09um244?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "ilq09um244",
+                        "l_num": 6,
+                        "title": "The Common Ion Effect and Selective Precipitation",
+                        "url": "http://education-portal.com/academy/lesson/the-common-ion-effect-and-selective-precipitation.html"
+                    },
+                    {
+                        "ch_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/rpz1946k8a?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "rpz1946k8a",
+                        "l_num": 7,
+                        "title": "Acid-Base Equilibrium: Calculating the Ka or Kb of a Solution",
+                        "url": "http://education-portal.com/academy/lesson/acid-base-equilibrium-calculating-the-ka-or-kb-of-a-solution.html"
+                    },
+                    {
+                        "ch_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/mbx4xc2b0c?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "mbx4xc2b0c",
+                        "l_num": 8,
+                        "title": "Acid-Base Buffers: Calculating the pH of a Buffered Solution",
+                        "url": "http://education-portal.com/academy/lesson/acid-base-buffers-calculating-the-ph-of-a-buffered-solution.html"
+                    },
+                    {
+                        "ch_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/dfne2hr8od?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "dfne2hr8od",
+                        "l_num": 9,
+                        "title": "Titration of a Strong Acid or a Strong Base",
+                        "url": "http://education-portal.com/academy/lesson/titration-of-a-strong-acid-or-a-strong-base.html"
+                    },
+                    {
+                        "ch_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7xlqj7r5te?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "7xlqj7r5te",
+                        "l_num": 10,
+                        "title": "Titration Curves & Calculating pH During Titration",
+                        "url": "http://education-portal.com/academy/lesson/titration-curves-calculating-ph-during-titration.html"
+                    }
+                ],
+                "title": "Equilibrium"
+            },
+            {
+                "ch_num": 12,
+                "lessons": [
+                    {
+                        "ch_num": 12,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/epgf33usln?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "epgf33usln",
+                        "l_num": 1,
+                        "title": "Rate of a Chemical Reaction: Modifying Factors",
+                        "url": "http://education-portal.com/academy/lesson/rate-of-a-chemical-reaction-modfying-factors.html"
+                    },
+                    {
+                        "ch_num": 12,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6zyolmgfyo?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "6zyolmgfyo",
+                        "l_num": 2,
+                        "title": "Rate Constant and Rate Laws",
+                        "url": "http://education-portal.com/academy/lesson/rate-constant-and-rate-laws.html"
+                    },
+                    {
+                        "ch_num": 12,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/skcnzmx83e?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "skcnzmx83e",
+                        "l_num": 3,
+                        "title": "Rate of a Chemical Reaction: Effect of Temperature",
+                        "url": "http://education-portal.com/academy/lesson/rate-of-a-chemical-reaction-effect-of-temperature.html"
+                    },
+                    {
+                        "ch_num": 12,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8em2gj42oh?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "8em2gj42oh",
+                        "l_num": 4,
+                        "title": "Activation Energy and Catalysts",
+                        "url": "http://education-portal.com/academy/lesson/activation-energy-and-catalysts.html"
+                    },
+                    {
+                        "ch_num": 12,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/2hndtg30s3?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "hashcode": "2hndtg30s3",
+                        "l_num": 5,
+                        "title": "Reaction Mechanisms and The Rate Determining Step",
+                        "url": "http://education-portal.com/academy/lesson/reaction-mechanisms-and-the-rate-determining-step.html"
+                    }
+                ],
+                "title": "Kinetics"
+            }
+        ],
+        "title": "\n        SAT Subject Test Chemistry: Practice and Study Guide\n    ",
+        "url": "http://education-portal.com/academy/course/sat-subject-test-chemistry.html",
+        "subject": "SAT Chemistry",
+        "description":"Sat prep course by education-portal.com. Total 12 chapters and 106 lessons",
+        "c_num": 3
+    }
+]

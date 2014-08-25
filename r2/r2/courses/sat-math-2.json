@@ -1,0 +1,1663 @@
+[
+    {
+        "chapters": [
+            {
+                "ch_num": 1,
+                "lessons": [
+                    {
+                        "ch_num": 1,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/018f19aad8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What are the Different Types of Numbers?",
+                        "url": "http://education-portal.com/academy/lesson/classification-of-numbers.html",
+                        "hashcode": "018f19aad8"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ve02hj2bok?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What Is The Order of Operations in Math? - Definition & Examples",
+                        "url": "http://education-portal.com/academy/lesson/order-of-operations.html",
+                        "hashcode": "ve02hj2bok"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/uslii1gtaz?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Find the Prime Factorization of a Number",
+                        "url": "http://education-portal.com/academy/lesson/how-to-find-the-prime-factorization-of-a-number.html",
+                        "hashcode": "uslii1gtaz"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/4xfvcyht4l?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Find the Greatest Common Factor",
+                        "url": "http://education-portal.com/academy/lesson/how-to-find-the-greatest-common-factor.html",
+                        "hashcode": "4xfvcyht4l"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/o150xaba3f?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Find the Least Common Multiple",
+                        "url": "http://education-portal.com/academy/lesson/how-to-find-the-least-common-multiple.html",
+                        "hashcode": "o150xaba3f"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/k6vg6gxd8n?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to build and reduce fractions",
+                        "url": "http://education-portal.com/academy/lesson/how-to-build-and-reduce-fractions.html",
+                        "hashcode": "k6vg6gxd8n"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0qhlusfu2h?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Find Least Common Denominators",
+                        "url": "http://education-portal.com/academy/lesson/how-to-find-least-common-denominators.html",
+                        "hashcode": "0qhlusfu2h"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/oa6h6dmw0k?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Comparing and Ordering Fractions",
+                        "url": "http://education-portal.com/academy/lesson/comparing-and-ordering-fractions.html",
+                        "hashcode": "oa6h6dmw0k"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/yek1ge5449?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Estimation Problems using Fractions",
+                        "url": "http://education-portal.com/academy/lesson/estimation-problems-using-fractions.html",
+                        "hashcode": "yek1ge5449"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/g33hv0oq4k?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Solve Complex Fractions",
+                        "url": "http://education-portal.com/academy/lesson/complex-fractions.html",
+                        "hashcode": "g33hv0oq4k"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/qgtirl5mdh?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Calculations with Ratios and Proportions",
+                        "url": "http://education-portal.com/academy/lesson/ratios-and-proportions.html",
+                        "hashcode": "qgtirl5mdh"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 12,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/60zlrnijs2?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is a Percent? - Definition & Examples",
+                        "url": "http://education-portal.com/academy/lesson/what-is-a-percent.html",
+                        "hashcode": "60zlrnijs2"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 13,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/pdn8f3vfrj?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Changing Between Decimals and Percents",
+                        "url": "http://education-portal.com/academy/lesson/changing-between-decimals-and-percents.html",
+                        "hashcode": "pdn8f3vfrj"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 14,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/76yltdnfni?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Changing Between Decimals and Fractions",
+                        "url": "http://education-portal.com/academy/lesson/changing-between-decimals-and-fractions.html",
+                        "hashcode": "76yltdnfni"
+                    },
+                    {
+                        "ch_num": 1,
+                        "l_num": 15,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/1kfqc69ubq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Mathematical Sets: Elements, Intersections & Unions",
+                        "url": "http://education-portal.com/academy/lesson/mathematical-sets-elements-intersections-unions.html",
+                        "hashcode": "1kfqc69ubq"
+                    }
+                ],
+                "title": "Basic Math Review"
+            },
+            {
+                "ch_num": 2,
+                "lessons": [
+                    {
+                        "ch_num": 2,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/e00374vev2?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Evaluating Square Roots of Perfect Squares",
+                        "url": "http://education-portal.com/academy/lesson/evaluating-square-roots-of-perfect-squares.html",
+                        "hashcode": "e00374vev2"
+                    },
+                    {
+                        "ch_num": 2,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/rzcplg20dq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Estimating Square Roots",
+                        "url": "http://education-portal.com/academy/lesson/estimating-square-roots.html",
+                        "hashcode": "rzcplg20dq"
+                    },
+                    {
+                        "ch_num": 2,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/rzcplg20dq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Simplifying Square Roots When not a Perfect Square",
+                        "url": "http://education-portal.com/academy/lesson/simplifying-square-roots-when-not-a-perfect-square.html",
+                        "hashcode": "rzcplg20dq"
+                    },
+                    {
+                        "ch_num": 2,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/rzcplg20dq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Simplifying Expressions Containing Square Roots",
+                        "url": "http://education-portal.com/academy/lesson/simplifying-complex-expressions-containing-square-roots.html",
+                        "hashcode": "rzcplg20dq"
+                    }
+                ],
+                "title": "Square Roots"
+            },
+            {
+                "ch_num": 3,
+                "lessons": [
+                    {
+                        "ch_num": 3,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/w4ybd7nfj5?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is a Variable in Algebra?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-a-variable-in-algebra.html",
+                        "hashcode": "w4ybd7nfj5"
+                    },
+                    {
+                        "ch_num": 3,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/q9yy7a1rns?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Expressing Relationships as Algebraic Expressions",
+                        "url": "http://education-portal.com/academy/lesson/expressing-relationships-as-algebraic-expressions.html",
+                        "hashcode": "q9yy7a1rns"
+                    },
+                    {
+                        "ch_num": 3,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/hw4hicrsx8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Evaluating Simple Algebraic Expressions",
+                        "url": "http://education-portal.com/academy/lesson/evaluating-simple-algebraic-expressions.html",
+                        "hashcode": "hw4hicrsx8"
+                    },
+                    {
+                        "ch_num": 3,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/jh0tx41uot?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "The Commutative and Associative Properties and Algebraic Expressions",
+                        "url": "http://education-portal.com/academy/lesson/the-commutative-and-associative-properties-and-algebraic-expressions.html",
+                        "hashcode": "jh0tx41uot"
+                    },
+                    {
+                        "ch_num": 3,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/l63usid5vo?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "The Distributive Property and Algebraic Expressions",
+                        "url": "http://education-portal.com/academy/lesson/the-distributive-property-and-algebraic-expressions.html",
+                        "hashcode": "l63usid5vo"
+                    },
+                    {
+                        "ch_num": 3,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/00z1ump468?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Combining Like Terms in Algebraic Expressions",
+                        "url": "http://education-portal.com/academy/lesson/combining-like-terms-in-algebraic-expressions.html",
+                        "hashcode": "00z1ump468"
+                    },
+                    {
+                        "ch_num": 3,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/bs21oazvn8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Practice Simplifying Algebraic Expressions",
+                        "url": "http://education-portal.com/academy/lesson/practice-simplifying-algebraic-expressions.html",
+                        "hashcode": "bs21oazvn8"
+                    },
+                    {
+                        "ch_num": 3,
+                        "l_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ebmi9oeup4?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Negative Signs and Simplifying Algebraic Expressions",
+                        "url": "http://education-portal.com/academy/lesson/negative-signs-and-simplifying-algebraic-expressions.html",
+                        "hashcode": "ebmi9oeup4"
+                    }
+                ],
+                "title": "Basic Algebraic Expressions"
+            },
+            {
+                "ch_num": 4,
+                "lessons": [
+                    {
+                        "ch_num": 4,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/usi3fm2dbv?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What Are the Five Main Exponent Properties?",
+                        "url": "http://education-portal.com/academy/lesson/what-are-the-five-main-exponent-properties.html",
+                        "hashcode": "usi3fm2dbv"
+                    },
+                    {
+                        "ch_num": 4,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/hijz356yra?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Define a Zero and Negative Exponent",
+                        "url": "http://education-portal.com/academy/lesson/how-to-define-a-zero-and-negative-exponent.html",
+                        "hashcode": "hijz356yra"
+                    },
+                    {
+                        "ch_num": 4,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/c1uysc4t5d?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Simplify Expressions with Exponents",
+                        "url": "http://education-portal.com/academy/lesson/how-to-simplify-expressions-with-exponents.html",
+                        "hashcode": "c1uysc4t5d"
+                    },
+                    {
+                        "ch_num": 4,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/peq7x1xlp1?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Rational Exponents",
+                        "url": "http://education-portal.com/academy/lesson/rational-exponents.html",
+                        "hashcode": "peq7x1xlp1"
+                    },
+                    {
+                        "ch_num": 4,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/x6g4x8o7ap?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Simplifying Expressions with Rational Exponents",
+                        "url": "http://education-portal.com/academy/lesson/simplifying-expressions-with-rational-exponents.html",
+                        "hashcode": "x6g4x8o7ap"
+                    }
+                ],
+                "title": "Exponents"
+            },
+            {
+                "ch_num": 5,
+                "lessons": [
+                    {
+                        "ch_num": 5,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/a7e17ae1c7?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is a Linear Equation?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-a-linear-equation.html",
+                        "hashcode": "a7e17ae1c7"
+                    },
+                    {
+                        "ch_num": 5,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0d11f7ac53?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Write a Linear Equation",
+                        "url": "http://education-portal.com/academy/lesson/how-to-write-a-linear-equation.html",
+                        "hashcode": "0d11f7ac53"
+                    },
+                    {
+                        "ch_num": 5,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/sbsl737rps?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Solving Linear Equations: Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/solving-linear-equations-practice-problems.html",
+                        "hashcode": "sbsl737rps"
+                    },
+                    {
+                        "ch_num": 5,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/eq2waguraq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Solving Linear Equations with Literal Coefficients",
+                        "url": "http://education-portal.com/academy/lesson/solving-linear-equations-with-literal-coefficients.html",
+                        "hashcode": "eq2waguraq"
+                    },
+                    {
+                        "ch_num": 5,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/wodxg6rex2?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Problem solving using Linear Equations",
+                        "url": "http://education-portal.com/academy/lesson/problem-solving-using-linear-equations.html",
+                        "hashcode": "wodxg6rex2"
+                    },
+                    {
+                        "ch_num": 5,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/900945986b?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is a System of Equations?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-a-system-of-equations.html",
+                        "hashcode": "900945986b"
+                    },
+                    {
+                        "ch_num": 5,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/a1981dda6d?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How Do I Use a System of Equations?",
+                        "url": "http://education-portal.com/academy/lesson/how-do-i-use-a-linear-equation.html",
+                        "hashcode": "a1981dda6d"
+                    },
+                    {
+                        "ch_num": 5,
+                        "l_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/2083jg65rx?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Solving a System of Equations with Two Unknowns",
+                        "url": "http://education-portal.com/academy/lesson/solving-a-system-of-equations-with-two-unknowns.html",
+                        "hashcode": "2083jg65rx"
+                    },
+                    {
+                        "ch_num": 5,
+                        "l_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/sdaot2xtwj?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Solving Problems involving Systems of Equations",
+                        "url": "http://education-portal.com/academy/lesson/solving-problems-involving-systems-of-equations.html",
+                        "hashcode": "sdaot2xtwj"
+                    },
+                    {
+                        "ch_num": 5,
+                        "l_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/d08c51298d?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is an Inequality?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-an-inequality.html",
+                        "hashcode": "d08c51298d"
+                    },
+                    {
+                        "ch_num": 5,
+                        "l_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/pol4kcn179?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Solving Linear Inequalities: Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/solving-linear-inequalities-practice-problems.html",
+                        "hashcode": "pol4kcn179"
+                    }
+                ],
+                "title": "Algebraic Linear Equations & Inequalities"
+            },
+            {
+                "ch_num": 6,
+                "lessons": [
+                    {
+                        "ch_num": 6,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/b2313029b3?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is an Absolute Value?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-an-absolute-value.html",
+                        "hashcode": "b2313029b3"
+                    },
+                    {
+                        "ch_num": 6,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/a3fcb32a1e?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Evaluate Absolute Value Expressions",
+                        "url": "http://education-portal.com/academy/lesson/how-to-substitute-and-evaluate-absolute-value-equations.html",
+                        "hashcode": "a3fcb32a1e"
+                    },
+                    {
+                        "ch_num": 6,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/47a1b02192?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Solve an Absolute Value Equation",
+                        "url": "http://education-portal.com/academy/lesson/how-to-solve-an-absolute-value.html",
+                        "hashcode": "47a1b02192"
+                    },
+                    {
+                        "ch_num": 6,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6cf30e7ee3?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Solving Absolute Value Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/solving-absolute-value-practice-problems.html",
+                        "hashcode": "6cf30e7ee3"
+                    },
+                    {
+                        "ch_num": 6,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/xh50qj2yv?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Solve and Graph an Absolute Value Inequality",
+                        "url": "http://education-portal.com/academy/lesson/how-to-solve-an-absolute-value-inequality-and-use-set-notation.html",
+                        "hashcode": "xh50qj2yv"
+                    },
+                    {
+                        "ch_num": 6,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/vzwkksldeh?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Solving and Graphing Absolute Value Inequalities: Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/solving-absolute-value-inequalities-practice-problems.html",
+                        "hashcode": "vzwkksldeh"
+                    }
+                ],
+                "title": "Algebra: Absolute Value Equations & Inequalities"
+            },
+            {
+                "ch_num": 7,
+                "lessons": [
+                    {
+                        "ch_num": 7,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/rxhnyro8hp?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What are Polynomials, Binomials, and Quadratics?",
+                        "url": "http://education-portal.com/academy/lesson/what-are-polynomials-binomials-and-quadratics.html",
+                        "hashcode": "rxhnyro8hp"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/vljh5z6yr?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Add, Subtract and Multiply Polynomials",
+                        "url": "http://education-portal.com/academy/lesson/how-to-add-subtract-and-multiply-polynomials.html",
+                        "hashcode": "vljh5z6yr"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/948cbslo0h?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Multiplying Binomials Using FOIL and the Area Method",
+                        "url": "http://education-portal.com/academy/lesson/factoring-from-intercept-to-standard-form-using-foil.html",
+                        "hashcode": "948cbslo0h"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/kjdxbmbm89?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Multiplying Binomials Using FOIL & the Area Method: Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/how-to-use-foil-when-factoring-quadratic-equations.html",
+                        "hashcode": "kjdxbmbm89"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/5srjbvd7da?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Factor Quadratic Equations: FOIL in Reverse",
+                        "url": "http://education-portal.com/academy/lesson/how-to-factor-from-standard-to-intercept-form-with-foil.html",
+                        "hashcode": "5srjbvd7da"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ncel5g4tr9?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Factoring Quadratic Equations: Polynomial Problems with a Non-1 Leading Coefficient",
+                        "url": "http://education-portal.com/academy/lesson/factoring-quadratic-equations-practice-problems.html",
+                        "hashcode": "ncel5g4tr9"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/x69q3jineq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Divide Polynomials with Long Division",
+                        "url": "http://education-portal.com/academy/lesson/how-to-divide-polynomials-with-long-division.html",
+                        "hashcode": "x69q3jineq"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/hfbfxhyx7n?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Use Synthetic Division to Divide Polynomials",
+                        "url": "http://education-portal.com/academy/lesson/how-to-use-synthetic-division-to-divide-polynomials.html",
+                        "hashcode": "hfbfxhyx7n"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/10q72yapm8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Dividing Polynomials with Long and Synthetic Division: Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/dividing-polynomials-with-long-and-synthetic-division-practice-problems.html",
+                        "hashcode": "10q72yapm8"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/mac2qwifig?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Solve a Quadratic Equation by Factoring",
+                        "url": "http://education-portal.com/academy/lesson/how-to-solve-a-quadratic-equation-by-factoring.html",
+                        "hashcode": "mac2qwifig"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/axj21682dy?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Solve Quadratics That Are Not in Standard Form",
+                        "url": "http://education-portal.com/academy/lesson/how-to-solve-quadratics-that-are-not-in-standard-form.html",
+                        "hashcode": "axj21682dy"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 12,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8fio2fuayr?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Complete the Square",
+                        "url": "http://education-portal.com/academy/lesson/how-to-complete-the-square.html",
+                        "hashcode": "8fio2fuayr"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 13,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7g1geiipmn?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Completing the Square Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/completing-the-square-practice-problems.html",
+                        "hashcode": "7g1geiipmn"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 14,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7g1geiipmn?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Use the Quadratic Formula to Solve a Quadratic Equation",
+                        "url": "http://education-portal.com/academy/lesson/how-to-use-the-quadratic-equation-by-factoring.html",
+                        "hashcode": "7g1geiipmn"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 15,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/2vm2qj5b18?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Using the Quadratic Formula to Solve Equations with Literal Coefficients",
+                        "url": "http://education-portal.com/academy/lesson/using-the-quadratic-formula-to-solve-equations-with-literal-coefficients.html",
+                        "hashcode": "2vm2qj5b18"
+                    },
+                    {
+                        "ch_num": 7,
+                        "l_num": 16,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/wq09l9gv0w?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Solving Problems using the Quadratic Formula",
+                        "url": "http://education-portal.com/academy/lesson/solving-problems-using-the-quadratic-formula.html",
+                        "hashcode": "wq09l9gv0w"
+                    }
+                ],
+                "title": "Algebra: Polynomials"
+            },
+            {
+                "ch_num": 8,
+                "lessons": [
+                    {
+                        "ch_num": 8,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/sfzos0i0k?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Functions: Identification, Notation & Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/how-to-use-function-notation.html",
+                        "hashcode": "sfzos0i0k"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/xrjd2aoo1n?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Transformations: How to Shift Graphs on a Plane",
+                        "url": "http://education-portal.com/academy/lesson/transformations-how-to-shift-graphs-on-a-plane.html",
+                        "hashcode": "xrjd2aoo1n"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/2hgwzasu8w?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What Is Domain and Range in a Function?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-domain-and-range-in-a-function.html",
+                        "hashcode": "2hgwzasu8w"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/b4cinh0vcd?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Add, Subtract, Multiply and Divide Functions",
+                        "url": "http://education-portal.com/academy/lesson/how-to-add-subtract-multiply-and-divide-functions.html",
+                        "hashcode": "b4cinh0vcd"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/uif96fbu55?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Compose Functions",
+                        "url": "http://education-portal.com/academy/lesson/how-to-compose-functions.html",
+                        "hashcode": "uif96fbu55"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/zsekum3gfu?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Inverse Functions",
+                        "url": "http://education-portal.com/academy/lesson/inverse-functions.html",
+                        "hashcode": "zsekum3gfu"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/443aae2ae9?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Understanding and Graphing the Inverse Function",
+                        "url": "http://education-portal.com/academy/lesson/understanding-and-graphing-the-inverse-function.html",
+                        "hashcode": "443aae2ae9"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/fj6sr1aw71?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Evaluate Composite Functions",
+                        "url": "http://education-portal.com/academy/lesson/how-to-evaluate-composite-functions.html",
+                        "hashcode": "fj6sr1aw71"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/253f74e12c?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Compounding Functions and Graphing Functions of Functions",
+                        "url": "http://education-portal.com/academy/lesson/compounding-functions-and-graphing-functions-of-functions.html",
+                        "hashcode": "253f74e12c"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/253f74e12c?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Applying Function Operations Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/applying-function-operations-practice-problems.html",
+                        "hashcode": "253f74e12c"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/253f74e12c?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Manipulating Functions and Solving Equations for Different Variables",
+                        "url": "http://education-portal.com/academy/lesson/manipulating-functions-and-solving-equations-for-different-variables.html",
+                        "hashcode": "253f74e12c"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 12,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/253f74e12c?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Polynomials Functions: Properties and Factoring",
+                        "url": "http://education-portal.com/academy/lesson/polynomials-functions-properties-and-factoring.html",
+                        "hashcode": "253f74e12c"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 13,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/c3a5f052ea?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Polynomials Functions: Exponentials and Simplifying",
+                        "url": "http://education-portal.com/academy/lesson/polynomials-functions-exponentials-and-simplifying.html",
+                        "hashcode": "c3a5f052ea"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 14,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ukiqx1beps?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What are Piecewise Functions?",
+                        "url": "http://education-portal.com/academy/lesson/what-are-piecewise-functions.html",
+                        "hashcode": "ukiqx1beps"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 15,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8a1a6l0s09?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Find the Domain of Piecewise Functions",
+                        "url": "http://education-portal.com/academy/lesson/how-to-find-the-domain-of-piecewise-functions.html",
+                        "hashcode": "8a1a6l0s09"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 16,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/flxcrc5o2s?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Graph Piecewise Functions",
+                        "url": "http://education-portal.com/academy/lesson/how-to-graph-piecewise-functions.html",
+                        "hashcode": "flxcrc5o2s"
+                    },
+                    {
+                        "ch_num": 8,
+                        "l_num": 17,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/flxcrc5o2s?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Translating Piecewise Functions",
+                        "url": "http://education-portal.com/academy/lesson/translating-piecewise-functions.html",
+                        "hashcode": "flxcrc5o2s"
+                    }
+                ],
+                "title": "Functions in Math"
+            },
+            {
+                "ch_num": 9,
+                "lessons": [
+                    {
+                        "ch_num": 9,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/js5b4vzja8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Add and Subtract Rational Expressions",
+                        "url": "http://education-portal.com/academy/lesson/how-to-add-and-subtract-rational-expressions.html",
+                        "hashcode": "js5b4vzja8"
+                    },
+                    {
+                        "ch_num": 9,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/js5b4vzja8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Practice Adding and Subtracting Rational Expressions",
+                        "url": "http://education-portal.com/academy/lesson/practice-adding-and-subtracting-rational-expressions.html",
+                        "hashcode": "js5b4vzja8"
+                    },
+                    {
+                        "ch_num": 9,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/szcnq3tste?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Multiply and Divide Rational Expressions",
+                        "url": "http://education-portal.com/academy/lesson/how-to-multiply-and-divide-rational-expressions.html",
+                        "hashcode": "szcnq3tste"
+                    },
+                    {
+                        "ch_num": 9,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0qtltrxxfz?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Multiplying and Dividing Rational Expressions: Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/multiplying-and-dividing-rational-expressions-practice-problems.html",
+                        "hashcode": "0qtltrxxfz"
+                    },
+                    {
+                        "ch_num": 9,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/hjos8k3oh4?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Solve a Rational Equation",
+                        "url": "http://education-portal.com/academy/lesson/how-to-solve-a-rational-equation.html",
+                        "hashcode": "hjos8k3oh4"
+                    },
+                    {
+                        "ch_num": 9,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/prgco33pz1?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Rational Equations: Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/rational-equations-practice-problems.html",
+                        "hashcode": "prgco33pz1"
+                    },
+                    {
+                        "ch_num": 9,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/fj7mcao3zg?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Solving Rational Equations with Literal Coefficients",
+                        "url": "http://education-portal.com/academy/lesson/solving-rational-equations-with-literal-coefficients.html",
+                        "hashcode": "fj7mcao3zg"
+                    },
+                    {
+                        "ch_num": 9,
+                        "l_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ktx5au3n6g?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Solving Problems Using Rational Equations",
+                        "url": "http://education-portal.com/academy/lesson/solving-problems-using-rational-equations.html",
+                        "hashcode": "ktx5au3n6g"
+                    },
+                    {
+                        "ch_num": 9,
+                        "l_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/arvc2ct0n5?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Finding Constant and Average Rates",
+                        "url": "http://education-portal.com/academy/lesson/finding-constant-and-average-rates.html",
+                        "hashcode": "arvc2ct0n5"
+                    },
+                    {
+                        "ch_num": 9,
+                        "l_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/24r1nv19dd?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Solving Problems Using Rates",
+                        "url": "http://education-portal.com/academy/lesson/solving-problems-using-rates.html",
+                        "hashcode": "24r1nv19dd"
+                    }
+                ],
+                "title": "Algebra: Rational Expressions"
+            },
+            {
+                "ch_num": 10,
+                "lessons": [
+                    {
+                        "ch_num": 10,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/152ae3d0f0?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is a Matrix?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-a-matrix.html",
+                        "hashcode": "152ae3d0f0"
+                    },
+                    {
+                        "ch_num": 10,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/d4b3d0d1aa?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Take a Determinant of a Matrix",
+                        "url": "http://education-portal.com/academy/lesson/how-to-take-a-determinant-of-a-2x2-matrix.html",
+                        "hashcode": "d4b3d0d1aa"
+                    }
+                ],
+                "title": "Matrices"
+            },
+            {
+                "ch_num": 11,
+                "lessons": [
+                    {
+                        "ch_num": 11,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ec78a22060?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is a Mathematical Sequence?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-a-mathematical-sequence.html",
+                        "hashcode": "ec78a22060"
+                    },
+                    {
+                        "ch_num": 11,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/b2782c36fd?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Find and Classify an Arithmetic Sequence",
+                        "url": "http://education-portal.com/academy/lesson/how-to-find-and-classify-an-arithmetic-sequence.html",
+                        "hashcode": "b2782c36fd"
+                    },
+                    {
+                        "ch_num": 11,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/2051ea3c88?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Finding and Classifying Geometric Sequences",
+                        "url": "http://education-portal.com/academy/lesson/finding-and-classifying-geometric-sequences.html",
+                        "hashcode": "2051ea3c88"
+                    },
+                    {
+                        "ch_num": 11,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/c986c2ba2c?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Summation Notation and Mathematical Series",
+                        "url": "http://education-portal.com/academy/lesson/what-is-summation-notation.html",
+                        "hashcode": "c986c2ba2c"
+                    },
+                    {
+                        "ch_num": 11,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/d9fcaa6015?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Calculate an Arithmetic Series",
+                        "url": "http://education-portal.com/academy/lesson/how-to-calculate-an-arithmetic-series.html",
+                        "hashcode": "d9fcaa6015"
+                    },
+                    {
+                        "ch_num": 11,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/a78c5cd989?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Calculate a Geometric Series",
+                        "url": "http://education-portal.com/academy/lesson/how-to-calculate-a-geometric-series.html",
+                        "hashcode": "a78c5cd989"
+                    },
+                    {
+                        "ch_num": 11,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0fb5f53ae8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Arithmetic and Geometric Series: Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/arithmetic-and-geometric-series-practice-problems.html",
+                        "hashcode": "0fb5f53ae8"
+                    }
+                ],
+                "title": "Sequences and Series"
+            },
+            {
+                "ch_num": 12,
+                "lessons": [
+                    {
+                        "ch_num": 12,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0ffd85879e?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What Is an Exponential Function?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-an-exponential-function.html",
+                        "hashcode": "0ffd85879e"
+                    },
+                    {
+                        "ch_num": 12,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/4726b5620a?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Exponential Growth vs. Decay",
+                        "url": "http://education-portal.com/academy/lesson/exponential-growth-vs-decay.html",
+                        "hashcode": "4726b5620a"
+                    },
+                    {
+                        "ch_num": 12,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/d4476f0af5?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is a Logarithm?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-a-logarithm.html",
+                        "hashcode": "d4476f0af5"
+                    },
+                    {
+                        "ch_num": 12,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/dbbb9f4c17?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Evaluate Logarithms",
+                        "url": "http://education-portal.com/academy/lesson/how-to-evaluate-logarithms.html",
+                        "hashcode": "dbbb9f4c17"
+                    },
+                    {
+                        "ch_num": 12,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ab69432441?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Logarithmic Properties",
+                        "url": "http://education-portal.com/academy/lesson/logarithmic-properties.html",
+                        "hashcode": "ab69432441"
+                    },
+                    {
+                        "ch_num": 12,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/51f3bb086d?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Practice Problems for Logarithmic Properties",
+                        "url": "http://education-portal.com/academy/lesson/practice-problems-for-logarithmic-properties.html",
+                        "hashcode": "51f3bb086d"
+                    },
+                    {
+                        "ch_num": 12,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/b8108c77a4?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Solve Exponential Equations",
+                        "url": "http://education-portal.com/academy/lesson/how-to-solve-exponential-equations.html",
+                        "hashcode": "b8108c77a4"
+                    },
+                    {
+                        "ch_num": 12,
+                        "l_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7958f845d5?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Solve Logarithmic Equations",
+                        "url": "http://education-portal.com/academy/lesson/how-to-solve-logarithmic-equations.html",
+                        "hashcode": "7958f845d5"
+                    }
+                ],
+                "title": "Exponentials and Logarithms"
+            },
+            {
+                "ch_num": 13,
+                "lessons": [
+                    {
+                        "ch_num": 13,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/0r31g50mmm?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is an Imaginary Number?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-an-imaginary-number.html",
+                        "hashcode": "0r31g50mmm"
+                    },
+                    {
+                        "ch_num": 13,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/welffafsli?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Add, Subtract and Multiply Complex Numbers",
+                        "url": "http://education-portal.com/academy/lesson/how-to-add-subtract-and-multiply-complex-numbers.html",
+                        "hashcode": "welffafsli"
+                    },
+                    {
+                        "ch_num": 13,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/vlzhdltuui?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Divide Complex Numbers",
+                        "url": "http://education-portal.com/academy/lesson/how-to-divide-complex-numbers.html",
+                        "hashcode": "vlzhdltuui"
+                    },
+                    {
+                        "ch_num": 13,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/18g1ypvgac?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Graph a Complex Number on the Complex Plane",
+                        "url": "http://education-portal.com/academy/lesson/how-to-graph-a-complex-number-on-the-complex-plane.html",
+                        "hashcode": "18g1ypvgac"
+                    },
+                    {
+                        "ch_num": 13,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/sfmq20f22u?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Solve Quadratics with Complex Numbers as the Solution",
+                        "url": "http://education-portal.com/academy/lesson/how-to-solve-quadratics-with-complex-numbers-as-the-solution.html",
+                        "hashcode": "sfmq20f22u"
+                    }
+                ],
+                "title": "Complex Numbers"
+            },
+            {
+                "ch_num": 14,
+                "lessons": [
+                    {
+                        "ch_num": 14,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/y6pdcp7dmk?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What Is a Number Line?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-a-number-line.html",
+                        "hashcode": "y6pdcp7dmk"
+                    },
+                    {
+                        "ch_num": 14,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7855cd68da?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What Are the Different Parts of a Graph?",
+                        "url": "http://education-portal.com/academy/lesson/what-are-the-different-parts-of-a-graph.html",
+                        "hashcode": "7855cd68da"
+                    },
+                    {
+                        "ch_num": 14,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7ahlb9jp6y?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Plotting Points on the Coordinate Plane",
+                        "url": "http://education-portal.com/academy/lesson/plotting-points-on-the-coordinate-plane.html",
+                        "hashcode": "7ahlb9jp6y"
+                    },
+                    {
+                        "ch_num": 14,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ww7d2zf9m4?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Graph Functions by Plotting Points",
+                        "url": "http://education-portal.com/academy/lesson/graph-functions-by-plotting-points.html",
+                        "hashcode": "ww7d2zf9m4"
+                    }
+                ],
+                "title": "Coordinate Geometry Basics"
+            },
+            {
+                "ch_num": 15,
+                "lessons": [
+                    {
+                        "ch_num": 15,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/m8mmm15um9?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Identify Where a Function is Linear, Increasing or Decreasing, Positive or Negative",
+                        "url": "http://education-portal.com/academy/lesson/identifying-relationships-between-functions-graphs.html",
+                        "hashcode": "m8mmm15um9"
+                    },
+                    {
+                        "ch_num": 15,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/b5d1e883aa?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Linear Equations: Intercepts, Standard Form and Graphing",
+                        "url": "http://education-portal.com/academy/lesson/linear-equations-intercepts-standard-form-and-graphing.html",
+                        "hashcode": "b5d1e883aa"
+                    },
+                    {
+                        "ch_num": 15,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/c1orb615bp?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Find and Apply The Slope of a Line",
+                        "url": "http://education-portal.com/academy/lesson/how-to-find-the-slope-of-a-line.html",
+                        "hashcode": "c1orb615bp"
+                    },
+                    {
+                        "ch_num": 15,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/y2ay9r79u0?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Find and Apply the Intercepts of a Line",
+                        "url": "http://education-portal.com/academy/lesson/how-to-find-the-intercepts-of-a-line.html",
+                        "hashcode": "y2ay9r79u0"
+                    },
+                    {
+                        "ch_num": 15,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/1bb1a24006?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Graphing Undefined Slope, Zero Slope and More",
+                        "url": "http://education-portal.com/academy/lesson/graphing-undefined-slope-zero-slope-and-more.html",
+                        "hashcode": "1bb1a24006"
+                    },
+                    {
+                        "ch_num": 15,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/eface9b51c?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Graph 1- and 2-Variable Inequalities",
+                        "url": "http://education-portal.com/academy/lesson/how-to-graph-2-variable-inequalities.html",
+                        "hashcode": "eface9b51c"
+                    },
+                    {
+                        "ch_num": 15,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/nz0xivwvsv?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Graphing Inequalities: Practice Problems",
+                        "url": "http://education-portal.com/academy/lesson/graphing-inequalities-practice-problems.html",
+                        "hashcode": "nz0xivwvsv"
+                    },
+                    {
+                        "ch_num": 15,
+                        "l_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Equation of a Line Using Point-Slope Formula",
+                        "url": "http://education-portal.com/academy/lesson/equation-of-a-line-using-point-slop-formula.html",
+                        "hashcode": "85531476e4"
+                    },
+                    {
+                        "ch_num": 15,
+                        "l_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/42c8022e4b?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Graph an Absolute Value and Do Transformations",
+                        "url": "http://education-portal.com/academy/lesson/how-to-graph-an-absolute-value-and-do-transformation.html",
+                        "hashcode": "42c8022e4b"
+                    },
+                    {
+                        "ch_num": 15,
+                        "l_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8ca041a77b?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Graphing Absolute Value Equations: Dilations and Reflections",
+                        "url": "http://education-portal.com/academy/lesson/graphing-absolute-value-practice-problems.html",
+                        "hashcode": "8ca041a77b"
+                    },
+                    {
+                        "ch_num": 15,
+                        "l_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/w3ha4dzuy6?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Use The Distance Formula",
+                        "url": "http://education-portal.com/academy/lesson/how-to-use-the-distance-formula.html",
+                        "hashcode": "w3ha4dzuy6"
+                    },
+                    {
+                        "ch_num": 15,
+                        "l_num": 12,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ymjs824t40?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Use The Midpoint Formula",
+                        "url": "http://education-portal.com/academy/lesson/how-to-use-the-midpoint-formula.html",
+                        "hashcode": "ymjs824t40"
+                    }
+                ],
+                "title": "Coordinate Geometry: Graphing Linear Equations & Inequalities"
+            },
+            {
+                "ch_num": 16,
+                "lessons": [
+                    {
+                        "ch_num": 16,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/o2xcc0z45e?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is a Parabola?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-a-parabola.html",
+                        "hashcode": "o2xcc0z45e"
+                    },
+                    {
+                        "ch_num": 16,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/os0hzrnjxm?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Parabolas in Standard, Intercept, and Vertex Form",
+                        "url": "http://education-portal.com/academy/lesson/parabolas-in-different-forms.html",
+                        "hashcode": "os0hzrnjxm"
+                    },
+                    {
+                        "ch_num": 16,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/vkj93lo3vb?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Graph Cubics, Quartics, Quintics and Beyond",
+                        "url": "http://education-portal.com/academy/lesson/how-to-graph-cubics-quartics-quintics-and-beyond.html",
+                        "hashcode": "vkj93lo3vb"
+                    },
+                    {
+                        "ch_num": 16,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/gtqi2m52nr?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Graphing Circles: Identifying the Formula, Center and Radius",
+                        "url": "http://education-portal.com/academy/lesson/graphing-circles-identifying-the-formula-center-and-radius.html",
+                        "hashcode": "gtqi2m52nr"
+                    },
+                    {
+                        "ch_num": 16,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/e71c947e2j?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Identifying the Line of Symmetry: Definition & Examples",
+                        "url": "http://education-portal.com/academy/lesson/identifying-the-line-of-symmetry.html",
+                        "hashcode": "e71c947e2j"
+                    },
+                    {
+                        "ch_num": 16,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/5b3nottscq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Recognizing Symmetry Graphically, Algebraically & Numerically About the Origin",
+                        "url": "http://education-portal.com/academy/lesson/recognizing-symmetry-graphically-algebraically-numerically-about-the-origin.html",
+                        "hashcode": "5b3nottscq"
+                    },
+                    {
+                        "ch_num": 16,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/fzdcdc244y?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Recognizing Symmetry Graphically, Algebraically, and Numerically About the X-axis and Y-axis",
+                        "url": "http://education-portal.com/academy/lesson/recognizing-symmetry-graphically-algebraically-and-numerically-about-the-x-axis-and-y-axis.html",
+                        "hashcode": "fzdcdc244y"
+                    }
+                ],
+                "title": "Advanced Coordinate Geometry"
+            },
+            {
+                "ch_num": 17,
+                "lessons": [
+                    {
+                        "ch_num": 17,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8ad5da787d?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Solve Visualizing Geometry Problems",
+                        "url": "http://education-portal.com/academy/lesson/how-to-solve-visualizing-geometry-problems.html",
+                        "hashcode": "8ad5da787d"
+                    },
+                    {
+                        "ch_num": 17,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/cdff4e271d?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Calculate the Volumes of Basic Shapes",
+                        "url": "http://education-portal.com/academy/lesson/how-to-calculate-the-volumes-of-basic-shapes.html",
+                        "hashcode": "cdff4e271d"
+                    },
+                    {
+                        "ch_num": 17,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/e3dedt45y2?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Volume of Prisms and Pyramids",
+                        "url": "http://education-portal.com/academy/lesson/volume-of-prisms-and-pyramids.html",
+                        "hashcode": "e3dedt45y2"
+                    },
+                    {
+                        "ch_num": 17,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/n2vcewi214?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Volume of Cylinders, Cones, and Spheres",
+                        "url": "http://education-portal.com/academy/lesson/volume-of-cylinders-cones-and-spheres.html",
+                        "hashcode": "n2vcewi214"
+                    },
+                    {
+                        "ch_num": 17,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/j15a0obhqi?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Applying Scale Factors to Perimeter, Area, and Volume of Similar Figures",
+                        "url": "http://education-portal.com/academy/lesson/applying-scale-factors-to-perimeter-area-and-volume-of-similar-figures.html",
+                        "hashcode": "j15a0obhqi"
+                    }
+                ],
+                "title": "Three-Dimensional Geometry"
+            },
+            {
+                "ch_num": 18,
+                "lessons": [
+                    {
+                        "ch_num": 18,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/b52d8qfoa8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Graphing the Tangent Function: Amplitude, Period, Phase Shift & Vertical Shift",
+                        "url": "http://education-portal.com/academy/lesson/graphing-the-tangent-function-shifts-of-a-b-and-lambda.html",
+                        "hashcode": "b52d8qfoa8"
+                    },
+                    {
+                        "ch_num": 18,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ig3rripf8j?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Unit Circle: Memorizing the First Quadrant",
+                        "url": "http://education-portal.com/academy/lesson/unit-circle-memorizing-the-first-quadrant.html",
+                        "hashcode": "ig3rripf8j"
+                    },
+                    {
+                        "ch_num": 18,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/434xbowiej?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Converting Between Radians and Degrees",
+                        "url": "http://education-portal.com/academy/lesson/converting-between-radians-and-degrees.html",
+                        "hashcode": "434xbowiej"
+                    },
+                    {
+                        "ch_num": 18,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/rwzwr037vi?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Solve Trigonometric Equations for X",
+                        "url": "http://education-portal.com/academy/lesson/how-to-solve-trigonometric-equations-for-x.html",
+                        "hashcode": "rwzwr037vi"
+                    },
+                    {
+                        "ch_num": 18,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/s5hjpadqmb?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "List of the Basic Trig Identities",
+                        "url": "http://education-portal.com/academy/lesson/list-of-the-basic-trig-identities.html",
+                        "hashcode": "s5hjpadqmb"
+                    },
+                    {
+                        "ch_num": 18,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/a935b0b83a?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Trigonometry:  Sine and Cosine",
+                        "url": "http://education-portal.com/academy/lesson/trigonometry-sine-and-cosine.html",
+                        "hashcode": "a935b0b83a"
+                    },
+                    {
+                        "ch_num": 18,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/iwc85gw9jr?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Trigonometry and the Pythagorean Theorem",
+                        "url": "http://education-portal.com/academy/lesson/trigonometry-and-the-pythagorean-theorem.html",
+                        "hashcode": "iwc85gw9jr"
+                    },
+                    {
+                        "ch_num": 18,
+                        "l_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/wcl1s4la9f?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Law of Sines: Definition and Application",
+                        "url": "http://education-portal.com/academy/lesson/law-of-sines-definition-and-application.html",
+                        "hashcode": "wcl1s4la9f"
+                    },
+                    {
+                        "ch_num": 18,
+                        "l_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/nnrnr3x5sq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Law of Cosines: Definition and Application",
+                        "url": "http://education-portal.com/academy/lesson/law-of-cosines-definition-and-application.html",
+                        "hashcode": "nnrnr3x5sq"
+                    },
+                    {
+                        "ch_num": 18,
+                        "l_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/kc5rnq5qbm?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "The Double Angle Formula",
+                        "url": "http://education-portal.com/academy/lesson/the-double-angle-formula.html",
+                        "hashcode": "kc5rnq5qbm"
+                    }
+                ],
+                "title": "Overview of Trigonometry"
+            },
+            {
+                "ch_num": 19,
+                "lessons": [
+                    {
+                        "ch_num": 19,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ldec7rhcwu?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Probability of Simple, Compound and Complementary Events",
+                        "url": "http://education-portal.com/academy/lesson/probability-of-simple-compound-and-complementary-events.html",
+                        "hashcode": "ldec7rhcwu"
+                    },
+                    {
+                        "ch_num": 19,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/4fp2665uta?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Probability of Independent and Dependent Events",
+                        "url": "http://education-portal.com/academy/lesson/probability-of-independent-and-dependent-events.html",
+                        "hashcode": "4fp2665uta"
+                    },
+                    {
+                        "ch_num": 19,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8bnixlmkrz?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Either/Or Probability: Overlapping and Non-Overlapping Events",
+                        "url": "http://education-portal.com/academy/lesson/either-or-probability-overlapping-and-non-overlapping-events.html",
+                        "hashcode": "8bnixlmkrz"
+                    },
+                    {
+                        "ch_num": 19,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/csj3g8bknt?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Probability of Independent Events: The 'At Least One' Rule",
+                        "url": "http://education-portal.com/academy/lesson/the-at-least-one-rule-for-independent-events.html",
+                        "hashcode": "csj3g8bknt"
+                    },
+                    {
+                        "ch_num": 19,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/tv2t3nf9g7?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Calculate Simple Conditional Probabilities",
+                        "url": "http://education-portal.com/academy/lesson/what-is-simple-conditional-probability.html",
+                        "hashcode": "tv2t3nf9g7"
+                    },
+                    {
+                        "ch_num": 19,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/wzryqrka4s?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Math Combinations: Formula and Example Problems",
+                        "url": "http://education-portal.com/academy/lesson/what-is-a-mathematical-combination.html",
+                        "hashcode": "wzryqrka4s"
+                    },
+                    {
+                        "ch_num": 19,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/yumn3ulavy?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Calculate the Probability of Combinations",
+                        "url": "http://education-portal.com/academy/lesson/how-to-calculate-the-probability-of-combinations.html",
+                        "hashcode": "yumn3ulavy"
+                    },
+                    {
+                        "ch_num": 19,
+                        "l_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/jkz2qyt7ac?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Calculate a Permutation",
+                        "url": "http://education-portal.com/academy/lesson/how-to-calculate-a-permutation.html",
+                        "hashcode": "jkz2qyt7ac"
+                    },
+                    {
+                        "ch_num": 19,
+                        "l_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7f8yfu6y7b?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Calculate the Probability of Permutations",
+                        "url": "http://education-portal.com/academy/lesson/how-to-calculate-the-probability-of-permuations.html",
+                        "hashcode": "7f8yfu6y7b"
+                    }
+                ],
+                "title": "Probability, Combinations & Permutations"
+            },
+            {
+                "ch_num": 20,
+                "lessons": [
+                    {
+                        "ch_num": 20,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/7tgsoz0gh5?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Statistical Analysis with Categorical Data",
+                        "url": "http://education-portal.com/academy/lesson/statistical-analysis-with-categorical-data.html",
+                        "hashcode": "7tgsoz0gh5"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/cqdtonboim?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Understanding Bar Graphs and Pie Charts",
+                        "url": "http://education-portal.com/academy/lesson/interpreting-pie-charts-and-bar-graphs.html",
+                        "hashcode": "cqdtonboim"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/2yv7co3hb5?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Summarizing Categorical Data using Tables",
+                        "url": "http://education-portal.com/academy/lesson/summarizing-categorical-data-using-tables.html",
+                        "hashcode": "2yv7co3hb5"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/aao83yl6la?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Calculate Percent Increase with Relative & Cumulative Frequency Tables",
+                        "url": "http://education-portal.com/academy/lesson/how-to-interpret-relative-and-cumulative-frequency-tables.html",
+                        "hashcode": "aao83yl6la"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/5f68j2ugmv?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is a Two-Way Table?",
+                        "url": "http://education-portal.com/academy/lesson/what-is-a-two-way-table.html",
+                        "hashcode": "5f68j2ugmv"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/i4es63x3bq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Make Estimates and Predictions from Categorical Data",
+                        "url": "http://education-portal.com/academy/lesson/make-estimates-and-predictions-from-categorical-data.html",
+                        "hashcode": "i4es63x3bq"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ydwp8ifh85?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is Quantitative Data? - Definition & Examples",
+                        "url": "http://education-portal.com/academy/lesson/what-is-quantitative-data.html",
+                        "hashcode": "ydwp8ifh85"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 8,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/sai41ja8a9?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What is a Histogram in Math? - Definition & Examples",
+                        "url": "http://education-portal.com/academy/lesson/creating-and-interpreting-histograms.html",
+                        "hashcode": "sai41ja8a9"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 9,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/o1qds2i97x?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "What are Center, Shape, and Spread?",
+                        "url": "http://education-portal.com/academy/lesson/what-are-center-shape-and-spread.html",
+                        "hashcode": "o1qds2i97x"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 10,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/msy9toq078?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Calculate Mean, Median, Mode & Range",
+                        "url": "http://education-portal.com/academy/lesson/data-analysis-mean-median-mode-and-range.html",
+                        "hashcode": "msy9toq078"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 11,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ps1eazm228?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Describing the Relationship between Two Quantitative Variables",
+                        "url": "http://education-portal.com/academy/lesson/describing-the-relationship-between-two-quantitative-variables.html",
+                        "hashcode": "ps1eazm228"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 12,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/zyrynmwvts?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Standard Deviation and Shifts in the Mean",
+                        "url": "http://education-portal.com/academy/lesson/data-analysis-standard-deviation.html",
+                        "hashcode": "zyrynmwvts"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 13,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/uuq7e9ekwd?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Quartiles & the Interquartile Range: Definition, Formulate & Examples",
+                        "url": "http://education-portal.com/academy/lesson/quartiles-the-interquartile-range-definition-formulate-examples.html",
+                        "hashcode": "uuq7e9ekwd"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 14,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/1uhwgzk4aq?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Reading and Interpreting Line Graphs",
+                        "url": "http://education-portal.com/academy/lesson/reading-and-interpreting-line-graphs.html",
+                        "hashcode": "1uhwgzk4aq"
+                    },
+                    {
+                        "ch_num": 20,
+                        "l_num": 15,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/nki8h7ok2e?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Making Estimates and Predictions using Quantitative Data",
+                        "url": "http://education-portal.com/academy/lesson/making-estimates-and-predictions-using-quantitative-data.html",
+                        "hashcode": "nki8h7ok2e"
+                    }
+                ],
+                "title": "Working with Data & Statistics"
+            },
+            {
+                "ch_num": 21,
+                "lessons": [
+                    {
+                        "ch_num": 21,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/ygyj5wzy3o?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Critical Thinking and Logic in Mathematics",
+                        "url": "http://education-portal.com/academy/lesson/critical-thinking-and-logic-in-mathematics.html",
+                        "hashcode": "ygyj5wzy3o"
+                    },
+                    {
+                        "ch_num": 21,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/8ow6ywjcjd?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Logical Fallacies: Hasty Generalization, Circular Reasoning, False Cause & Limited Choice",
+                        "url": "http://education-portal.com/academy/lesson/logical-fallacies-hasty-generalization-circular-reasoning-false-cause-limited-choice.html",
+                        "hashcode": "8ow6ywjcjd"
+                    },
+                    {
+                        "ch_num": 21,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/pfbloqd1ik?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Logical Fallacies: Appeals to Ignorance, Emotion or Popularity",
+                        "url": "http://education-portal.com/academy/lesson/logical-fallacies-appeals-to-ignorance-emotion-or-popularity.html",
+                        "hashcode": "pfbloqd1ik"
+                    },
+                    {
+                        "ch_num": 21,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/zwt8gadfhc?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Propositions, Truth Values and Truth Tables",
+                        "url": "http://education-portal.com/academy/lesson/propositions-truth-values-and-truth-tables.html",
+                        "hashcode": "zwt8gadfhc"
+                    },
+                    {
+                        "ch_num": 21,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/q5w7ul9g32?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Logical Math Connectors: Conjunctions and Disjunctions",
+                        "url": "http://education-portal.com/academy/lesson/logical-math-connectors-conjunctions-and-disjunctions.html",
+                        "hashcode": "q5w7ul9g32"
+                    },
+                    {
+                        "ch_num": 21,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/dm43q85emh?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Conditional Statements in Math",
+                        "url": "http://education-portal.com/academy/lesson/conditional-statements-in-math.html",
+                        "hashcode": "dm43q85emh"
+                    },
+                    {
+                        "ch_num": 21,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/p9q8plqzac?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Logical Equivalence: Converse, Inverse, Contrapositive & Counterexample",
+                        "url": "http://education-portal.com/academy/lesson/logical-equivalence-converse-inverse-contrapositive-counterexample.html",
+                        "hashcode": "p9q8plqzac"
+                    }
+                ],
+                "title": "Logic"
+            },
+            {
+                "ch_num": 22,
+                "lessons": [
+                    {
+                        "ch_num": 22,
+                        "l_num": 1,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/6628dac5c2?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Using a Graph to Define Limits",
+                        "url": "http://education-portal.com/academy/lesson/using-a-graph-to-define-limits.html",
+                        "hashcode": "6628dac5c2"
+                    },
+                    {
+                        "ch_num": 22,
+                        "l_num": 2,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/d1c6d4b520?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Understanding Limits:  Using Notation",
+                        "url": "http://education-portal.com/academy/lesson/understanding-limits-using-notation.html",
+                        "hashcode": "d1c6d4b520"
+                    },
+                    {
+                        "ch_num": 22,
+                        "l_num": 3,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/56e29918d8?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "One-Sided Limits and Continuity",
+                        "url": "http://education-portal.com/academy/lesson/one-sided-limits-and-continuity.html",
+                        "hashcode": "56e29918d8"
+                    },
+                    {
+                        "ch_num": 22,
+                        "l_num": 4,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/bb63f0785a?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "How to Determine the Limits of Functions",
+                        "url": "http://education-portal.com/academy/lesson/how-to-determine-the-limits-of-functions.html",
+                        "hashcode": "bb63f0785a"
+                    },
+                    {
+                        "ch_num": 22,
+                        "l_num": 5,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/77a16b2285?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Understanding the Properties of Limits",
+                        "url": "http://education-portal.com/academy/lesson/understanding-the-properties-of-limits.html",
+                        "hashcode": "77a16b2285"
+                    },
+                    {
+                        "ch_num": 22,
+                        "l_num": 6,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/e2bf069c67?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Squeeze Theorem: Definition and Examples",
+                        "url": "http://education-portal.com/academy/lesson/squeeze-theorem-definition-and-examples.html",
+                        "hashcode": "e2bf069c67"
+                    },
+                    {
+                        "ch_num": 22,
+                        "l_num": 7,
+                        "embed_url": "http://fast.wistia.com/oembed.json?url=http://home.wistia.com/medias/fed5d75b58?embedType=seo&maxwidth=600px&maxheight=330px",
+                        "title": "Graphs and Limits: Defining Asymptotes and Infinity",
+                        "url": "http://education-portal.com/academy/lesson/graphs-and-limits-defining-asymptotes-and-infinity.html",
+                        "hashcode": "fed5d75b58"
+                    }
+                ],
+                "title": "Limits"
+            }
+        ],
+        "title": "\n        SAT Subject Test Mathematics Level 2: Practice and Study Guide\n    ",
+        "url": "http://education-portal.com/academy/course/sat-subject-test-mathematics-level-2.html",
+        "subject": "SAT Math",
+        "description":"Sat math prep course by education-portal.com. Total 22 chapters and 190 lessons",
+        "c_num": 4
+    }
+]
