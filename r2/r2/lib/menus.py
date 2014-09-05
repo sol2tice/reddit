@@ -373,9 +373,9 @@ class NamedButton(NavButton):
     'dest' defaults to the 'name' as well (unless specified
     separately)."""
     
-    def __init__(self, name, sr_path = True, nocname=False, dest = None, fmt_args = {}, **kw):
+    def __init__(self, name, sr_path = True, nocname=False, translate=True, dest = None, fmt_args = {}, **kw):
         self.name = name.strip('/')
-        menutext = menu[self.name] % fmt_args
+        menutext = menu[self.name] % fmt_args if translate is True else self.name
         NavButton.__init__(self, menutext, name if dest is None else dest,
                            sr_path = sr_path, nocname=nocname, **kw)
 
