@@ -114,7 +114,13 @@ class BaseSite(object):
 
     def get_links(self, sort, time):
         from r2.lib.db import queries
-        return queries.get_links(self, sort, time)
+	if self.type == 'course':
+	    try:
+	    	return queries.get_chapter_links(self._id, self.chapterId, sort)
+	    except AttributeError:
+            	return queries.get_links(self, sort, time)
+        else:
+            return queries.get_links(self, sort, time)
 
     def get_spam(self, include_links=True, include_comments=True):
         from r2.lib.db import queries
@@ -607,7 +613,7 @@ class Subreddit(Thing, Printable, BaseSite):
         if self.spammy():
             return False
         elif self.type in ('public', 'restricted',
-                           'gold_restricted', 'archived'):
+                           'gold_restricted', 'archived', 'course'):
             return True
         elif c.user_is_loggedin:
             return (self.is_contributor(user) or
@@ -843,7 +849,8 @@ class Subreddit(Thing, Printable, BaseSite):
             return sr_ids if ids else Subreddit._byID(sr_ids,
                                                       data=True,
                                                       return_dict=False,
-                                                      stale=stale)
+                                                      stale=stale,
+						      ignore_missing=True)
         else:
             return cls.default_subreddits(ids=ids, stale=stale)
 
