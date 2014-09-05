@@ -52,6 +52,7 @@ def make_map():
         plugin.add_routes(mc)
     mc('/test/', controller='home', action='index')
     mc('/forum/', controller='forum', action='forum')
+    mc('/chapter/:num', controller='course', action='listing')
     mc('/admin/', controller='awards')
 
     mc('/robots.txt', controller='robots', action='robots')
