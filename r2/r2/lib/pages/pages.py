@@ -29,6 +29,7 @@ from r2.models import Friends, All, Sub, NotFound, DomainSR, Random, Mod, Random
 from r2.models import Link, Printable, Trophy, PromoCampaign, Comment
 from r2.models import Flair, FlairTemplate, FlairTemplateBySubredditIndex
 from r2.models import USER_FLAIR, LINK_FLAIR
+from r2.models.course import Course, Chapter
 from r2.models.bidding import Bid
 from r2.models.gold import (
     gold_payments_by_user,
@@ -4838,3 +4839,24 @@ class ExtractArticleEmbed(HtmlPage):
         else:
             res = Templated.render(self, *a, **kw)
         return responsive(res, None)
+
+class CoursePage(Forum):
+    """Container for the course page """
+    def __init__(self, show_sidebar = False, title=None, srbar=False, *a, **kw):
+        title = title or "%s" % (c.site.analytics_name)
+        sr_id = getattr(c.site, "_id", -1)
+        if sr_id == -1:
+            raise NotFound, 'course %s not found' % title 
+        self.course = Course._by_sr_id(sr_id)
+        self.chapters = Chapter._by_course_id(getattr(self.course, '_id'))
+        Reddit.__init__(self, show_sidebar = show_sidebar,
+                        srbar=False,
+                        title=title,
+                        *a, **kw)
+
+    def build_toolbars(self):
+        buttons = []
+        for i, ch in enumerate(self.chapters):
+            buttons.append(NamedButton('%s. %s' % (ch.ch_num, ch.title), dest='chapter/%s' % ch.ch_num, translate=False))        
+        toolbar = [NavMenu(buttons, base_path = c.site.path, type='tabmenu')]
+        return toolbar
