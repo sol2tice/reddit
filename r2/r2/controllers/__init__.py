@@ -55,7 +55,7 @@ def load_controllers():
     from listingcontroller import UserController
     from listingcontroller import CommentsController
     from listingcontroller import GildedController
-
+    from listingcontroller import CourseController
     from listingcontroller import MyredditsController
 
     from front import FormsController
