@@ -83,7 +83,7 @@ class _Topic(Thing):
         q = cls._query(cls.c._spam == (True, False),
                        cls.c._deleted == False, sort = desc('_date'))
         return list(q)
-    
+
     @classmethod
     def delete_all(cls):
         list = cls.get_all()
@@ -120,6 +120,17 @@ class Course(_Topic):
     )
     _essentials = ('title', 'url', 'lang')    
 
+    @classmethod
+    def _by_sr_id(cls, sr_id):
+        q = cls._query(cls.c.sr_id == sr_id,
+                       cls.c._spam == (True, False),
+                       cls.c._deleted == False,
+                       sort = desc('_date'))
+        q._limit = 1
+        l = list(q)
+        if l:
+            return l[0]
+
 class Chapter(_Topic):
     _nodb = False
     _defaults = dict(
@@ -129,6 +140,15 @@ class Chapter(_Topic):
         course_id=''
     )
     _essentials = ('title', 'id')    
+
+    @classmethod
+    def _by_course_id(cls, course_id):
+        q = cls._query(cls.c.course_id == course_id,
+                       cls.c._spam == (True, False),
+                       cls.c._deleted == False,
+                       sort = desc('_date'),
+		       data = True)
+        return list(q)
     
 class Lesson(_Topic):
     _nodb = False
