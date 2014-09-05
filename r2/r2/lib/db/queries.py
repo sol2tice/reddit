@@ -66,8 +66,9 @@ precompute_limit = 1000
 db_sorts = dict(hot = (desc, '_hot'),
                 new = (desc, '_date'),
                 top = (desc, '_score'),
-                controversial = (desc, '_controversy'))
-
+                controversial = (desc, '_controversy'),
+		seq = (desc, 'l_num'))
+		
 def db_sort(sort):
     cls, col = db_sorts[sort]
     return cls(col)
@@ -937,7 +938,8 @@ def new_link(link):
             m.insert(get_unmoderated_links(sr), [link])
 
     add_queries(results, insert_items = link)
-    amqp.add_item('new_link', link._fullname)
+    if getattr(link, 'media_object', None) is None:
+    	amqp.add_item('new_link', link._fullname)
 
 
 def add_to_commentstree_q(comment):
@@ -1670,3 +1672,13 @@ def process_votes(qname, limit=0):
         timer.flush()
 
     amqp.consume_items(qname, _handle_vote, verbose = False)
+
+def get_chapter_links(sr_id, ch_num, sort):
+    """General link query for lessons of a chapter in a course subreddit."""
+    q = Link._query(Link.c.sr_id == sr_id,
+                    Link.c.ch_num == ch_num,
+                    sort = db_sort(sort),
+                    data = True)
+    #res = make_results(q)
+    #return res
+    return q
