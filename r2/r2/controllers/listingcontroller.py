@@ -1447,3 +1447,26 @@ class GildedController(ListingController):
     def GET_listing(self, **env):
         c.profilepage = True
         return ListingController.GET_listing(self, **env)
+
+class CourseController(ListingController):
+    title_text = _('API')
+    skip = False
+    render_cls = CoursePage
+    def query(self):
+        return c.site.get_links('hot', 'all')
+
+    @require_oauth2_scope("read")
+    @validate(selected_chapter=VInt("num", num_default=1, min=1))
+    #@api_doc(api_section.listings, uri='/by_id/{names}')
+    def GET_listing(self, selected_chapter, **env):
+        """Get a listing of links by fullname.
+
+        `num` is chapter num.
+
+        """
+        reload(sys)
+        pydevd.settrace('192.168.1.64', port=5678, stdoutToServer=True, stderrToServer=True)
+        if not selected_chapter:
+            return self.abort404()
+        c.site.chapterId = selected_chapter
+        return ListingController.GET_listing(self, **env)
